@@ -44,7 +44,7 @@ Loop, read, %gameDbPath%
     ; Check if the AHK script's filename matches the GameTitle
     if (gameTitle = scriptFileName)
     {
-        MsgBox, Found matching game title in gamedb, title: %GameTitle%
+        ; MsgBox, Found matching game title in gamedb, title: %GameTitle%
         ; MsgBox, "Found files: " . %elementCount%
 
         FDD := ""
