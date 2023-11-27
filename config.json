@@ -1,0 +1,10 @@
+{
+    "rom_dir": "s:\\_nec pc-98", 
+    "extracted_fd_rom_dir": "s:\\_nec pc-98_out2\\FD",
+    "extracted_hd_rom_dir": "s:\\_nec pc-98_out2\\HD",
+    "extracted_cd_rom_dir": "s:\\_nec pc-98_out2\\CD",
+    "emuPath": "C:\\Users\\Gary\\Downloads\\np21w-0.86-rev91\\np21w-0.86-rev91\\bin\\np21w.exe",
+    "gamedb_cd_overwrite_file": "gamedb\\gamedb_cd_overwrite.txt",
+    "gamedb_hd_overwrite_file": "gamedb\\gamedb_hd_overwrite.txt",
+    "gamedb_fd_overwrite_file": "gamedb\\gamedb_fd_overwrite.txt"
+}
