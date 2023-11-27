@@ -16,7 +16,7 @@ Furthermore, for convenient gameplay without relying on frontends like Launchbox
 2. Modify `config.json` to specify paths for:
 ```
 {
-    "rom_dir": "s:\\_nec pc-98",  <== Where you download the NeoKobe PC-98 set
+    "rom_dir": "s:\\_nec pc-98",  <== Where you extract the NeoKobe PC-98 set, the first level folders should be the Publisher name.
     "extracted_fd_rom_dir": "s:\\_nec pc-98_out2\\FD",  <== Where you want to store the extracted FD game titles
     "extracted_hd_rom_dir": "s:\\_nec pc-98_out2\\HD",  <== Where you want to store the extracted HD game titles
     "extracted_cd_rom_dir": "s:\\_nec pc-98_out2\\CD",  <== Where you want to store the extracted CD game titles
