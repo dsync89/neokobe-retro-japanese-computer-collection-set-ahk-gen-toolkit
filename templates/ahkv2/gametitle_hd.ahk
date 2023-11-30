@@ -64,7 +64,7 @@ Loop Read gameDbPath `n  ; Loop through each line (assuming newline as delimiter
 					; MsgBox, boot source %A_Index% is %_bootSource%					
 
 					; check if this is a .hdm
-					if InStr(_bootSource, ".hdm") {
+					if InStr(_bootSource, ".d88") || InStr(_bootSource, ".hdm") {
 						; MsgBox, The string contains '.hdm'.
 						FDD := Chr(34) . root . "\" . gameTitle . "\" . _bootSource . Chr(34) . " "
 					}   
@@ -118,7 +118,7 @@ Loop Read gameDbPath `n  ; Loop through each line (assuming newline as delimiter
 			TmpIni.Close()
 			; =============================================================================================
 
-			RunWait(emuPath " /f /i " IniPath " " FDD) ; Start emu in full screen and pass the modified ini path with HDD1FILE path 
+			RunWait(emuPath " /f /i " IniPath " " FDDS) ; Start emu in full screen and pass the modified ini path with HDD1FILE path 
 
 			FileDelete(IniPath)        
 		}    
