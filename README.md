@@ -52,6 +52,9 @@ For AHK scripts in FD media type, passing the argument is very straightforward s
 
 AHK script in HD and CD media type is a bit tricky as the emulator doesn't support argument passing for HDI and CCD files, so the script will copy the `np2w.ini` file from the emulator folder, then make a copy of it and named it as `np2w_lb.ini`, then replace `HDD1FILE=` with the detected HDD file, and `CD3_FILE=` line with the detected CCD file. The FDD files is still passed as argument.
 
+Update: 
+AHKv1 scripts are now updated to AHKv2 to fix an issue where the emulator would not show up but the script is actually running when launching AHKv1 script via the command line (e.g. Launchbox). Strangely double clicking on AHKv1 script will run the emulator just fine. It's still better to use v2 for various reasons though, so here it is!
+
 ## How the media type is decided for each game title?
 A game is extracted to either one of the media type base folder FD, HD or CD depending on the following conditions:
 - FD: if and only if that game title only contains zip file with [FD] suffix
