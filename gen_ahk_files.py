@@ -71,11 +71,11 @@ if __name__ == "__main__":
             # select different ahk template based on media type
             ahk_template = ''
             if index == 0: # fd
-                ahk_template = "./templates/gametitle_fd.ahk"
+                ahk_template = "./templates/ahkv2/gametitle_fd.ahk"
             elif index == 1: # hd
-                ahk_template = "./templates/gametitle_hd.ahk"
+                ahk_template = "./templates/ahkv2/gametitle_hd.ahk"
             elif index == 2: # cd
-                ahk_template = "./templates/gametitle_cd.ahk"
+                ahk_template = "./templates/ahkv2/gametitle_cd.ahk"
 
             print("Copying AHK template from {} ==> {}".format(ahk_template, ahk_filename))
             shutil.copy(ahk_template, ahk_filename)
