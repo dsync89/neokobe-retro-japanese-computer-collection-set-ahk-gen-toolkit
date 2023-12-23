@@ -11,12 +11,14 @@ emuPath := IniRead(configFile, "Settings", "EmuPath")
 gameDbPath := IniRead(configFile, "Settings", "GameDbPath")
 romDir := IniRead(configFile, "RomPath", "RomDir")
 startFullScreen := IniRead(configFile, "Settings", "StartFullScreen")
+debug := IniRead(configFile, "Settings", "Debug")
 
 root := romDir
 
-CCD := ""
-HDI := ""
-FDD := ""
+CT := ""
+CD := ""
+HD := ""
+FD := ""
 
 ; Read each line in the game until a match is found
 Contents := FileRead(gameDbPath)  ; Read the entire file into 'Contents' variable
@@ -37,109 +39,126 @@ Loop Read gameDbPath `n  ; Loop through each line (assuming newline as delimiter
 
 		gameTitle := Trim(GameInfo[1])
 
-		;MsgBox GameInfo[1]
-		;MsgBox scriptFileName
-
 		; Check if the AHK script's filename matches the GameTitle
 		if (gameTitle = scriptFileName)
 		{
-			; MsgBox Format("Found matching game title in gamedb, title: {1}", gameTitle)
-			; MsgBox Format("Found {1} files", elementCount)
+			ctArr := Array()
+			fdArr := Array()
+			hdArr := Array()
+			cdArr := Array()
 
-			FDDS := "" ; store the concatenated bootsources
-
-			fddArr := Array()
 			bootNotes := ""
 
 			Loop(GameInfo.Length) {
 				if (A_Index > 1)
 				{
-					_bootSource := Trim(GameInfo[A_Index])
-					; MsgBox, boot source %A_Index% is %_bootSource%					
+					_bootSource := Trim(GameInfo[A_Index])					
 
-					; check if this is a .hdm
-					if InStr(_bootSource, ".2d") || InStr(_bootSource, ".d88") || InStr(_bootSource, ".hdm") {
-						; MsgBox, The string contains '.hdm'.
-						FDD := Chr(34) . root . "\" . gameTitle . "\" . _bootSource . Chr(34)
-						fddArr.Push FDD
-						FDDS .= FDD . " " ; Concatenate
+					if InStr(_bootSource, ".2d") || InStr(_bootSource, ".d88") {
+						FD := Chr(34) . root . "\" . gameTitle . "\" . _bootSource . Chr(34)
+						fdArr.Push FD
 					}   
 
-					if InStr(_bootSource, ".hdi") {
-						; MsgBox, The string contains '.hdi'.
-						HDI := Chr(34) . root . "\" . gameTitle . "\" . _bootSource . Chr(34) . " "
+					if InStr(_bootSource, ".hdf") {
+						HD := Chr(34) . root . "\" . gameTitle . "\" . _bootSource . Chr(34)
+						hdArr.Push HD
 					}      
 
 					if InStr(_bootSource, ".ccd") {
-						; MsgBox, The string contains '.ccd'.
-						CCD := Chr(34) . root . "\" . gameTitle . "\" . _bootSource . Chr(34) . " "
-					}           
+						CD := Chr(34) . root . "\" . gameTitle . "\" . _bootSource . Chr(34)
+						cdArr.Push CD
+					}
+
+					if InStr(_bootSource, ".t88") || InStr(_bootSource, ".tap") {
+						CT := Chr(34) . root . "\" . gameTitle . "\" . _bootSource . Chr(34)
+						ctArr.Push CT
+					}  					
 
 					if InStr(_bootSource, "Notes:") {
 						bootNotes := _bootSource
-					}             
-
+					} 					
 				}
+			}    
+
+			; Print detected boot media
+			Loop fdArr.Length {
+				if debug 
+					MsgBox Format("FD{1}: {2}", A_Index-1, fdArr[A_Index])
 			}
-
-			; Trim any trailing white space for the concatenated boot source
-			FDDS := Trim(FDDS)
-
-			; MsgBox Format("HDI: {1}, CCD: {2}, FDDS: {3}", HDI, CCD, FDDS)
-
+			Loop hdArr.Length {
+				if debug 
+					MsgBox Format("HD{1}: {2}", A_Index-1, hdArr[A_Index])
+			}
+			Loop cdArr.Length {
+				if debug 
+					MsgBox Format("CD{1}: {2}", A_Index-1, cdArr[A_Index])
+			}
+			Loop ctArr.Length {
+				if debug 
+					MsgBox Format("CT{1}: {2}", A_Index-1, ctArr[A_Index])
+			}			
+		
 			; =============================================================================================
-			; Write path to ini file because emu doesn't support argument to pass additional FDD file
+			; Modify ini file because emu doesn't support argument to pass additional media files
 			; =============================================================================================
 			SplitPath emuPath, &emuFileName, &emuDir
 
-			IniPath := (emuDir . "\x1twin_lb.ini")
+			IniPath := (emuDir . "\x1twin.ini")	
 
-			OrigIniPath := (emuDir . "\x1twin.ini")
-			
-			If FileExist(IniPath)
-				FileDelete(IniPath) 
-			
-			Ini := FileRead(OrigIniPath)
-			TmpIni := FileOpen(IniPath, "rw")
-			
-			; MsgBox Format("FD1: {1}, FD2: {2}", fddArr[1], fddArr[2])			
-
-			Loop parse, Ini, "`n", "`r" {
-				If InStr(A_LoopField, "RecentDiskPath1_1")
-					TmpIni.WriteLine("RecentDiskPath1_1=" . fddArr[1])  
-				Else If InStr(A_LoopField, "RecentDiskPath2_1")
-					If fddArr.Length > 1
-						TmpIni.WriteLine("RecentDiskPath2_1=" . fddArr[2])
-					Else
-						TmpIni.WriteLine("RecentDiskPath2_1=" . " ")                                       
-				Else If (A_LoopField = "")
-					Continue
-				Else
-					TmpIni.WriteLine(A_LoopField)
+			Loop fdArr.Length {
+				if debug 
+					MsgBox Format("Write INI: [RecentFiles] RecentDiskPath{1}_1={2}", A_Index, fdArr[A_Index])
+				IniWrite fdArr[A_Index], IniPath, "RecentFiles", "RecentDiskPath" . A_Index . "_1"
 			}
-			TmpIni.Close()
 
-			FileCopy IniPath, OrigIniPath, 1 ; Overwrite orig ini if exist
-			; =============================================================================================			
-		
-			; Prompt user to select Disk2 from menu if FD more than 1
-			If fddArr.Length > 1 {
+			Loop hdArr.Length {
+				if debug 
+					MsgBox Format("Write INI: [RecentFiles] RecentHardDiskPath{1}_1={2}", A_Index, fdArr[A_Index])
+				IniWrite fdArr[A_Index], IniPath, "RecentFiles", "RecentHardDiskPath" . A_Index . "_1"
+			}			
+
+			Loop cdArr.Length {
+				; if debug
+				;	MsgBox Format("Write INI: [MRU3] File0={1}", cdArr[A_Index])
+				; IniWrite cdArr[A_Index], IniPath, "MRU3", "File0"
+			}	
+			
+			Loop ctArr.Length {
+				if debug 
+					MsgBox Format("Write INI: [RecentFiles] RecentTapePath1_{1}={2}", A_Index, ctArr[A_Index])
+				IniWrite ctArr[A_Index], IniPath, "RecentFiles", "RecentTapePath1_" . A_Index
+			}			
+
+			; Prompting user to manually click FDD1 and select 2nd FD if more than 1 FD disks is found
+			if fdArr.Length > 1 {
 				If StrLen(bootNotes) > 0 ; print the custom message in gamedb overwrite for more complex instructions
-					MsgBox Format("{1}", bootNotes)		
-				Else ; print the default boot instruction
+					MsgBox Format("{1}", bootNotes)
+				Else
 					MsgBox "Select the first item from [Menu > FD1] because this game require it to boot"
 			}
-			
-			Run(emuPath " " fddArr[1]) ; 
+
+			else if ctArr.Length > 0 {
+				If StrLen(bootNotes) > 0 ; print the custom message in gamedb overwrite for more complex instructions
+					MsgBox Format("{1}", bootNotes)
+				Else
+					MsgBox "Select the first item from [Menu > CMT] because this game require it to boot. Note: You might hear some static cracking noise, please wait and the game should load..."
+			}
+
+			; =============================================================================================			
+			If fdArr.Length == 0
+				Run(emuPath)
+			Else If fdArr.Length > 0
+				Run(emuPath " " fdArr[1])
+			Else If ctArr.Length > 0
+				Run(emuPath " " ctArr[1])
 
 			; Start in full screen if the game only has 1 FD and config startFullScreen=1
-			If (startFullScreen == 1 and fddArr.Length == 1) {
-				; Start in full screen since the emu doesn't have full screen startup argument
+			If (startFullScreen == 1) {
 				Sleep 1000 ; Give some time for the emulator to start
 				Send "{Alt Down}" ; Press and hold ALT
 				Send "{Enter}" ; Press ENTER
 				Send "{Alt Up}" ; Release ALT
-			}			
+			}
 		}    
 	}
 }
