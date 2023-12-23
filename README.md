@@ -1,47 +1,50 @@
 # NeoKobe NEC PC-98 AHK Gen Toolkit
 
-This set consolidates the NeoKobe NEC PC-98 games from [archive.org](https://archive.org/details/NeoKobe-NecPc-98012017-11-17), reorganizing them to follow a more universally accepted folder structure for ease of access and usage.
+This toolkit generate a one-click AHK files to run Neo Kobe NEC PC-9801 games from [archive.org](https://archive.org/details/NeoKobe-NecPc-98012017-11-17). It is recommended to consolidate the Neo Kobe set using the DAT that I created in `dat\1g1r\` using your favorite rom manager like RomUltra (my personal favorite), RomCenter, or clrmamepro among the others.
 
 ## Motivation
 
-The [Neo Kobe - NEC PC-9801 (2017-11-17) set](https://archive.org/details/NeoKobe-NecPc-98012017-11-17) structured games by Publisher as the primary folder level, followed by the Game Title. However, most frontends prefer a System > Game Title hierarchy. These scripts aim to transform these sets into such an organization.
+The [Neo Kobe - NEC PC-9801 (2017-11-17) set](https://archive.org/details/NeoKobe-NecPc-98012017-11-17) structured games by Publisher as the primary folder level, followed by the Game Title. However, most frontends prefer a **Platform > Game Title** hierarchy which can be easily achieved using the DAT file that I created and let your RomManager to do the job.
 
-Additionally, the absence of a DAT file for this Neo Kobe PC-98 set prompted the development of these scripts. As each game title might possess various boot sources (FD, HD, CD), the scripts handle extraction and organization accordingly. Refer to [How the media type is decided for each game title](#how-the-media-type-is-decided-for-each-game-title) for detailed insights.
+Many multi-disks game, or even multi-media types games require a certain type of boot media or boot order to setup in the emulator to properly boot. This makes it a pain when you are trying to pick a random game from such a huge library collection. 
 
-Furthermore, for convenient gameplay without relying on frontends like Launchbox or RocketLauncher to pass command line arguments, the scripts generate AHK files per game title. This allows for easy double-click execution while managing necessary boot media types per game title. Explore [How the boot media type is decided for the game](#how-the-media-type-is-decided-for-each-game-title) for specifics.
+The ideal way to run this game is then to have a one-click way to run. As such, I've written scripts here that generate AHK (v2) files per game title which will lookup the right media type and boot order to launch for each game. Read [How the boot media type is decided for the game](#how-the-media-type-is-decided-for-each-game-title) for more details.
+
+Not only that these AHK files can be running independently of any frontend or launcher, you can even import them to your favorite frontends like Launchbox or RocketLauncher. Just set the emulator to AHK v2 launcher!
 
 ## Quick Setup
 
 1. Extract downloaded zip files from [Neo Kobe - NEC PC-9801 (2017-11-17) set](https://archive.org/details/NeoKobe-NecPc-98012017-11-17) while preserving the folder structure. **DO NOT FLATTEN THE FOLDER STRUCTURE!**
-2. Modify `config.json` to specify paths for:
+
+2. Organize the extracted sets using RomManager so that the folder is in **Game Title** tree hierarchy, instead of per publisher. Use the DAT from `dat/1g1r` to create a 1G1R Set.
+
+3. Modify the `rom_dir` field in `config.json`:
 ```
 {
-    "rom_dir": "s:\\_nec pc-98",  <== Where you extract the NeoKobe PC-98 set, the first level folders should be the Publisher name.
-    "extracted_fd_rom_dir": "s:\\_nec pc-98_out2\\FD",  <== Where you want to store the extracted FD game titles
-    "extracted_hd_rom_dir": "s:\\_nec pc-98_out2\\HD",  <== Where you want to store the extracted HD game titles
-    "extracted_cd_rom_dir": "s:\\_nec pc-98_out2\\CD",  <== Where you want to store the extracted CD game titles
-    "emuPath": "C:\\Users\\Gary\\Downloads\\np21w-0.86-rev91\\np21w-0.86-rev91\\bin\\np21w.exe",  <== The location of your np21w emulator>
-    "gamedb_cd_overwrite_file": "gamedb\\gamedb_cd_overwrite.txt",
-    "gamedb_hd_overwrite_file": "gamedb\\gamedb_hd_overwrite.txt",
-    "gamedb_fd_overwrite_file": "gamedb\\gamedb_fd_overwrite.txt"    
+    "rom_dir": "s:\\roms-1g1r\\neokobe-dsync-nec-pc-9801-fd+hd+cd", 
+    "gamedb_overwrite_file": "gamedb\\gamedb_overwrite.txt"
 }
 ```
 
-Run the following Python scripts in the following order:
-1. `extract_files.py`: Extract each game titles to a base folder for a media type `[CD, HD, FD]`. Each media type folder only contains a single level game title folder.
-2. `consolidate_folders.py`: Strip `[FD]` and `[HD]` suffix for `FD` and `HD` media. For `CD` media type, several folders are merged and moved to a single game title, especially for game title that have different folder such as `[CD floppy], [CD]`
-3. `gen_gamedb.py`: Generate a `.gamedb.txt` file which contains all the boot source media types.
-4. `gen_gamedb_with_overrides.py`: Override `.gamedb.txt` with user specific entry in `gamedb/gamedb_<media_type>_overwrite.txt`
-5. `gen_ahk_files.py`: Generate AHK files for each game to run it.
-6. `add_keymapper_to_ahk.py`: Applying global keymap from `keymapping\<media_type>\global.ahk` and game specific keymap from the same folder to each game AHK script generated by `gen_ahk_files.py`.
+4. Run `runall.bat`. 
+
+The batch script will call the following python scripts:
+
+1. `gen_gamedb.py`: Generate a `.gamedb.txt` file which contains all the boot source media types for each game titles.
+2. `gen_gamedb_with_overrides.py`: Override `.gamedb.txt` with the entry in `gamedb/gamedb_overwrite.txt` to override the default boot order.
+3. `gen_ahk_files.py`: Generate AHK files for each game to run it.
+4. `add_keymapper_to_ahk.py`: Apply global keymap from `keymapping\<media_type>\global.ahk` and game specific keymap from the same folder to each game AHK script generated by `gen_ahk_files.py`.
+
+---
+
 # Features
 
-1. List and group all games by Game Title and Media Type.
-2. Extract games in the folder hierarchy of `[Media Type] > [Game Title]`. There are three folders based on Media Type: [FD, HD, or CD]. You can decide on the location for these media type folders.
-3. AHK file per game title allowing you to double click and execute the game directly, without having to use any front end such as LaunchBox or RocketLauncher. You can also easily integrate these AHK files to LB by simply importing the .ahk files, then configure them to launch these fles using AutoHotKey program.
-4. User defined keybindings per game to the game AHK files
+1. AHK file for each game title that you can simply double click to play the game, without having to use any front end such as LaunchBox or RocketLauncher. You can also easily integrate these AHK files to LB by simply importing the .ahk files, then configure them to launch these files using AutoHotKey program.
+2. User defined keybindings per game to the game AHK files
 
 There exist other method that only has a single AHK file which will use the rom file as input, such as [this](https://gist.github.com/bitgamma/acb3001732ba722feb4bc0539941e133) AHK script written by a LaunchBox forum member @xiron [here](https://forums.launchbox-app.com/topic/69356-neko-project-21w-integration-made-easy/) . But I still decided to generate AHK files individually for each game title to make it easier to use, and to decouple with other front end launcher.
+
+---
 
 # FAQ
 
@@ -55,22 +58,19 @@ AHK script in HD and CD media type is a bit tricky as the emulator doesn't suppo
 Update: 
 AHKv1 scripts are now updated to AHKv2 to fix an issue where the emulator would not show up but the script is actually running when launching AHKv1 script via the command line (e.g. Launchbox). Strangely double clicking on AHKv1 script will run the emulator just fine. It's still better to use v2 for various reasons though, so here it is!
 
-## How the media type is decided for each game title?
-A game is extracted to either one of the media type base folder FD, HD or CD depending on the following conditions:
-- FD: if and only if that game title only contains zip file with [FD] suffix
-- HD: if both [HD] and [FD] suffix is found, but not [CD]
-- CD: if at least one [CD] suffix is found, with zero or more zip with [HD] and [FD] suffix
+## How do you select which media type to keep for a title?
 
+For a game that has multiple media type, i.e. FD, HD, and CD:
+- HD is **ALWAYS** preferred over FD
+- For CD, FD or HD is selected if they contain boot disk that is required to boot the CD. All CD require at least a FD/HD to be inserted to boot. No CD game can boot by itself.
 
-FD folder would only contains floppy disk images, such as .hdm, .n88, .d88, etc. 
-
-HD folder will always contain .hdi, but with optional floppy disk image if any. Some games require the floppy boot disk to boot the installed HD game.
-
-CD folder will always contain one of CD image (.iso, .ccd, .img), and HD and FD files if any. Some games might require all 3 media types to insert in order to boot properly, e.g. Policenaut.
+To make these selection systematic and easy to manage, I manually created a Retool 1G1R Clonelist in `dat/retool-clonelist` to tell Retool which titles to select for each game. I manually created the clonelist and to make sure the game, especially CD game titles can run properly.
 
 ## How the boot media type is decided for the game?
 
 The AHK script will first find the boot media type for each game. It does this by looking up the matching game title in a row in `.gamedb` file at the root of the media type folder. Each row in `.gamedb.txt` consist of `Game Title | boot source 1 | boot source 2 | ...` Some game title require media type to be inserted in a certain order, espeically for FD game where FDD1 is usually the boot disk, and FDD2 is the data disk. So some manual entry is still needed. I welcome user contribution to modify this `.gamedb.txt` file if you find the boot source need to be swapped.
+
+---
 
 # Contribution
 
@@ -81,3 +81,15 @@ Since the total games is vast and I only randomly test some titles, there bound 
 
 ## Keymap
 Add any game specific keymapping to `keymapping\<media_type>\<game_folder>`. For example, to add a game mapping for `HD` game `Rusty`, create `Rusty.ahk` under `keymapping\hd\`. Any ahk files read here will then be appended by the `add_keymapper_to_ahk` script.
+
+---
+
+# Credits
+
+Huge credits goes to the following heroes to make this possible:
+
+**@kobushi** from http://fullmotionvideo.free.fr/phpBB3/viewtopic.php?f=6&t=1621 for consolidating and sharing this amazing romset!
+
+1G1R DAT is generated using **Retool** https://github.com/unexpectedpanda/retool.
+
+DAT is generated using **clrmamepro dir2dat** against Neo Kobe set.
