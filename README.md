@@ -26,7 +26,9 @@ Not only that these AHK files can be running independently of any frontend or la
 }
 ```
 
-4. Run `runall.bat`. 
+4. Modify the `EmuPath` in `templates/.config.ini` that the AHK script will find the emulator to run the game.
+
+5. Run `runall.bat`. 
 
 The batch script will call the following python scripts:
 
