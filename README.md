@@ -54,6 +54,22 @@ There exist other method that only has a single AHK file which will use the rom 
 
 ---
 
+# Media Type Supported by AHK Script
+
+Notes:
+- N/A: The set **DOES NOT** contain this media type
+- X: The media type **IS NOT** supported by emulator, and so not by AHK script as well
+- O: The media type **IS** supported by emulator, and so by AHK script as well
+
+| Platform       |  CT | FD |  HD |  CD | Emulator | Notes                                               |
+|----------------|:---:|:--:|:---:|:---:|:--------:|-----------------------------------------------------|
+| NEC - PC-8801  |  X  |  O | N/A |  X  | pc8801ma | CT and CD not supported in emulator                 |
+| NEC - PC-9801  | N/A |  O |  O  |  O  |   np21w  |                                                     |
+| Sharp - X1     |  X  |  O | N/A | N/A |  x1twin  | CT is not supported in emulator                     |
+| Sharp - X68000 | N/A |  O |  O  |  X  |   xm6g   | CD load is disable in emulator, so no way to run it |
+
+---
+
 # FAQ
 
 ## How AHK script works?
@@ -101,3 +117,4 @@ Huge credits goes to the following heroes to make this possible:
 1G1R DAT is generated using **Retool** https://github.com/unexpectedpanda/retool.
 
 DAT is generated using **clrmamepro dir2dat** against Neo Kobe set.
+
