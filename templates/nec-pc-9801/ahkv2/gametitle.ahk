@@ -10,12 +10,15 @@ configFile := A_ScriptDir . "\" . ".config.ini"
 emuPath := IniRead(configFile, "Settings", "EmuPath")
 gameDbPath := IniRead(configFile, "Settings", "GameDbPath")
 romDir := IniRead(configFile, "RomPath", "RomDir")
+startFullScreen := IniRead(configFile, "Settings", "StartFullScreen")
+debug := IniRead(configFile, "Settings", "Debug")
 
 root := romDir
 
-CCD := ""
-HDI := ""
-FDD := ""
+CT := ""
+CD := ""
+HD := ""
+FD := ""
 
 ; Read each line in the game until a match is found
 Contents := FileRead(gameDbPath)  ; Read the entire file into 'Contents' variable
@@ -36,81 +39,114 @@ Loop Read gameDbPath `n  ; Loop through each line (assuming newline as delimiter
 
 		gameTitle := Trim(GameInfo[1])
 
-		;MsgBox GameInfo[1]
-		;MsgBox scriptFileName
-
 		; Check if the AHK script's filename matches the GameTitle
 		if (gameTitle = scriptFileName)
 		{
-			; MsgBox Format("Found matching game title in gamedb, title: {1}", gameTitle)
-			; MsgBox Format("Found {1} files", elementCount)
+			ctArr := Array()
+			fdArr := Array()
+			hdArr := Array()
+			cdArr := Array()
 
-			FDDS := "" ; store the concatenated bootsources
+			bootNotes := ""
 
 			Loop(GameInfo.Length) {
 				if (A_Index > 1)
 				{
-					_bootSource := Trim(GameInfo[A_Index])
-					; MsgBox, boot source %A_Index% is %_bootSource%					
+					_bootSource := Trim(GameInfo[A_Index])					
 
-					; check if this is a .hdm
-					if InStr(_bootSource, ".d88") || InStr(_bootSource, ".hdm") {
-						; MsgBox, The string contains '.hdm'.
-						FDD := Chr(34) . root . "\" . gameTitle . "\" . _bootSource . Chr(34) . " "
+					if InStr(_bootSource, ".2d") || InStr(_bootSource, ".d88") || InStr(_bootSource, ".hdm") || InStr(_bootSource, ".nfd") {
+						FD := Chr(34) . root . "\" . gameTitle . "\" . _bootSource . Chr(34)
+						fdArr.Push FD
 					}   
 
 					if InStr(_bootSource, ".hdi") {
-						; MsgBox, The string contains '.hdi'.
-						HDI := Chr(34) . root . "\" . gameTitle . "\" . _bootSource . Chr(34) . " "
+						HD := Chr(34) . root . "\" . gameTitle . "\" . _bootSource . Chr(34)
+						hdArr.Push HD
 					}      
 
 					if InStr(_bootSource, ".ccd") {
-						; MsgBox, The string contains '.ccd'.
-						CCD := Chr(34) . root . "\" . gameTitle . "\" . _bootSource . Chr(34) . " "
-					}                        
+						CD := Chr(34) . root . "\" . gameTitle . "\" . _bootSource . Chr(34)
+						cdArr.Push CD
+					}
 
-					FDDS .= FDD . " " ; Concatenate
+					if InStr(_bootSource, ".t88") || InStr(_bootSource, ".tap") {
+						CT := Chr(34) . root . "\" . gameTitle . "\" . _bootSource . Chr(34)
+						ctArr.Push CT
+					}  					
+
+					if InStr(_bootSource, "Notes:") {
+						bootNotes := _bootSource
+					} 					
 				}
 			}    
 
-			; MsgBox Format("HDI: {1}, CCD: {2}, FDDS: {3}", HDI, CCD, FDDS)
-
+			; Print detected boot media
+			Loop fdArr.Length {
+				if debug 
+					MsgBox Format("FD{1}: {2}", A_Index-1, fdArr[A_Index])
+			}
+			Loop hdArr.Length {
+				if debug 
+					MsgBox Format("HD{1}: {2}", A_Index-1, hdArr[A_Index])
+			}
+			Loop cdArr.Length {
+				if debug 
+					MsgBox Format("CD{1}: {2}", A_Index-1, cdArr[A_Index])
+			}
+			Loop ctArr.Length {
+				if debug 
+					MsgBox Format("CT{1}: {2}", A_Index-1, ctArr[A_Index])
+			}			
+		
 			; =============================================================================================
-			; Write HDD1FILE var to ini file because np21w doesn't support argument to pass HDD file path
+			; Modify ini file because emu doesn't support argument to pass additional media files
 			; =============================================================================================
 			SplitPath emuPath, &emuFileName, &emuDir
 
-			; IniPath := emuDir . "\np2
-			IniPath := (emuDir . "\np21w_lb.ini")
+			IniPath := (emuDir . "\np21w.ini")	
 
-			OrigIniPath := (emuDir . "\np21w.ini")
-			
-			If FileExist(IniPath)
-				FileDelete(IniPath) 
-			
-			Ini := FileRead(OrigIniPath)
-			TmpIni := FileOpen(IniPath, "rw")                
-					
-			Loop parse Ini, "`n`,`r" {
-				If InStr(A_LoopField, "HDD1FILE")
-					TmpIni.WriteLine("HDD1FILE=" . HDI)  
-				Else If InStr(A_LoopField, "FDD1FILE")
-					TmpIni.WriteLine("FDD1FILE=")
-				Else If InStr(A_LoopField, "FD1NAME0")
-					TmpIni.WriteLine("FD1NAME0=") 
-				Else If InStr(A_LoopField, "CD3_FILE")
-					TmpIni.WriteLine("CD3_FILE=" . CCD)                                        
-				Else If (A_LoopField = "")
-					Continue
-				Else
-					TmpIni.WriteLine(A_LoopField)
+			Loop fdArr.Length {
+				if debug 
+					MsgBox Format("Write INI: [NekoProject21] FDD{1}FILE={2}", A_Index, fdArr[A_Index])
+				IniWrite fdArr[A_Index], IniPath, "NekoProject21", "FDD" . A_Index . "FILE"
 			}
-			TmpIni.Close()
-			; =============================================================================================
 
-			RunWait(emuPath " /f /i " IniPath " " FDDS) ; Start emu in full screen and pass the modified ini path with HDD1FILE path 
+			Loop hdArr.Length {
+				if debug 
+					MsgBox Format("Write INI: [NekoProject21] HDD{1}FILE={2}", A_Index, hdArr[A_Index])
+				IniWrite hdArr[A_Index], IniPath, "NekoProject21", "HDD" . A_Index . "FILE"
+			}			
 
-			FileDelete(IniPath)        
+			Loop cdArr.Length {
+				if debug 
+					MsgBox Format("Write INI: [NekoProject21] CD{1}_FILE={2}", A_Index+2, cdArr[A_Index])
+				IniWrite cdArr[A_Index], IniPath, "NekoProject21", "CD" . A_Index+2 . "_FILE"
+			}	
+			
+			Loop ctArr.Length {
+				; if debug 
+				; 	MsgBox Format("Write INI: [RecentFiles] RecentTapePath1_{1}={2}", A_Index, ctArr[A_Index])
+				; IniWrite ctArr[A_Index], IniPath, "RecentFiles", "RecentTapePath1_" . A_Index
+			}						
+
+			; =============================================================================================			
+			bootArgs := ""
+			If fdArr.Length > 0 {
+				Loop fdArr.Length {
+					bootArgs .= fdArr[A_Index] . " " ; Concatenate
+				}
+			}
+			Else If ctArr.Length > 0
+				bootArgs .= ctArr[1]
+			
+			If (startFullScreen == 1)
+				bootArgs .= " /f "
+
+			Command := emuPath " " bootArgs " /i " IniPath 
+			If debug
+				MsgBox Format("Command: {1}", Command)
+			Run(Command)
+			
 		}    
 	}
 }
@@ -123,6 +159,5 @@ Esc::
 {
     ProcessClose "np21w.exe"
     Run "taskkill /im np21w.exe /F",, "Hide"
-    FileDelete(IniPath)  
     ExitApp
 }
