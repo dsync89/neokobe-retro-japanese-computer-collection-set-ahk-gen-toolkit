@@ -61,12 +61,12 @@ Notes:
 - X: The media type **IS NOT** supported by emulator, and so not by AHK script as well
 - O: The media type **IS** supported by emulator, and so by AHK script as well
 
-| Platform       |  CT | FD |  HD |  CD | Emulator | Notes                                               |
-|----------------|:---:|:--:|:---:|:---:|:--------:|-----------------------------------------------------|
-| NEC - PC-8801  |  X  |  O | N/A |  X  | pc8801ma | CT and CD not supported in emulator                 |
-| NEC - PC-9801  | N/A |  O |  O  |  O  |   np21w  |                                                     |
-| Sharp - X1     |  X  |  O | N/A | N/A |  x1twin  | CT is not supported in emulator                     |
-| Sharp - X68000 | N/A |  O |  O  |  X  |   xm6g   | CD load is disable in emulator, so no way to run it |
+| Platform       |  CT | FD |  HD |  CD | Emulator | Rom Extensions               | Notes                                                                                         |
+|----------------|:---:|:--:|:---:|:---:|:--------:|------------------------------|-----------------------------------------------------------------------------------------------|
+| NEC - PC-8801  |  X  |  O | N/A |  O  | pc8801ma | .ccd, .d88, .t88             | CT not supported in emulator. The only CD game 'Mirror' failed to load even after specify FD. |
+| NEC - PC-9801  | N/A |  O |  O  |  O  |   np21w  | .ccd, .d88, .hdi, .hdm, .nfd |                                                                                               |
+| Sharp - X1     |  O  |  O | N/A | N/A |  x1twin  | .2d, .d88, .tap              |                                                                                               |
+| Sharp - X68000 | N/A |  O |  O  |  X  |   xm6g   | .d88, .hdf, .hdm             | CD load is disable in emulator, so no way to run it                                           |
 
 ---
 
