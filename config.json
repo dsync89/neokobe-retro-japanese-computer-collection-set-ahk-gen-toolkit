@@ -2,7 +2,7 @@
     "sets": [
         {
             "platform": "NEC - PC-8801",
-            "enable": false,
+            "enable": true,
             "config": {
                 "rom_dir": "s:\\roms-1g1r\\neokobe-dsync-nec-pc-8801-ct+fd", 
                 "template_dir": "templates\\nec-pc-8801",
@@ -13,7 +13,7 @@
         },        
         {
             "platform": "NEC - PC-9801",
-            "enable": false,
+            "enable": true,
             "config": {
                 "rom_dir": "s:\\roms-1g1r\\neokobe-dsync-nec-pc-9801-fd+hd+cd", 
                 "template_dir": "templates\\nec-pc-9801",
@@ -24,7 +24,7 @@
         },
         {
             "platform": "Sharp - X1",
-            "enable": false,
+            "enable": true,
             "config": {
                 "rom_dir": "s:\\roms-1g1r\\neokobe-dsync-sharp-x1-fd+hd+cd", 
                 "template_dir": "templates\\sharp-x1",
