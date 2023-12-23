@@ -2,30 +2,20 @@
 # GAMETITLE | FILE 1 | FILE 2 | FILE 3 ...
 
 import os
+import sys
 import json
-
-# Read the configuration from config.json
-with open('config.json', 'r') as config_file:
-    config = json.load(config_file)
-
-# Get the root_folder_path from the configuration
-ROM_DIR = config.get('rom_dir') # the extracted neokobe zip files
-
-GAMEDB_TXT_OVERWRITE = config.get('gamedb_overwrite_file')
-
-def print_config():
-    print("-------------------------")
-    print("Program Config:")
-    print("-------------------------")   
-    print("ROM_DIR: {}".format(ROM_DIR))
-    print("GAMEDB_TXT_OVERWRITE: {}".format(GAMEDB_TXT_OVERWRITE))
-    print()
 
 # -----------------------------------------------------------
 # Main
 # -----------------------------------------------------------
 if __name__ == "__main__":
-    print_config()    
+
+    if len(sys.argv) != 2:
+        print("Usage: python script.py <ROM_DIR>")
+        exit(1)
+    else:
+        arg1 = sys.argv[1]        
+        ROM_DIR = arg1
 
     root_folder_path = ROM_DIR
     output_file_path = os.path.join(root_folder_path, '.gamedb.txt')

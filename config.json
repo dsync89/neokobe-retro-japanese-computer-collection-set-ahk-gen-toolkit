@@ -1,4 +1,49 @@
 {
-    "rom_dir": "s:\\roms-1g1r\\neokobe-dsync-nec-pc-9801-fd+hd+cd", 
-    "gamedb_overwrite_file": "gamedb\\gamedb_overwrite.txt"
+    "sets": [
+        {
+            "platform": "NEC - PC-8801",
+            "enable": false,
+            "config": {
+                "rom_dir": "s:\\roms-1g1r\\neokobe-dsync-nec-pc-8801-ct+fd", 
+                "template_dir": "templates\\nec-pc-8801",
+                "keymap_dir": "keymapping\\nec-pc-8801",
+                "gametitle_dir": "gametitles\\nec-pc-8801",
+                "gamedb_overwrite_file": "gamedb\\nec-pc-8801\\gamedb_overwrite.txt"
+            }
+        },        
+        {
+            "platform": "NEC - PC-9801",
+            "enable": false,
+            "config": {
+                "rom_dir": "s:\\roms-1g1r\\neokobe-dsync-nec-pc-9801-fd+hd+cd", 
+                "template_dir": "templates\\nec-pc-9801",
+                "keymap_dir": "keymapping\\nec-pc-9801",
+                "gametitle_dir": "gametitles\\nec-pc-9801",
+                "gamedb_overwrite_file": "gamedb\\nec-pc-9801\\gamedb_overwrite.txt"
+            }
+        },
+        {
+            "platform": "Sharp - X1",
+            "enable": false,
+            "config": {
+                "rom_dir": "s:\\roms-1g1r\\neokobe-dsync-sharp-x1-fd+hd+cd", 
+                "template_dir": "templates\\sharp-x1",
+                "keymap_dir": "keymapping\\sharp-x1",
+                "gametitle_dir": "gametitles\\sharp-x1",
+                "gamedb_overwrite_file": "gamedb\\sharp-x1\\gamedb_overwrite.txt"
+            }
+        }, 
+        {
+            "platform": "Sharp - X68000",
+            "enable": true,
+            "config": {
+                "rom_dir": "s:\\roms-1g1r\\neokobe-dsync-sharp-x68000-cd+fd+hd", 
+                "template_dir": "templates\\sharp-x68000",
+                "keymap_dir": "keymapping\\sharp-x68000",
+                "gametitle_dir": "gametitles\\sharp-x68000",
+                "gamedb_overwrite_file": "gamedb\\sharp-x68000\\gamedb_overwrite.txt"
+            }
+        }                
+    ]
+
 }

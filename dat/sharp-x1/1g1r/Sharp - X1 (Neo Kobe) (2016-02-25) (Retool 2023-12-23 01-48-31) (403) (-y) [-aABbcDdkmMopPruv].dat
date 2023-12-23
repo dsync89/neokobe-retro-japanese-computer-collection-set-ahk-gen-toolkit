@@ -1,0 +1,2318 @@
+<?xml version="1.0"?>
+<!DOCTYPE datafile PUBLIC "-//Logiqx//DTD ROM Management Datafile//EN" "https://raw.githubusercontent.com/unexpectedpanda/retool-clonelists-metadata/main/datafile.dtd">
+<datafile>
+	<header>
+		<name>Sharp - X1 (Neo Kobe) (Retool)</name>
+		<description>Sharp - X1 (Neo Kobe) (403) (-y) [-aABbcDdkmMopPruv] (2016-02-25) (Retool 2.01.5)</description>
+		<version>2016-02-25</version>
+		<date>2023-12-23 01-48-31</date>
+		<author>dsync89 &amp; Retool</author>
+		<homepage>http://www.github.com/unexpectedpanda/retool</homepage>
+		<url>https://archive.org/details/Neo_Kobe_Sharp_X1_2016-02-25</url>
+		<clrmamepro/>
+	</header>
+	<game name="100 Yen Disk [FD]">
+		<category>Games</category>
+		<description>100 Yen Disk [FD]</description>
+		<rom name="100 Yen Disk (ver. 2.50).d88" size="348848" crc="6a50394c" sha1="fc30c0c24535b6ccbd6a4f2a002ff7f7c546c1eb"/>
+		<rom name="100 Yen Disk (ver. 2.51).2d" size="327680" crc="a8bee2d4" sha1="6f4bbfc942c918ddb3a5c437ab6b53ba211d1593"/>
+	</game>
+	<game name="15 Puzzles [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>15 Puzzles [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="15 Puzzles.tap" size="90592" crc="1cce05d9" sha1="025fe476def4735d31aee3e3a08e389ff0a2a4b1"/>
+	</game>
+	<game name="177 [FD]">
+		<category>Games</category>
+		<description>177 [FD]</description>
+		<rom name="177.2d" size="327680" crc="ec0a7d2f" sha1="c7f99f04a720ad4f7aeba52ab806efb30be5ffbf"/>
+	</game>
+	<game name="1942 [FD]">
+		<category>Games</category>
+		<description>1942 [FD]</description>
+		<rom name="1942.d88" size="348848" crc="f9b366f2" sha1="4b67e7041c1a06e2e2452e63960b8860b1813f5a"/>
+	</game>
+	<game name="198X-Nen [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>198X-Nen [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="198X-Nen.tap" size="158720" crc="de0affdc" sha1="f14265bf3fd41893d48c8194364b189f30fd6972"/>
+	</game>
+	<game name="2001 - An Adventure Story (Special Edition) [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>2001 - An Adventure Story (Special Edition) [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="2001 - An Adventure Story (Special Edition).tap" size="120004" crc="0c03768b" sha1="f0bbbd1c10a01875bf1774bede177cfb653e57ac"/>
+	</game>
+	<game name="3-Biki no Buta-chan [CT]">
+		<category>Games</category>
+		<description>3-Biki no Buta-chan [CT]</description>
+		<rom name="3-Biki no Buta-chan.tap" size="240004" crc="afb90f84" sha1="c06cffd73ea97bb1a8395b3ad7e09d0b4a97718d"/>
+	</game>
+	<game name="3D Bomberman [CT]">
+		<category>Games</category>
+		<description>3D Bomberman [CT]</description>
+		<rom name="3D Bomberman.tap" size="684380" crc="1bf0e104" sha1="f5660c81d632babab3268dd4b2d97dbe53f0a0d5"/>
+	</game>
+	<game name="3D Golf Simulation [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>3D Golf Simulation [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="3D Golf Simulation.tap" size="635600" crc="7d1b4cd6" sha1="8e75b8449597c3d45b719acceb2d45a43c192ff7"/>
+	</game>
+	<game name="A Ressha de Ikou [FD][X1turbo]">
+		<category>Games</category>
+		<description>A Ressha de Ikou [FD][X1turbo]</description>
+		<rom name="A Ressha de Ikou [X1turbo].d88" size="348848" crc="d5743f56" sha1="2674e2faa7873385d2e097ee8f50b9b9a8471336"/>
+	</game>
+	<game name="AS - The Armored Soldier [CT]">
+		<category>Games</category>
+		<description>AS - The Armored Soldier [CT]</description>
+		<rom name="AS - The Armored Soldier.tap" size="240004" crc="95bc0439" sha1="a78b6cc2fbaa28e679717522af6d96d5288dc0d8"/>
+	</game>
+	<game name="Advanced Fantasian [FD][X1turbo]">
+		<category>Games</category>
+		<description>Advanced Fantasian [FD][X1turbo]</description>
+		<rom name="Advanced Fantasian (Main disk)[X1turbo].d88" size="348848" crc="64291b34" sha1="5c5fe39a1dc43d00ab738974988c532df80d3b3b"/>
+		<rom name="Advanced Fantasian (Scenario disk)[X1turbo].d88" size="348848" crc="a4fd9761" sha1="aa91bf27b183a5e24605c06dc63c26e5ec353df9"/>
+	</game>
+	<game name="Albatross - Expert Course (Pro-2) [FD]">
+		<category>Games</category>
+		<description>Albatross - Expert Course (Pro-2) [FD]</description>
+		<rom name="Albatross - Expert Course (Pro-2).d88" size="322736" crc="e0b65944" sha1="1b1a9b826efcded618ad51e4ae7b7fe752224d7c"/>
+	</game>
+	<game name="Albatross - Jun Classic Country Club (Jun-2) [FD]">
+		<category>Games</category>
+		<description>Albatross - Jun Classic Country Club (Jun-2) [FD]</description>
+		<rom name="Albatross - Jun Classic Country Club (Jun-2).d88" size="348848" crc="6e6cf0e4" sha1="a4216e32f7e60a50dc2e1c226381a3845d115e21"/>
+	</game>
+	<game name="Albatross - Visual Course (Spacy) [FD]">
+		<category>Games</category>
+		<description>Albatross - Visual Course (Spacy) [FD]</description>
+		<rom name="Albatross - Visual Course (Spacy).d88" size="322464" crc="e78a5205" sha1="30efab9e7e80abbcf140ac5d2d682cf6f0e14c9c"/>
+	</game>
+	<game name="Albatross - World Course (Arc) [FD]">
+		<category>Games</category>
+		<description>Albatross - World Course (Arc) [FD]</description>
+		<rom name="Albatross - World Course (Arc).d88" size="322736" crc="97a4a2c3" sha1="4b0b9237a5230d4ccbb3065b82bca3d836218263"/>
+	</game>
+	<game name="Albatross [FD]">
+		<category>Games</category>
+		<description>Albatross [FD]</description>
+		<rom name="Albatross (Disk 1)(System disk).d88" size="348848" crc="c3185ff5" sha1="0fa2a82e578c779c3be55c94a805abd531127a1b"/>
+		<rom name="Albatross (Disk 2).d88" size="348848" crc="1250ac13" sha1="1cf2b0449df16ccf3f4be0ad5125fff0dbd04e70"/>
+		<rom name="Albatross (Disk 3).d88" size="348848" crc="36db42ec" sha1="aa9b19ee3e39be7a2d130ab34ddd34db6852a1e4"/>
+	</game>
+	<game name="Algarna [FD]">
+		<category>Games</category>
+		<description>Algarna [FD]</description>
+		<rom name="Algarna (Disk A).d88" size="348848" crc="e7abfb9e" sha1="96d5fa047b9b888aa236917c87499012e60dae05"/>
+		<rom name="Algarna (Disk B).d88" size="348848" crc="d9f19f8e" sha1="1ff08969231ec4479a24fa814f64c29588bafa86"/>
+		<rom name="Algarna (Program disk).d88" size="348576" crc="6072e867" sha1="e42fbd030528620fd08d84ac6fb603de2c714384"/>
+	</game>
+	<game name="Alice in Wonderland [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Alice in Wonderland [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Alice in Wonderland.tap" size="186522" crc="a0820168" sha1="e6d72f0a66e8445258662a69677e301f5d116828"/>
+	</game>
+	<game name="Alpha [FD][X1turbo]">
+		<category>Games</category>
+		<description>Alpha [FD][X1turbo]</description>
+		<rom name="Alpha [X1turbo].2d" size="327680" crc="0827e727" sha1="09af0a7649daa80d3eb11dd109f0030e9cd53efa"/>
+	</game>
+	<game name="American Truck [FD]">
+		<category>Games</category>
+		<description>American Truck [FD]</description>
+		<rom name="American Truck.d88" size="348848" crc="b6e33150" sha1="f4cc9c33eb8a984120fc6978c11bb0c546db337c"/>
+	</game>
+	<game name="Aoki Ookami to Shiroki Mejika [FD][X1turbo][req hi-res mode]">
+		<category>Games</category>
+		<description>Aoki Ookami to Shiroki Mejika [FD][X1turbo][req hi-res mode]</description>
+		<rom name="Aoki Ookami to Shiroki Mejika [X1turbo].d88" size="348848" crc="144e36c6" sha1="8ab505bb4461015e69745a1f3c63f042f678bb91"/>
+	</game>
+	<game name="Arctic [FD][X1turbo]">
+		<category>Games</category>
+		<description>Arctic [FD][X1turbo]</description>
+		<rom name="Arctic [X1turbo].d88" size="348848" crc="ca77e6bd" sha1="09de89a6ef8f264cd3984ecb3e20cada77e8d6b7"/>
+	</game>
+	<game name="Arcus [FD][X1turbo]">
+		<category>Games</category>
+		<description>Arcus [FD][X1turbo]</description>
+		<rom name="Arcus (Disk 1)[X1turbo].d88" size="454272" crc="faa78950" sha1="5669facfe5cd7fe24634de3ed334891d333512bf"/>
+		<rom name="Arcus (Disk 2)[X1turbo].d88" size="458928" crc="3719e235" sha1="ec1e121ea389d01746448865d8d5355f3259bfe6"/>
+		<rom name="Arcus (Disk 3)[X1turbo].d88" size="458928" crc="66e3dc6b" sha1="81ccb3ed49a53da537dc9a72cff7d775a92ead83"/>
+		<rom name="Arcus (Disk 4)[X1turbo].d88" size="458928" crc="6801c2b5" sha1="e87b984b2b447770200a6abe0bee86ef862f4ef1"/>
+		<rom name="Arcus (Disk 5)[X1turbo].d88" size="458928" crc="796dfb17" sha1="099567a7b61e4dd1f1a6afa8570d8d5179eef76a"/>
+	</game>
+	<game name="Argo [FD][d88]">
+		<category>Games</category>
+		<description>Argo [FD][d88]</description>
+		<rom name="Argo (Disk A).d88" size="348848" crc="ef16b393" sha1="960c4ef0de4b4032beca7c3a39e1893e8a1f2fd7"/>
+		<rom name="Argo (Disk B).d88" size="348576" crc="30b180a8" sha1="841d717a7a21abd11c40c202e9d28892cd4e41b3"/>
+	</game>
+	<game name="Arion [FD]">
+		<category>Games</category>
+		<description>Arion [FD]</description>
+		<rom name="Arion (Disk A).2d" size="327680" crc="cb5fd818" sha1="e33c9e162b9a38cc2f832a977b393d77af0633f7"/>
+		<rom name="Arion (Disk B).2d" size="327680" crc="c7403c98" sha1="0c885bcc371d907a48365ddf6ca3382a8a21f74c"/>
+	</game>
+	<game name="Aspic Special [FD]">
+		<category>Games</category>
+		<description>Aspic Special [FD]</description>
+		<rom name="Aspic Special.2d" size="327680" crc="c56d230b" sha1="5d2e11e7e5234ee11076ab13f87a8f42684197d6"/>
+	</game>
+	<game name="Asteka [FD][X1turbo]">
+		<category>Games</category>
+		<description>Asteka [FD][X1turbo]</description>
+		<rom name="Asteka [X1turbo].d88" size="436912" crc="86e6bca1" sha1="8f4a50fd616a7141c85007fce5ec85c6c83cc2e5"/>
+	</game>
+	<game name="Atama no Taisou [CT]">
+		<category>Games</category>
+		<description>Atama no Taisou [CT]</description>
+		<rom name="Atama no Taisou.tap" size="89834" crc="a208f897" sha1="786678e607fe519991e09db3e9bb8c76b703b298"/>
+	</game>
+	<game name="Aztec [FD]">
+		<category>Games</category>
+		<description>Aztec [FD]</description>
+		<rom name="Aztec.d88" size="392368" crc="be5c8f9e" sha1="55626d13c1a7211fe9e46da544d785563d590f0d"/>
+	</game>
+	<game name="BASIC utilities [FD]">
+		<category>Games</category>
+		<description>BASIC utilities [FD]</description>
+		<rom name="BASIC utilities (Disk 1).2d" size="327680" crc="153f7873" sha1="c0c3c444881e59dc7ac4b05e53284370f9858070"/>
+		<rom name="BASIC utilities (Disk 2).2d" size="327680" crc="95b278aa" sha1="7eca1379c6f67f58937d2c3645efb6f00d307ead"/>
+	</game>
+	<game name="Balloon Fight [FD]">
+		<category>Games</category>
+		<description>Balloon Fight [FD]</description>
+		<rom name="Balloon Fight.d88" size="43360" crc="6433f03a" sha1="6f93a89fab698df4f2e7843d7633715eff29e5f7"/>
+	</game>
+	<game name="Bastard Special [FD]">
+		<category>Games</category>
+		<description>Bastard Special [FD]</description>
+		<rom name="Bastard Special.d88" size="348848" crc="63c7fe77" sha1="b3de0bfc6aa1079d5079907ebfbd44455f9a2df5"/>
+	</game>
+	<game name="Bat [CT]">
+		<category>Games</category>
+		<description>Bat [CT]</description>
+		<rom name="Bat.tap" size="300004" crc="8c83d6ef" sha1="64912a85a34b0ae3fbdce152d394271748998b0a"/>
+	</game>
+	<game name="Batten Tanuki no Daibouken [FD]">
+		<category>Games</category>
+		<description>Batten Tanuki no Daibouken [FD]</description>
+		<rom name="Batten Tanuki no Daibouken.d88" size="346080" crc="9a14255f" sha1="953ac2be0b6bb262e396a294bde5aeef2d94f48d"/>
+	</game>
+	<game name="Battle City [FD]">
+		<category>Games</category>
+		<description>Battle City [FD]</description>
+		<rom name="Battle City.2d" size="327680" crc="32d516fb" sha1="10f5134fbc1fd5b0c66f59ec73a47960bfaf9be2"/>
+	</game>
+	<game name="Battle Gorilla [FD][X1turbo]">
+		<category>Games</category>
+		<description>Battle Gorilla [FD][X1turbo]</description>
+		<rom name="Battle Gorilla (Disk 1)[X1turbo].d88" size="348848" crc="ed20dd15" sha1="057f2fde335869f15209ad33672393471230b14e"/>
+		<rom name="Battle Gorilla (Disk 2)[X1turbo].d88" size="348848" crc="1600f910" sha1="b2c0092e62ff0374308aba55007c7f15db7b5de0"/>
+	</game>
+	<game name="Bishoujo Shashinkan - Studio Cut [FD]">
+		<category>Games</category>
+		<description>Bishoujo Shashinkan - Studio Cut [FD]</description>
+		<rom name="Bishoujo Shashinkan - Studio Cut.2d" size="327680" crc="b6f0148b" sha1="9c618d0eee0cb27d20316b75a195fedda8d10afe"/>
+	</game>
+	<game name="Bokosuka Wars - cartridge hack [BIN]">
+		<category>Games</category>
+		<description>Bokosuka Wars - cartridge hack [BIN]</description>
+		<rom name="Bokosuka Wars - cartridge hack.rom" size="65536" crc="fda67aea" sha1="955d2748739f55c55af643340e37fb5018bac932"/>
+	</game>
+	<game name="Bokosuka Wars [CT]">
+		<category>Games</category>
+		<description>Bokosuka Wars [CT]</description>
+		<rom name="Bokosuka Wars.tap" size="180004" crc="28bc8bba" sha1="9d1e17df7c948d864a016abba896b390e6e4b56c"/>
+	</game>
+	<game name="Bomberman [CT]">
+		<category>Games</category>
+		<description>Bomberman [CT]</description>
+		<rom name="Bomberman.tap" size="180004" crc="c7d4af37" sha1="f4160c8e2234dcabe0d822eb1c011f6436c70140"/>
+	</game>
+	<game name="Bomberman.tap">
+		<category>Games</category>
+		<description>Bomberman.tap</description>
+		<rom name="Bomberman (Hudson Soft)\Bomberman [CT]\Bomberman.tap" size="180004" crc="c7d4af37" sha1="f4160c8e2234dcabe0d822eb1c011f6436c70140"/>
+	</game>
+	<game name="Bosconian [FD]">
+		<category>Games</category>
+		<description>Bosconian [FD]</description>
+		<rom name="Bosconian.d88" size="348848" crc="be8c44ce" sha1="65e9eba74ffde0823a74d15cecab645a4294788f"/>
+	</game>
+	<game name="Boukensha-tachi - Kenja no Yuigon [FD]">
+		<category>Games</category>
+		<description>Boukensha-tachi - Kenja no Yuigon [FD]</description>
+		<rom name="Boukensha-tachi - Kenja no Yuigon (Disk 1).d88" size="530688" crc="ce8222f6" sha1="f4c45e154d5bc6b21185f9301a940e8654842bca"/>
+		<rom name="Boukensha-tachi - Kenja no Yuigon (Disk 2).d88" size="538544" crc="842907a9" sha1="507d365648ea8c0392be1e80c3d2a3d700e984a5"/>
+	</game>
+	<game name="Brain Breaker [FD]">
+		<category>Games</category>
+		<description>Brain Breaker [FD]</description>
+		<rom name="Brain Breaker.2d" size="327680" crc="03fc29ac" sha1="5cdade4d5808e59b4f4154bc12c574a638e85e2f"/>
+	</game>
+	<game name="Bu u ma [CT]">
+		<category>Games</category>
+		<description>Bu u ma [CT]</description>
+		<rom name="Bu u ma.tap" size="240004" crc="be22b18d" sha1="1eaebde3f5c62294dfcee6c723d4bf483a94bf44"/>
+	</game>
+	<game name="Byakuya Monogatari [FD]">
+		<category>Games</category>
+		<description>Byakuya Monogatari [FD]</description>
+		<rom name="Byakuya Monogatari (Disk 1).d88" size="349392" crc="5812264d" sha1="4db4de9280e9579dda3f794173295873523d9cb0"/>
+		<rom name="Byakuya Monogatari (Disk 2).d88" size="348848" crc="d493790f" sha1="863dd90fa8ea59404a922b54099922f02e54bbfb"/>
+		<rom name="Byakuya Monogatari (Disk 3).d88" size="348848" crc="5ca007dd" sha1="77e0abc173c0dee9a3b446b4791124e9fb601f7c"/>
+	</game>
+	<game name="Carmine [FD]">
+		<category>Games</category>
+		<description>Carmine [FD]</description>
+		<rom name="Carmine (Disk A).d88" size="374048" crc="dca5449f" sha1="7bcd1816b633ce9d2edc8762931cff673e041924"/>
+		<rom name="Carmine (Disk B).d88" size="380848" crc="dfd8e180" sha1="2bb085ab8fe285b2ce41f4a62d72bec16b00a726"/>
+	</game>
+	<game name="Casablanca ni Ai o [FD][X1turbo]">
+		<category>Games</category>
+		<description>Casablanca ni Ai o [FD][X1turbo]</description>
+		<rom name="Casablanca ni Ai o (Disk A)[X1turbo].d88" size="413296" crc="bbf765e5" sha1="d054a88b3f77f8a68f356a0a03610da2f57161c3"/>
+		<rom name="Casablanca ni Ai o (Disk B)[X1turbo].d88" size="416688" crc="1f11b796" sha1="53df2cd5fe4736c55f186645d6b8291c8e739a9f"/>
+	</game>
+	<game name="Castle Excellent [FD][req copy to tape]">
+		<category>Games</category>
+		<description>Castle Excellent [FD][req copy to tape]</description>
+		<rom name="Castle Excellent.d88" size="348848" crc="9515d977" sha1="38990b94367efa6dbed1df50822b6c9ee1da84d2"/>
+	</game>
+	<game name="Cepton [CT]">
+		<category>Games</category>
+		<description>Cepton [CT]</description>
+		<rom name="Cepton.tap" size="180004" crc="06a6eff2" sha1="c2ed3ed0dd8fa29dccc013da25a2f63746e2bac6"/>
+	</game>
+	<game name="Chack'n Pop [FD]">
+		<category>Games</category>
+		<description>Chack'n Pop [FD]</description>
+		<rom name="Chack'n Pop {load Chack'n Pop,r}.d88" size="348848" crc="257df7de" sha1="2bd62b1c1bdeacdeeef80d603b1e1b34a99cbaa0"/>
+	</game>
+	<game name="Champion ProWres Special [FD]">
+		<category>Games</category>
+		<description>Champion ProWres Special [FD]</description>
+		<rom name="Champion ProWres Special.d88" size="348288" crc="25977c4c" sha1="fc53b372d4e6535c31db6a1140541c4f6b9f8b60"/>
+	</game>
+	<game name="Charm Copy X-1 [FD]">
+		<category>Games</category>
+		<description>Charm Copy X-1 [FD]</description>
+		<rom name="Charm Copy X-1 (1987-08-01).d88" size="348848" crc="4018cf2a" sha1="d0e4320d9669f7bcae6058b07aa4131d4fd6ed90"/>
+		<rom name="Charm Copy X-1 (1987-09-17).d88" size="83376" crc="07a84d04" sha1="054edff14ad0896f648070b836b4c8d07b813c37"/>
+		<rom name="Charm Copy X-1 (1987-10-03).d88" size="104048" crc="fc6be0b8" sha1="a0038b61c98066b3c5c3b36f75570b9901f4e268"/>
+		<rom name="Charm Copy X-1 (1987-12-06).d88" size="144304" crc="8b7d28ff" sha1="79dec0a3885fa5f801dcdaf5666e6c8e9c38b3a6"/>
+		<rom name="Charm Copy X-1 (1987-12-20).d88" size="187824" crc="bd551ad2" sha1="e67f261c112480d8122075affed2ac9731a1169d"/>
+		<rom name="Charm Copy X-1 (1988-03-24).d88" size="318384" crc="d57f7891" sha1="9c5069ff553e119c7792f4d1a32d45f190de0a13"/>
+		<rom name="Charm Copy X-1 (1988-08-13).d88" size="248752" crc="2dbf42e2" sha1="00d948eb319ff27849d9846cc3bee0d4c75fcf54"/>
+		<rom name="Charm Copy X-1 (file set C).d88" size="348848" crc="5eb8cc67" sha1="0045e4000fbc37ae26110e8e8a044f56f948c17e"/>
+		<rom name="Charm Copy X-1 (v0.8)(Program disk).d88" size="348848" crc="1b2f3cfd" sha1="0a70b5bdcb67b85fb83c95d7514893bbcf6f4c69"/>
+	</game>
+	<game name="Choplifter [CT]">
+		<category>Games</category>
+		<description>Choplifter [CT]</description>
+		<rom name="Choplifter.tap" size="300004" crc="c5fda23f" sha1="9e6d165943fc8ec6675a67ab23d3c419cd401db0"/>
+	</game>
+	<game name="Choujikuu Yousai Macross - Countdown [CT]">
+		<category>Games</category>
+		<description>Choujikuu Yousai Macross - Countdown [CT]</description>
+		<rom name="Choujikuu Yousai Macross - Countdown.tap" size="540004" crc="75ca0858" sha1="c690bf3a73d63dab02be07e72523229e07f51f00"/>
+	</game>
+	<game name="Columns X1 [FD]">
+		<category>Games</category>
+		<description>Columns X1 [FD]</description>
+		<rom name="Columns X1.d88" size="348848" crc="8ed05f66" sha1="7b32abb16522b4f82e412422b0308e1ee53d2bf1"/>
+	</game>
+	<game name="Coron [CT][old TAP format]">
+		<category>Games</category>
+		<description>Coron [CT][old TAP format]</description>
+		<rom name="Coron [old TAP format].tap" size="188744" crc="fddba8ae" sha1="7a835fa93f03f1ad12822d16bbb7ffd1ebec8830"/>
+	</game>
+	<game name="Cosmic Soldier [FD][X1turbo]">
+		<category>Games</category>
+		<description>Cosmic Soldier [FD][X1turbo]</description>
+		<rom name="Cosmic Soldier [X1turbo].d88" size="376928" crc="afa30003" sha1="a75324488debe364017d3414cdb2f06b1422b6c0"/>
+	</game>
+	<game name="Courageous Perseus [CT]">
+		<category>Games</category>
+		<description>Courageous Perseus [CT]</description>
+		<rom name="Courageous Perseus.tap" size="180004" crc="aacc8aef" sha1="239d1d1df1a5f4e0c424616ee0d2faf7972e7f79"/>
+	</game>
+	<game name="Crazy Spy [CT]">
+		<category>Games</category>
+		<description>Crazy Spy [CT]</description>
+		<rom name="Crazy Spy.tap" size="180004" crc="cb9e0400" sha1="467afbcace7fde494cdcbbe72384143cff6b04f7"/>
+	</game>
+	<game name="Cream Lemon - Star Trap [FD]">
+		<category>Games</category>
+		<description>Cream Lemon - Star Trap [FD]</description>
+		<rom name="Cream Lemon - Star Trap (Disk A).d88" size="414128" crc="a537e078" sha1="0a9f717e4877be0457f33b416605fb5213b0680d"/>
+		<rom name="Cream Lemon - Star Trap (Disk B).d88" size="414128" crc="a4edcccb" sha1="4955563e59d653c1531daa2fb9a7550ca262091f"/>
+	</game>
+	<game name="Crimson [FD+User]">
+		<category>Games</category>
+		<description>Crimson [FD+User]</description>
+		<rom name="Crimson (Program disk).d88" size="348848" crc="26125d32" sha1="274dc32c55b678635a4b7cbabc334a6cd78dfe5c"/>
+		<rom name="Crimson (Program disk)[Alt 1].d88" size="348848" crc="bb46dc55" sha1="1cfebfe7b80e4818ca815ee9aa9df337d6bb900b"/>
+		<rom name="Crimson (Program disk)[Alt 2].d88" size="348848" crc="050b0fe6" sha1="05eb7831b328890291e79e9325009ea0415fb31d"/>
+		<rom name="Crimson (Scenario disk).d88" size="348848" crc="d3cd8490" sha1="24054ba0c57b14cdaf1fa2fd4c5c8d1d874198d8"/>
+		<rom name="Crimson (Scenario disk)[Alt 1].d88" size="348848" crc="e2674825" sha1="4972e93bfe3dbe4e1b2f358df22f41a54126b234"/>
+		<rom name="Crimson (User disk).d88" size="348848" crc="821d3e69" sha1="8de8f1855fa97a2381b9a3328c331c14d3d79300"/>
+		<rom name="Crimson (User disk)[unformatted].d88" size="348848" crc="3eeaae89" sha1="460e405c18beac1593ee851d86a2d1dfe4315b34"/>
+	</game>
+	<game name="Cross Pillar Aubergine - CPA Loader [FD]">
+		<category>Games</category>
+		<description>Cross Pillar Aubergine - CPA Loader [FD]</description>
+		<rom name="Cross Pillar Aubergine - CPA Loader.2d" size="327680" crc="9a0b6593" sha1="f451ccd6468d3cdf1118198a5446ff81bf03dd24"/>
+	</game>
+	<game name="Cross Pillar Aubergine - custom font file [ROM]">
+		<category>Games</category>
+		<description>Cross Pillar Aubergine - custom font file [ROM]</description>
+		<rom name="FNT0816.X1" size="4096" crc="b1412dcd" sha1="ee2c1125e9fd66ad54a9f959bb282cfaf8fb46e3"/>
+	</game>
+	<game name="Cross Pillar Aubergine [CT][old TAP format]">
+		<category>Games</category>
+		<description>Cross Pillar Aubergine [CT][old TAP format]</description>
+		<rom name="Cross Pillar Aubergine (Tape A)[old TAP format].tap" size="274322" crc="3ef41709" sha1="a123853df4c2dc9e85929f19b2bed8248ce2b735"/>
+		<rom name="Cross Pillar Aubergine (Tape A)[old TAP format][note PC version].tap" size="274306" crc="2c4330a9" sha1="fc01f72ab424b1630e06e167d99e9c678aca8081"/>
+		<rom name="Cross Pillar Aubergine (Tape B)[old TAP format].tap" size="393335" crc="efaca2e8" sha1="708f0dda55ca88676ba615da3970d5b0f361ef9b"/>
+		<rom name="Cross Pillar Aubergine (Tape C)[old TAP format].tap" size="141470" crc="5e65e940" sha1="d6b9ec24f980d74931f3b09b94ecb72fe7c1869d"/>
+		<rom name="Cross Pillar Aubergine (Tape D)[old TAP format].tap" size="283185" crc="7a238966" sha1="defb5ac11236dbfc09d4113e30484d9daa498acf"/>
+	</game>
+	<game name="Cruise Chaser Blassty [FD]">
+		<category>Games</category>
+		<description>Cruise Chaser Blassty [FD]</description>
+		<rom name="Cruise Chaser Blassty (Disk A).d88" size="413296" crc="139fab07" sha1="c43f29007304045ae4db8a844d7b2188af9518d6"/>
+		<rom name="Cruise Chaser Blassty (Disk B).d88" size="413296" crc="717e7ff0" sha1="716dafb2c4aec1fc34fb9f6467f402daf0c25fe3"/>
+	</game>
+	<game name="D-Side - Lagrange L-2 Part 2 [FD][req HuBASIC CZ-8FB01 V1.0 in 2nd drive]">
+		<category>Games</category>
+		<description>D-Side - Lagrange L-2 Part 2 [FD][req HuBASIC CZ-8FB01 V1.0 in 2nd drive]</description>
+		<rom name="D-Side - Lagrange L-2 Part 2.d88" size="392368" crc="d77f7a6b" sha1="009908575c5e31e6d1c510b4600e2df5c5c15e25"/>
+	</game>
+	<game name="Daidassou [CT][old TAP format]">
+		<category>Games</category>
+		<description>Daidassou [CT][old TAP format]</description>
+		<rom name="Daidassou [old TAP format].tap" size="232810" crc="1f823ce0" sha1="c6509b2f6d25eaa5be28df3cba5b66ba2f48f608"/>
+	</game>
+	<game name="Daisenryaku X1 [FD][d88]">
+		<category>Games</category>
+		<description>Daisenryaku X1 [FD][d88]</description>
+		<rom name="Daisenryaku X1 (Disk A).d88" size="348848" crc="cf06fac8" sha1="19024c98bdd96842c8e035b7869de0df7ff03b39"/>
+	</game>
+	<game name="Daiva Story 3 - Trial of Nirvana [FD]">
+		<category>Games</category>
+		<description>Daiva Story 3 - Trial of Nirvana [FD]</description>
+		<rom name="Daiva Story 3 - Trial of Nirvana (Disk 1).d88" size="348304" crc="dfe64250" sha1="e3e2bc53ad128bfd42b41184d0fa616335328fcd"/>
+		<rom name="Daiva Story 3 - Trial of Nirvana (Disk 2).d88" size="348848" crc="703fbdd8" sha1="1bf3067dfd7b25865178833a801144a59f7f5516"/>
+	</game>
+	<game name="Danchi-zuma no Yuuwaku [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Danchi-zuma no Yuuwaku [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Danchi-zuma no Yuuwaku.tap" size="240004" crc="9b25966f" sha1="ddb52eee75551306cbd76428ed9824e4c1fcfa4a"/>
+	</game>
+	<game name="Dark Storm - Demon Crystal III [FD]">
+		<category>Games</category>
+		<description>Dark Storm - Demon Crystal III [FD]</description>
+		<rom name="Dark Storm - Demon Crystal III.2d" size="327680" crc="c48459d6" sha1="9ccac539f38cddfc4b7c5cee7a7bc8676790e272"/>
+	</game>
+	<game name="Dezeni Land [FD]">
+		<category>Games</category>
+		<description>Dezeni Land [FD]</description>
+		<rom name="Dezeni Land [Alt 1].d88" size="284752" crc="0d3a751e" sha1="8db16b328eca8eaffd631aa08a85212b198c6a4f"/>
+		<rom name="Dezeni Land.d88" size="284752" crc="2502df21" sha1="454a351d00907bc439e7bf600355083bce582539"/>
+	</game>
+	<game name="Dezeni World [FD]">
+		<category>Games</category>
+		<description>Dezeni World [FD]</description>
+		<rom name="Dezeni World.d88" size="271824" crc="702797b3" sha1="240ba477420b6045eba36612cb20e7fb3d1e9e68"/>
+	</game>
+	<game name="Diablo [FD]">
+		<category>Games</category>
+		<description>Diablo [FD]</description>
+		<rom name="Diablo.d88" size="348848" crc="7c2da151" sha1="94c4c1c8940614f17d9e37f60f09d4b33f735ee0"/>
+	</game>
+	<game name="Dialide [FD][req joystick]">
+		<category>Games</category>
+		<description>Dialide [FD][req joystick]</description>
+		<rom name="Dialide (Disk 1).2d" size="327680" crc="cf25ac18" sha1="b06d6aba7fde74befcfb5b0e729bdfaf995e640a"/>
+		<rom name="Dialide (Disk 2).2d" size="327680" crc="0ab95d61" sha1="73f0648420fee619cec4ce79eea323aed8862c24"/>
+	</game>
+	<game name="Diamond Adventure [CT][req dB-BASIC]">
+		<category>Games</category>
+		<description>Diamond Adventure [CT][req dB-BASIC]</description>
+		<rom name="Diamond Adventure.tap" size="188643" crc="f952807b" sha1="a8921d90141238f6e3b7b6e01a7c935a9a45e832"/>
+	</game>
+	<game name="Dig Dug [CT]">
+		<category>Games</category>
+		<description>Dig Dug [CT]</description>
+		<rom name="Dig Dug.tap" size="240004" crc="c37c9bc0" sha1="d9752e3ca6bdc52114a569660289f13d46879c92"/>
+	</game>
+	<game name="Digital Devil Story - Megami Tensei [FD]">
+		<category>Games</category>
+		<description>Digital Devil Story - Megami Tensei [FD]</description>
+		<rom name="Digital Devil Story - Megami Tensei (Disk A).d88" size="414992" crc="bca112b8" sha1="e20ca20804b3b3a88d8c37cf3362e693f1dbdac6"/>
+		<rom name="Digital Devil Story - Megami Tensei (Disk B).d88" size="415840" crc="c3b94473" sha1="b4cc22c010ee71d7ffb4e5dc9f4ad229f286c0bd"/>
+	</game>
+	<game name="Dione [FD]">
+		<category>Games</category>
+		<description>Dione [FD]</description>
+		<rom name="Dione (Disk 1).d88" size="348848" crc="bb7a6bb2" sha1="02b561da7bb493b40e280c611f6775cb012785fa"/>
+		<rom name="Dione (Disk 2).d88" size="348848" crc="3217a3c8" sha1="0ecf44a858dc764809ad1a2e1eb779efc6ceb4f5"/>
+	</game>
+	<game name="Doctor [FD]">
+		<category>Games</category>
+		<description>Doctor [FD]</description>
+		<rom name="Doctor.2d" size="327680" crc="7ce00733" sha1="007b111eb9261ec39aa79b5a50565c5213dd74a7"/>
+	</game>
+	<game name="Dokkin Minako-sensei! [FD]">
+		<category>Games</category>
+		<description>Dokkin Minako-sensei! [FD]</description>
+		<rom name="Dokkin Minako-sensei! (Disk A).2d" size="327680" crc="847ffb04" sha1="56dc77544b700da9ad61c3b5259fbebde95d02a4"/>
+		<rom name="Dokkin Minako-sensei! (Disk B).2d" size="327680" crc="cbb456eb" sha1="85dcab4b41a7305742c8266423bc23355dcc42b6"/>
+	</game>
+	<game name="Dome [FD]">
+		<category>Games</category>
+		<description>Dome [FD]</description>
+		<rom name="Dome (Disk 1).d88" size="415840" crc="a73bb6b0" sha1="a060a4995729a15fff4d5c49462fffcce13e5114"/>
+		<rom name="Dome (Disk 2).d88" size="415840" crc="74b0332c" sha1="c057c9a0f988e4f03841e9b5b1d16d85f6ef467c"/>
+		<rom name="Dome (Disk 3).d88" size="415840" crc="92f3a1eb" sha1="fcb8142df55827f99bb25784b46cefb35cc100d7"/>
+		<rom name="Dome (Disk 4).d88" size="415840" crc="7ec45e74" sha1="601b47a5db17eeeebe2ddbb70d0733152158da65"/>
+		<rom name="Dome (Disk 5).d88" size="415840" crc="ea3da082" sha1="fe4ec4c48cf127e6ee88add39cb916ecda5bd5d0"/>
+	</game>
+	<game name="Don Juan [FD]">
+		<category>Games</category>
+		<description>Don Juan [FD]</description>
+		<rom name="Don Juan.d88" size="348848" crc="41b5113c" sha1="f07c0ce9136e7e49b3c856c773a46fadd6ffe0e3"/>
+	</game>
+	<game name="Dragon Buster [FD]">
+		<category>Games</category>
+		<description>Dragon Buster [FD]</description>
+		<rom name="Dragon Buster.2d" size="327680" crc="89507318" sha1="4a720dbf241d87e3c260022ddab930295af10498"/>
+	</game>
+	<game name="Dragon Slayer - LOGiN-ban [FD]">
+		<category>Games</category>
+		<description>Dragon Slayer - LOGiN-ban [FD]</description>
+		<rom name="Dragon Slayer - LOGiN-ban.d88" size="415840" crc="b31b6641" sha1="ba4ebddb8ea9994bd21b5281a976eb20e0b7754b"/>
+	</game>
+	<game name="Dream Girl Sayaka [FD]">
+		<category>Games</category>
+		<description>Dream Girl Sayaka [FD]</description>
+		<rom name="Dream Girl Sayaka (Disk A).2d" size="327680" crc="87b217b7" sha1="984b83846d61cda4d9e1f9f5d2ec7a7c00c9c216"/>
+		<rom name="Dream Girl Sayaka (Disk B).2d" size="327680" crc="37728ac4" sha1="71d54496baae18bf82016d361e88eac8069e4e22"/>
+	</game>
+	<game name="EXOA II - Warroid [FD]">
+		<category>Games</category>
+		<description>EXOA II - Warroid [FD]</description>
+		<rom name="EXOA II - Warroid.2d" size="327680" crc="ebbf0a25" sha1="22fe5179e8350c60a3f411dd83dbfad8aa5561ca"/>
+	</game>
+	<game name="Elthlead [FD]">
+		<category>Games</category>
+		<description>Elthlead [FD]</description>
+		<rom name="Elthlead.d88" size="348848" crc="f30ced0e" sha1="aa9c9635f101037ce601fe094ef5f888b8c0ed3f"/>
+	</game>
+	<game name="Escape Daisakusen [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Escape Daisakusen [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Escape Daisakusen.tap" size="120004" crc="08429899" sha1="38c7ef93c46f87199a11cbbaee4f414f3fe8a433"/>
+	</game>
+	<game name="Euphory [FD+User]">
+		<category>Games</category>
+		<description>Euphory [FD+User]</description>
+		<rom name="Euphory (User disk).d88" size="2048" crc="38b964e0" sha1="1e815a391f8d7c2e7fe503bc64b8102e46e81c70"/>
+		<rom name="Euphory.d88" size="382448" crc="891919bc" sha1="e46418234326b013bf2de68fc6acae2786ad44fc"/>
+	</game>
+	<game name="Excitebike [CT]">
+		<category>Games</category>
+		<description>Excitebike [CT]</description>
+		<rom name="Excitebike.tap" size="180004" crc="7c8b37d0" sha1="16ff4951e72a9773896c785f42ba31737e919b81"/>
+	</game>
+	<game name="Expert-X1 [FD]">
+		<category>Games</category>
+		<description>Expert-X1 [FD]</description>
+		<rom name="Expert-X1 (Construction 01).d88" size="348848" crc="28ac445f" sha1="4465bbc7b7d2b3ef2b82832a752001b5bdecfd81"/>
+		<rom name="Expert-X1 (Construction 02).d88" size="348848" crc="6f29c7ff" sha1="6d9991c2241ec2e2a8bf1ca0a46536b825724534"/>
+		<rom name="Expert-X1 (Construction 03).d88" size="348848" crc="d2cd6f06" sha1="5d26ffeefe35d777e86c870625aa8531dd9e79a5"/>
+		<rom name="Expert-X1 (Construction 04).d88" size="348848" crc="e0ed5dfb" sha1="f35eeb3198899030b492d3728ae46ed077c84913"/>
+		<rom name="Expert-X1 (Construction 05).d88" size="348848" crc="535034c9" sha1="662387386e2208470cfa7bcaac6fb31d471b6018"/>
+		<rom name="Expert-X1 (Construction 1987-10-07).d88" size="348848" crc="51011a19" sha1="6cd65983e859040fcb34aba1e119009d44107f7b"/>
+		<rom name="Expert-X1 (Construction 1987-12-20).d88" size="348848" crc="9abef411" sha1="611bd31405e4838325a684d4792b61bbe0ce3118"/>
+		<rom name="Expert-X1 (Construction a).2d" size="327680" crc="5a7ec157" sha1="1c261c06a04b6afa3d7a416c9cccf89888b25a82"/>
+		<rom name="Expert-X1 (Construction b).2d" size="327680" crc="91334cf3" sha1="9be45130f7de82f5504c27b22a0f6131c2e22d81"/>
+		<rom name="Expert-X1 (Construction vol. 10).d88" size="348848" crc="91644f45" sha1="8a4ae067fea7fab020d94e47231ade49a0c40e0f"/>
+		<rom name="Expert-X1 (Filer 1).2d" size="327680" crc="a9dc8d15" sha1="4f56d5c5e90654d811a3e41a69f3660af01ea0fc"/>
+		<rom name="Expert-X1 (Filer 2).2d" size="327680" crc="01c39dd8" sha1="1f875fc69bf04e832a516b5610469dd5eddb9a22"/>
+		<rom name="Expert-X1 (System disk).2d" size="327680" crc="03017ab1" sha1="a1a0cf7690ff0c85c3980b2e60f11fbc880e89a5"/>
+	</game>
+	<game name="Extra Hyper [FD]">
+		<category>Games</category>
+		<description>Extra Hyper [FD]</description>
+		<rom name="Extra Hyper (Data disk).d88" size="348848" crc="f0ef51bd" sha1="ead6d7e35a1a43f1a0e96a0b57d8f314ee424b4c"/>
+		<rom name="Extra Hyper (System disk).d88" size="26800" crc="a69b99d1" sha1="d98eeb70fb4c8fecd08cffbb16ccb7187726c129"/>
+	</game>
+	<game name="Extra Pinball [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Extra Pinball [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Extra Pinball.tap" size="300004" crc="0bedc3de" sha1="0246b50cfcc4213aea4935f28ce3a01c4b57f821"/>
+	</game>
+	<game name="F2 Grand Prix [CT][old TAP format]">
+		<category>Games</category>
+		<description>F2 Grand Prix [CT][old TAP format]</description>
+		<rom name="F2 Grand Prix [old TAP format].tap" size="245537" crc="a65426af" sha1="6793a1fe2c06e3cca72ee91e68ab84fd70667980"/>
+	</game>
+	<game name="FM Ongen Music Tool VIP [FD][d88]">
+		<category>Games</category>
+		<description>FM Ongen Music Tool VIP [FD][d88]</description>
+		<rom name="FM Ongen Music Tool VIP (Data disk).d88" size="348848" crc="3c3e7e3a" sha1="9b113bf140e80a105c69422d780822970a32764d"/>
+		<rom name="FM Ongen Music Tool VIP (System disk).d88" size="348848" crc="41628a04" sha1="bade85f8ddc44822474b7bdfa1406dc9b59a7988"/>
+	</game>
+	<game name="Fairie's Residence [FD][req HuBASIC CZ-8FB01]">
+		<category>Games</category>
+		<description>Fairie's Residence [FD][req HuBASIC CZ-8FB01]</description>
+		<rom name="Fairie's Residence (Disk A){run START}.2d" size="327680" crc="573c4145" sha1="9663371e9b31710e322658bbfd05d6cb603ec46e"/>
+		<rom name="Fairie's Residence (Disk B).2d" size="327680" crc="97156c13" sha1="9edbedd72177756e8783e4a74918bd0ed7f045fa"/>
+	</game>
+	<game name="Fantasian [FD]">
+		<category>Games</category>
+		<description>Fantasian [FD]</description>
+		<rom name="Fantasian (User disk).d88" size="380048" crc="42968404" sha1="f7903402a402ee54db3d14645b4eb4eef0afcf13"/>
+		<rom name="Fantasian (User disk)[Alt 1].d88" size="380048" crc="1ac8bc84" sha1="af89f35b4d9a17a7894731f9b5cbe2548a6a9900"/>
+		<rom name="Fantasian.d88" size="347984" crc="82f0febf" sha1="82876fc26ccc00430b02f527d0c642585c735dee"/>
+	</game>
+	<game name="Final Shot [FD][X1turbo][req hi-res mode]">
+		<category>Games</category>
+		<description>Final Shot [FD][X1turbo][req hi-res mode]</description>
+		<rom name="Final Shot [X1turbo].d88" size="357472" crc="7d4b95be" sha1="f0eca433c8c8979d3b374c2374101cc4675a7722"/>
+	</game>
+	<game name="Final Zone [FD]">
+		<category>Games</category>
+		<description>Final Zone [FD]</description>
+		<rom name="Final Zone (Disk A).d88" size="420192" crc="fb52dcb2" sha1="c26133233c520535f1869c68317fc6cb347945e1"/>
+		<rom name="Final Zone (Disk B).d88" size="436640" crc="544c71ce" sha1="e84502e2c9344df02f8aef3617f7b88b3d051076"/>
+	</game>
+	<game name="Five Sweet Dreams [FD]">
+		<category>Games</category>
+		<description>Five Sweet Dreams [FD]</description>
+		<rom name="Five Sweet Dreams (Disk A).2d" size="327680" crc="e59a8698" sha1="837808bf5f987fa7f0f53ce76190d7b1e3849df0"/>
+		<rom name="Five Sweet Dreams (Disk B).2d" size="327680" crc="8467dc7b" sha1="150e1aa389a32f8c58ea9b34b5dad971ef94f159"/>
+	</game>
+	<game name="Flappy [CT]">
+		<category>Games</category>
+		<description>Flappy [CT]</description>
+		<rom name="Flappy.tap" size="300004" crc="4449daa6" sha1="e63043232ae7cc9c728f734b089007ccb658c1ab"/>
+	</game>
+	<game name="Front Line [FD]">
+		<category>Games</category>
+		<description>Front Line [FD]</description>
+		<rom name="Front Line.d88" size="305872" crc="02089748" sha1="b86e5221c1199251f55d28c60a184850d8864e1a"/>
+	</game>
+	<game name="Gaia no Kiba [FD][X1turbo][req hi-res mode]">
+		<category>Games</category>
+		<description>Gaia no Kiba [FD][X1turbo][req hi-res mode]</description>
+		<rom name="Gaia no Kiba (Disk A)[X1turbo].d88" size="422160" crc="738bbe4e" sha1="6fb1cde411482d10867fb5fe49e08ba8fd94ec64"/>
+		<rom name="Gaia no Kiba (Disk B)[X1turbo].d88" size="422160" crc="43e11133" sha1="ed629d642b3c0591fb9aee6bb1b2bfb458e4f78e"/>
+	</game>
+	<game name="Gaia no Monshou [FD]">
+		<category>Games</category>
+		<description>Gaia no Monshou [FD]</description>
+		<rom name="Gaia no Monshou (Disk A).2d" size="327680" crc="070d7587" sha1="f31d55f5e45de9f9e7a00e7e9c591dbf6e6ac678"/>
+		<rom name="Gaia no Monshou (Disk B).2d" size="327680" crc="2164d869" sha1="df7d5a536d0a0002463814ee1c97851a24322098"/>
+	</game>
+	<game name="Gaiflame [FD]">
+		<category>Games</category>
+		<description>Gaiflame [FD]</description>
+		<rom name="Gaiflame (Disk A).d88" size="348848" crc="64d87757" sha1="8e194aee99fef686fe807af88a52d4e99ae258a8"/>
+		<rom name="Gaiflame (Disk B).d88" size="348848" crc="57e869b6" sha1="5c5ea55b1125e213d8a5b387a6fa79466f3457eb"/>
+	</game>
+	<game name="Galaga [FD]">
+		<category>Games</category>
+		<description>Galaga [FD]</description>
+		<rom name="Galaga.2d" size="327680" crc="e78a43a0" sha1="92dd612cd53be19e34405f2ae80a211cdb02bb51"/>
+	</game>
+	<game name="Galaxian [FD]">
+		<category>Games</category>
+		<description>Galaxian [FD]</description>
+		<rom name="Galaxian.2d" size="327680" crc="0d2f49dc" sha1="7529a5483f526ee9318d4eeb08850f8cd39f3c77"/>
+	</game>
+	<game name="Gall Force [FD]">
+		<category>Games</category>
+		<description>Gall Force [FD]</description>
+		<rom name="Gall Force (Disk 1).d88" size="414992" crc="f4037636" sha1="61ad2cb8c591997b9504f38f237070d2235aecaa"/>
+		<rom name="Gall Force (Disk 2).d88" size="416688" crc="5423190b" sha1="58dbf990dd682bb561349e82df5c5accc56dca9e"/>
+		<rom name="Gall Force (Disk 3).d88" size="416688" crc="79f8f318" sha1="5c7d6f25a1f2187acca52d62772308a42b9fa4a6"/>
+		<rom name="Gall Force (Disk 3)[Alt 1].d88" size="416688" crc="6d04e66c" sha1="d93086f0f704684a15fa5d292d32f76f1d4cd4df"/>
+	</game>
+	<game name="Gambler Jikochuushinha 2 [FD]">
+		<category>Games</category>
+		<description>Gambler Jikochuushinha 2 [FD]</description>
+		<rom name="Gambler Jikochuushinha 2.d88" size="348848" crc="81a7c4eb" sha1="71c15c75f46810ac8159b4784a4500c54e85b198"/>
+	</game>
+	<game name="Gambler Jikochuushinha [FD]">
+		<category>Games</category>
+		<description>Gambler Jikochuushinha [FD]</description>
+		<rom name="Gambler Jikochuushinha.d88" size="348848" crc="5063936e" sha1="76649c85bf4b7bd97428bacfa455ec1e33e43723"/>
+	</game>
+	<game name="Gamma 5 [FD]">
+		<category>Games</category>
+		<description>Gamma 5 [FD]</description>
+		<rom name="Gamma 5.2d" size="327680" crc="23c1ba19" sha1="4040b902c7657598eb4ccb9e01f3ccd031f75ac9"/>
+	</game>
+	<game name="Ganbare Miki-chan! [FD]">
+		<category>Games</category>
+		<description>Ganbare Miki-chan! [FD]</description>
+		<rom name="Ganbare Miki-chan!.2d" size="327680" crc="06965b19" sha1="b33c79c4444f53419beb5db300ef536d1df9d432"/>
+	</game>
+	<game name="Ganbare Pentan [CT]">
+		<category>Games</category>
+		<description>Ganbare Pentan [CT]</description>
+		<rom name="Ganbare Pentan.tap" size="358800" crc="fa80e7a0" sha1="ec24cce27847e655ec46d65435dd022ae70247e1"/>
+	</game>
+	<game name="Gandhara [FD][X1turbo]">
+		<category>Games</category>
+		<description>Gandhara [FD][X1turbo]</description>
+		<rom name="Gandhara (Disk A)[X1turbo].d88" size="348848" crc="a5caa4e3" sha1="9717c0c861e8ffb0da59c216ba25bc9278f118df"/>
+		<rom name="Gandhara (Disk B)[X1turbo].d88" size="348848" crc="9b2123b5" sha1="40de6a3c81e3aaea6012fb9169e865b09083b90b"/>
+	</game>
+	<game name="Gate of Labyrinth [FD]">
+		<category>Games</category>
+		<description>Gate of Labyrinth [FD]</description>
+		<rom name="Gate of Labyrinth.2d" size="327680" crc="4488121c" sha1="c9bddf91d51cbc124fd1a580a2c69b003d2bdd2a"/>
+	</game>
+	<game name="Gegege no Kitaro [CT]">
+		<category>Games</category>
+		<description>Gegege no Kitaro [CT]</description>
+		<rom name="Gegege no Kitaro.tap" size="240004" crc="e6285c24" sha1="50ee828da97603b2cb936c993006eb388b08cf6b"/>
+	</game>
+	<game name="Golf Island Special [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Golf Island Special [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Golf Island Special (extra courses).tap" size="123324" crc="1f90c9cc" sha1="f22f1d6fa57098e5747dcc15fefec5366c386ead"/>
+		<rom name="Golf Island Special (main game).tap" size="278562" crc="7838cff4" sha1="51e529ae1ebbcc587e332b6e839cba111eacf774"/>
+	</game>
+	<game name="Golf-kyou [CT]">
+		<category>Games</category>
+		<description>Golf-kyou [CT]</description>
+		<rom name="Golf-kyou.tap" size="180004" crc="2dcd7dbe" sha1="8b58d05f23b3d65476d8e85a2990439662e4b9de"/>
+	</game>
+	<game name="Golques [FD]">
+		<category>Games</category>
+		<description>Golques [FD]</description>
+		<rom name="Golques (Disk 1).d88" size="348848" crc="40ac983c" sha1="21fb7fc3433dc7798d1a87b6f5e93a65e861b7c1"/>
+		<rom name="Golques (Disk 2).d88" size="348848" crc="7d985e6d" sha1="0b732983f04df51f88484c1b31d108b3bb702d99"/>
+	</game>
+	<game name="Gradius - OPM hack [FD][X1turbo]">
+		<category>Games</category>
+		<description>Gradius - OPM hack [FD][X1turbo]</description>
+		<rom name="Gradius - OPM hack [X1turbo].d88" size="348848" crc="b7aec83a" sha1="2a8e3fd548bbdb5c5e4e64e9e6f8ea06e8ab1167"/>
+		<rom name="Gradius - OPM hack [X1turbo][Alt 1].d88" size="348848" crc="1d812841" sha1="c6c8216a48764908e6eddbd4633f3f89db03a703"/>
+		<rom name="Gradius - OPM hack [X1turbo][Alt 2].d88" size="348848" crc="ca158183" sha1="979268b544c858bd2d3465e93761cffb8b3e4e0e"/>
+	</game>
+	<game name="Gradius - Technopolis hack [FD]">
+		<category>Games</category>
+		<description>Gradius - Technopolis hack [FD]</description>
+		<rom name="Gradius - Technopolis hack.d88" size="348848" crc="008bada3" sha1="b19eee31909e555e8f96900bcf49469e1891cd37"/>
+	</game>
+	<game name="Gradius [FD][d88]">
+		<category>Games</category>
+		<description>Gradius [FD][d88]</description>
+		<rom name="Gradius.d88" size="348848" crc="d773ad0e" sha1="17fd1e80d7b5ea0d9ccd4c4776dc75d0c221cf22"/>
+	</game>
+	<game name="Graphic Tool [FD][X1turbo]">
+		<category>Games</category>
+		<description>Graphic Tool [FD][X1turbo]</description>
+		<rom name="Graphic Tool [X1turbo]{boot 2HD}.d88" size="1089776" crc="97817d8a" sha1="3a5dbdc20584d2a7b25803ffc308e89ee0ff5f42"/>
+	</game>
+	<game name="Gruppe [FD]">
+		<category>Games</category>
+		<description>Gruppe [FD]</description>
+		<rom name="Gruppe.d88" size="348848" crc="a50dfd33" sha1="551749d2ec4deb3919f2111d234450fd4f90d54a"/>
+	</game>
+	<game name="Gunman [CT]">
+		<category>Games</category>
+		<description>Gunman [CT]</description>
+		<rom name="Gunman.tap" size="180004" crc="9f10b87c" sha1="c46a8285f1b4fb85a09088d6e915854650a2f640"/>
+	</game>
+	<game name="Gyrodine [FD]">
+		<category>Games</category>
+		<description>Gyrodine [FD]</description>
+		<rom name="Gyrodine.d88" size="349648" crc="ff88e87c" sha1="4ee3138fce73e4dda2446ce1359d9e87011fba96"/>
+	</game>
+	<game name="HP Oushou [CT]">
+		<category>Games</category>
+		<description>HP Oushou [CT]</description>
+		<rom name="HP Oushou.tap" size="120004" crc="50da249b" sha1="62cb0e787991f240c163691449b89dfec4b26e15"/>
+	</game>
+	<game name="Haja no Fuuin [FD]">
+		<category>Games</category>
+		<description>Haja no Fuuin [FD]</description>
+		<rom name="Haja no Fuuin (User disk).d88" size="348848" crc="1b004277" sha1="b325e950a5ad275528237eb421b021bf1db27849"/>
+		<rom name="Haja no Fuuin.2d" size="327680" crc="0cc7e3ac" sha1="4bce058304f10cdfed23e4ba4e434c2a124b1094"/>
+	</game>
+	<game name="Hanafuda Koi Koi [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Hanafuda Koi Koi [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Hanafuda Koi Koi.tap" size="120004" crc="ae4c50b2" sha1="fa7bc46e9468c43eb29923844a03365ebc109fcd"/>
+	</game>
+	<game name="Hang-On [FD]">
+		<category>Games</category>
+		<description>Hang-On [FD]</description>
+		<rom name="Hang-On.d88" size="348848" crc="ae526545" sha1="53c0d14e5d24e3ccd3b516cb98a8f4c8da420638"/>
+	</game>
+	<game name="Harajuku After Dark [FD][X1turbo]">
+		<category>Games</category>
+		<description>Harajuku After Dark [FD][X1turbo]</description>
+		<rom name="Harajuku After Dark (Disk 1)[X1turbo].d88" size="348848" crc="cada8571" sha1="d6b03aa7915f9dc7d64aecdb04e8de6e9d7590fb"/>
+		<rom name="Harajuku After Dark (Disk 2)[X1turbo].d88" size="348848" crc="4b22323f" sha1="cb9ba8e2a8b189759e33a690f3c34529993c6903"/>
+		<rom name="Harajuku After Dark (Disk 3)[X1turbo].d88" size="348848" crc="44cdf827" sha1="0ffd16f7a6fca1a79e903c8a725dacc9f13de920"/>
+		<rom name="Harajuku After Dark (User disk)[X1turbo].d88" size="348848" crc="65f5a15a" sha1="4874a2fd1604925dc1ff05330f3ea6db8d0c5d77"/>
+	</game>
+	<game name="Harvest [CT]">
+		<category>Games</category>
+		<description>Harvest [CT]</description>
+		<rom name="Harvest.tap" size="180004" crc="53122ea4" sha1="cf51ed28f45253a877467f5f552cc51ab6695217"/>
+	</game>
+	<game name="Hayato [FD]">
+		<category>Games</category>
+		<description>Hayato [FD]</description>
+		<rom name="Hayato (Disk A).d88" size="348848" crc="33935c73" sha1="17d59dd9b05996e7f7cef84789b136e383a96b72"/>
+		<rom name="Hayato (Disk B).d88" size="348848" crc="bbce5e88" sha1="d27a0cab55f321e7d255354b518460def0eb7eda"/>
+	</game>
+	<game name="Herzog [FD]">
+		<category>Games</category>
+		<description>Herzog [FD]</description>
+		<rom name="Herzog.d88" size="415840" crc="92b7eaf1" sha1="0c56ffbb40672773eae72628db4a38a9437fb294"/>
+	</game>
+	<game name="Hi-School Adventure No. 1 [FD][X1turbo][req hi-res mode]">
+		<category>Games</category>
+		<description>Hi-School Adventure No. 1 [FD][X1turbo][req hi-res mode]</description>
+		<rom name="Hi-School Adventure No. 1 (Disk 0)[X1turbo].2d" size="327680" crc="bcbb3ea0" sha1="8a98bd04066b4bbd2831d05d73f7464511630744"/>
+		<rom name="Hi-School Adventure No. 1 (Disk 1)[X1turbo].2d" size="327680" crc="f3061717" sha1="14dfd83259426a62b5254f062cd5b68123121a2a"/>
+	</game>
+	<game name="Hokuto no Ken [FD]">
+		<category>Games</category>
+		<description>Hokuto no Ken [FD]</description>
+		<rom name="Hokuto no Ken (Disk 1).d88" size="348848" crc="81427baa" sha1="90e6d835e32b8329f08cc97e71d6345e72d6de8e"/>
+		<rom name="Hokuto no Ken (Disk 2).d88" size="352928" crc="ad2831c2" sha1="e337b8f8139a82a754ee592e6f7c43a42c0cdc7d"/>
+	</game>
+	<game name="Hole in One [CT]">
+		<category>Games</category>
+		<description>Hole in One [CT]</description>
+		<rom name="Hole in One.tap" size="240004" crc="e3f8e28a" sha1="7c22b368e86f9ae7e9b20968e20d750e8ee8efc8"/>
+	</game>
+	<game name="Hot Dog [FD]">
+		<category>Games</category>
+		<description>Hot Dog [FD]</description>
+		<rom name="Hot Dog.d88" size="348848" crc="544c507b" sha1="49f6bb0581c79f6c5336085eadad9ec05887acb9"/>
+	</game>
+	<game name="Houju [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Houju [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Houju.tap" size="180004" crc="77aa3a0c" sha1="49d499b9397d00ceebeacf340ee99817f77e8f90"/>
+	</game>
+	<game name="Hover Attack - Kai hack [FD][req joystick]">
+		<category>Games</category>
+		<description>Hover Attack - Kai hack [FD][req joystick]</description>
+		<rom name="Hover Attack - Kai hack (bgm version).d88" size="348848" crc="8a5b66fa" sha1="cbb985bf6f87a933d5db80542fe42b4cab5c2c91"/>
+		<rom name="Hover Attack - Kai hack (pcg version).d88" size="348848" crc="678c66e4" sha1="1db1f049b3de3bb540c4a404dc5ab3b5affe65b3"/>
+	</game>
+	<game name="Hover Attack [FD][req joystick]">
+		<category>Games</category>
+		<description>Hover Attack [FD][req joystick]</description>
+		<rom name="Hover Attack {run HOVER ATTACK}.2d" size="327680" crc="2dbba50e" sha1="4e366b1692fc0dc11bbc4efcdc816dec06ed7b68"/>
+	</game>
+	<game name="Hurry Fox - Yuki no Maou-hen [FD]">
+		<category>Games</category>
+		<description>Hurry Fox - Yuki no Maou-hen [FD]</description>
+		<rom name="Hurry Fox - Yuki no Maou-hen (Disk A).d88" size="348848" crc="c55429b5" sha1="15f8906fd6a100528848bfd887b84c9379849ee3"/>
+		<rom name="Hurry Fox - Yuki no Maou-hen (Disk B).d88" size="348848" crc="1666a385" sha1="bc5995af18a06b9da734a85557c0ed907f5baca6"/>
+	</game>
+	<game name="Hurry Fox [FD]">
+		<category>Games</category>
+		<description>Hurry Fox [FD]</description>
+		<rom name="Hurry Fox.d88" size="348848" crc="493c9699" sha1="0fa37d988d20dd698d096025b645994b874ca8cb"/>
+	</game>
+	<game name="Hydlide 3 [FD]">
+		<category>Games</category>
+		<description>Hydlide 3 [FD]</description>
+		<rom name="Hydlide 3 (Disk A).d88" size="392368" crc="9fe31b0f" sha1="b075776790b10c8d1e3c3f7c8d45f4004dd4af49"/>
+		<rom name="Hydlide 3 (Disk A)[Alt 1].d88" size="392368" crc="8a54c5a2" sha1="b56d1952dd81dec1ac110b98ed87dd3cb4434261"/>
+		<rom name="Hydlide 3 (Disk B).d88" size="393216" crc="a3cc2840" sha1="dfa0b4e7a2d90b9498009746a16ca41680a7f292"/>
+		<rom name="Hydlide 3 (Disk B)[Alt 1].d88" size="392368" crc="a086e570" sha1="330e658a81d3c5517c5a21520757577b175d28c4"/>
+		<rom name="Hydlide 3 (User disk).d88" size="393216" crc="6477b5ef" sha1="1bc9cf5110566266de0c41fc11dfc8d062146748"/>
+		<rom name="Hydlide 3 (User disk)[Alt 1].d88" size="393216" crc="8bf178e1" sha1="b5654c6abd1930b3ca1bd9661beaafbd5751c614"/>
+	</game>
+	<game name="Hydlide II [FD+User]">
+		<category>Games</category>
+		<description>Hydlide II [FD+User]</description>
+		<rom name="Hydlide II (Data disk).d88" size="348848" crc="c18dea85" sha1="db11c27c85c758c0ac12287826d9667c88851415"/>
+		<rom name="Hydlide II (Data disk)[Alt 1].d88" size="348848" crc="fb0cd3a5" sha1="05026c6cd41d4a867eb3e901740e0d19fb8ddf32"/>
+		<rom name="Hydlide II (Data disk)[Alt 2].d88" size="348848" crc="7dcf0849" sha1="c0f95ff8228cfd135f5e2b58feaf6a806142df23"/>
+		<rom name="Hydlide II (Data disk)[Alt 3].d88" size="348848" crc="8349e963" sha1="77bef6b513f8f7109a35774bacd1365e194b112e"/>
+		<rom name="Hydlide II [Alt 1].d88" size="348848" crc="e5127048" sha1="6e9b8ad2b6ef674d5a03a5f2bd1ccd238765a3ca"/>
+		<rom name="Hydlide II.d88" size="348848" crc="aba63500" sha1="7ec04863fb6b7659348e0f3bbeccfe2d35db169b"/>
+	</game>
+	<game name="Hydlide [FD]">
+		<category>Games</category>
+		<description>Hydlide [FD]</description>
+		<rom name="Hydlide [Alt 1].d88" size="353472" crc="1591a945" sha1="8a8fd86ea9e49f47efea4751ff84c84494177c68"/>
+		<rom name="Hydlide.d88" size="353472" crc="95eeee72" sha1="d17f75b97126e28692fdd7ed0cfc4eee52097539"/>
+	</game>
+	<game name="Hyper Disk Monitor [FD]">
+		<category>Games</category>
+		<description>Hyper Disk Monitor [FD]</description>
+		<rom name="Hyper Disk Monitor.d88" size="346400" crc="ccb4afc0" sha1="5e5226eb667c9597a34c4269b2ddd0470efbf755"/>
+	</game>
+	<game name="Hyper Olympic '84 - 1 [CT]">
+		<category>Games</category>
+		<description>Hyper Olympic '84 - 1 [CT]</description>
+		<rom name="Hyper Olympic '84 - 1.tap" size="360004" crc="9eeb708b" sha1="b64040786430b0bec364f4af1b5fde108721033c"/>
+	</game>
+	<game name="Hyper Olympic '84 - 1-2 [FD]">
+		<category>Games</category>
+		<description>Hyper Olympic '84 - 1-2 [FD]</description>
+		<rom name="Hyper Olympic '84 - 1-2.2d" size="327680" crc="a4b2f2f5" sha1="064ed54ce40487f07d805ce04b7007e8cb4088b1"/>
+	</game>
+	<game name="Ice Block [CT]">
+		<category>Games</category>
+		<description>Ice Block [CT]</description>
+		<rom name="Ice Block.tap" size="180004" crc="77a6f3be" sha1="fc65e13ce6a45f32181549b684ca737bfe91a95b"/>
+	</game>
+	<game name="Insect War [CT][old TAP format]">
+		<category>Games</category>
+		<description>Insect War [CT][old TAP format]</description>
+		<rom name="Insect War [old TAP format].tap" size="313499" crc="9ca2ce80" sha1="6757402535b8c7bee2400550dc5b2121256f5025"/>
+	</game>
+	<game name="Intelli Janshi Yonin Mahjong [CT]">
+		<category>Games</category>
+		<description>Intelli Janshi Yonin Mahjong [CT]</description>
+		<rom name="Intelli Janshi Yonin Mahjong.tap" size="209821" crc="d2a54dcc" sha1="0d6f0e9438eb6ae80e81fafa5b828ca3ebce92bb"/>
+	</game>
+	<game name="Irohanihoheto [FD]">
+		<category>Games</category>
+		<description>Irohanihoheto [FD]</description>
+		<rom name="Irohanihoheto (Disk A).d88" size="413296" crc="ded12e38" sha1="cfffdea2f2445d6996cc24014c9af81f866f59d9"/>
+		<rom name="Irohanihoheto (Disk B).d88" size="416688" crc="659f6d64" sha1="386ccf1e36e4ceebf5d29cb2fd37020f1e3e3801"/>
+	</game>
+	<game name="Ishin no Arashi [FD][X1turbo]">
+		<category>Games</category>
+		<description>Ishin no Arashi [FD][X1turbo]</description>
+		<rom name="Ishin no Arashi (Disk A)[X1turbo].d88" size="380864" crc="b7247c22" sha1="bfa79e8cf49bc4cd9eb5aed2fc2ca6027890f4c5"/>
+		<rom name="Ishin no Arashi (Disk B)[X1turbo].d88" size="380848" crc="385e9a88" sha1="f4eaeccd2c80768367bbc985e76d13f701078525"/>
+		<rom name="Ishin no Arashi (Disk C)[X1turbo].d88" size="380848" crc="9b5d5072" sha1="0c91b2a0d991f7d1e80d967432e85eb08933635a"/>
+	</game>
+	<game name="Issural [FD]">
+		<category>Games</category>
+		<description>Issural [FD]</description>
+		<rom name="Issural (Disk A).2d" size="327680" crc="d7956fad" sha1="4a49154375e102eca4c27ffb0cb3b581f2d06764"/>
+		<rom name="Issural (Disk B).2d" size="327680" crc="d76ef05c" sha1="e92995790bd02e585a700ada04cb6b7dfbfec315"/>
+	</game>
+	<game name="JU87A Dstuka [CT]">
+		<category>Games</category>
+		<description>JU87A Dstuka [CT]</description>
+		<rom name="JU87A Dstuka.tap" size="480004" crc="a9e4396b" sha1="e0b7a9d994aace17c53567cabd7d539770e4fc60"/>
+	</game>
+	<game name="Jelda [CT]">
+		<category>Games</category>
+		<description>Jelda [CT]</description>
+		<rom name="Jelda.tap" size="180004" crc="bbf4baf2" sha1="edf47fe19a733d3ca9d019058e3cfd8a829528f2"/>
+	</game>
+	<game name="Jesus [FD][X1turbo]">
+		<category>Games</category>
+		<description>Jesus [FD][X1turbo]</description>
+		<rom name="Jesus (Disk 1)[X1turbo].d88" size="367616" crc="0c27763d" sha1="54833ea2cc0bad516aad9e4a7cb723a7edf5f8e6"/>
+		<rom name="Jesus (Disk 2)[X1turbo].d88" size="348848" crc="87eab1e7" sha1="b82f423f66188db1498f1c904d6b335ba6ddff15"/>
+		<rom name="Jesus (Disk 3)[X1turbo].d88" size="348848" crc="ba4a6d72" sha1="f098d2ef3097057f937b7e60bbb983e6290e6ab1"/>
+	</game>
+	<game name="Jet Turbo Terminal [FD][X1turbo]">
+		<category>Games</category>
+		<description>Jet Turbo Terminal [FD][X1turbo]</description>
+		<rom name="Jet Turbo Terminal [X1turbo].d88" size="379264" crc="7a423e74" sha1="68103847d1ddd1fce7af915038103ce0502b47aa"/>
+	</game>
+	<game name="Jong-kyou [CT]">
+		<category>Games</category>
+		<description>Jong-kyou [CT]</description>
+		<rom name="Jong-kyou.tap" size="120004" crc="518129ba" sha1="38e4750867ae952b1f22923fc893a2f6f60222f9"/>
+	</game>
+	<game name="Jotuun [FD]">
+		<category>Games</category>
+		<description>Jotuun [FD]</description>
+		<rom name="Jotuun (Disk A).d88" size="348848" crc="e6e9b297" sha1="b26f26220efbf13995ed261ca48fbddca99a892e"/>
+		<rom name="Jotuun (Disk B).d88" size="348848" crc="0184d7b4" sha1="e87c7c05d7b0a06c7994f2676557815c92a9a6d4"/>
+	</game>
+	<game name="Kage no Densetsu [FD][X1turbo]">
+		<category>Games</category>
+		<description>Kage no Densetsu [FD][X1turbo]</description>
+		<rom name="Kage no Densetsu [X1turbo].d88" size="348848" crc="1b4fd2e1" sha1="ba078d57c1d544dedecd5ebe358d346015724ac0"/>
+	</game>
+	<game name="Kagirinaki Tatakai - cartridge hack [BIN]">
+		<category>Games</category>
+		<description>Kagirinaki Tatakai - cartridge hack [BIN]</description>
+		<rom name="Kagirinaki Tatakai - cartridge hack.rom" size="65536" crc="eeda5550" sha1="1fa74d53c7fd500b8e38eed68c50fdcaf2c86a9a"/>
+	</game>
+	<game name="Kagirinaki Tatakai [CT][old TAP format]">
+		<category>Games</category>
+		<description>Kagirinaki Tatakai [CT][old TAP format]</description>
+		<rom name="Kagirinaki Tatakai [old TAP format].tap" size="240004" crc="b7c49de9" sha1="432cddf082e2dd74a958a4f843f71d84cae76389"/>
+	</game>
+	<game name="Kaleidoscope [FD]">
+		<category>Games</category>
+		<description>Kaleidoscope [FD]</description>
+		<rom name="Kaleidoscope (Disk 1).d88" size="392368" crc="c0b8b7c7" sha1="ead424de83dabd7a9a5cad574a2c838e4632da31"/>
+		<rom name="Kaleidoscope (System disk).d88" size="392368" crc="0d277fb1" sha1="624f95de386289d45e107f8d14760a0bd336ea52"/>
+	</game>
+	<game name="Karuizawa Yuukai Annai [FD]">
+		<category>Games</category>
+		<description>Karuizawa Yuukai Annai [FD]</description>
+		<rom name="Karuizawa Yuukai Annai.2d" size="327680" crc="b246d81c" sha1="c9a0e24fb0ef333bcf3018f1578bee9b42b2efd2"/>
+	</game>
+	<game name="Kim Kim Dan Dan 2 [CT]">
+		<category>Games</category>
+		<description>Kim Kim Dan Dan 2 [CT]</description>
+		<rom name="Kim Kim Dan Dan 2.tap" size="240004" crc="4d84fda7" sha1="bfa985ddc1e91828f0c4c45f0999a67823917de6"/>
+	</game>
+	<game name="King's Knight [FD]">
+		<category>Games</category>
+		<description>King's Knight [FD]</description>
+		<rom name="King's Knight (Disk 1).d88" size="348848" crc="0a5c7f51" sha1="62a1c17a421fdd201e61cff5a10da969ff7c486c"/>
+		<rom name="King's Knight (Disk 2).d88" size="348848" crc="39a7d294" sha1="2b8f91bd72a8e7e7929c9fd2cd7c662d82607774"/>
+	</game>
+	<game name="Kiss of Murder [FD][req Manhattan Requiem]">
+		<category>Games</category>
+		<description>Kiss of Murder [FD][req Manhattan Requiem]</description>
+		<rom name="Kiss of Murder.d88" size="415840" crc="4e15f9dd" sha1="327961bce05e487aa2a4a13ed4423cd21edbe79a"/>
+	</game>
+	<game name="Knither - Demon Crystal II [FD]">
+		<category>Games</category>
+		<description>Knither - Demon Crystal II [FD]</description>
+		<rom name="Knither - Demon Crystal II.2d" size="327680" crc="c64e3046" sha1="9a26bd5b299f6890a847a9d04ced8e686ab26a94"/>
+	</game>
+	<game name="Kohakuiro no Yuigon [FD][X1turbo]">
+		<category>Games</category>
+		<description>Kohakuiro no Yuigon [FD][X1turbo]</description>
+		<rom name="Kohakuiro no Yuigon (Disk 1)[X1turbo].d88" size="415840" crc="b3bbee13" sha1="d9d989427ddeb37c8e0d348d7b278569bc169fa5"/>
+		<rom name="Kohakuiro no Yuigon (Disk 2)[X1turbo].d88" size="415840" crc="d0b91e08" sha1="e892fa5065ff64a2d528a461a72385741f6dac78"/>
+		<rom name="Kohakuiro no Yuigon (Disk 3)[X1turbo].d88" size="415856" crc="e8d9100d" sha1="c8b39ec0974158e6d4e50bac64c5414a837bb864"/>
+		<rom name="Kohakuiro no Yuigon (Disk 4)[X1turbo].d88" size="415072" crc="7d202c23" sha1="d9765f35fe6cadda60039c65844878dc6e524979"/>
+	</game>
+	<game name="Konya mo Asa made Powerful Mahjong [FD][X1turbo]">
+		<category>Games</category>
+		<description>Konya mo Asa made Powerful Mahjong [FD][X1turbo]</description>
+		<rom name="Konya mo Asa made Powerful Mahjong (Disk A)[X1turbo].d88" size="348848" crc="1e298a72" sha1="fc381d5e4ad809a5ad88c45a69f4b5feb2fab734"/>
+		<rom name="Konya mo Asa made Powerful Mahjong (Disk B)[X1turbo].d88" size="348848" crc="74eddd8d" sha1="c1a5d7d7e8fa99c824dc5d106bb49f268bf73074"/>
+	</game>
+	<game name="Kudokikata Oshiemasu [FD]">
+		<category>Games</category>
+		<description>Kudokikata Oshiemasu [FD]</description>
+		<rom name="Kudokikata Oshiemasu (Disk A).2d" size="327680" crc="d3eb3603" sha1="9b6a480fdd39a471ed602aa07f7323df345699dc"/>
+		<rom name="Kudokikata Oshiemasu (Disk B).2d" size="327680" crc="81ac150e" sha1="89b9f95dc284e116f92b9f408b640b2e8c570705"/>
+	</game>
+	<game name="Kugyokuden [FD]">
+		<category>Games</category>
+		<description>Kugyokuden [FD]</description>
+		<rom name="Kugyokuden (Disk 1)(Joukan).d88" size="348848" crc="5731aeaa" sha1="a2572e660319c7744dcfada26b8e0d79ccb2d1f1"/>
+		<rom name="Kugyokuden (Disk 1)(Joukan)[Alt 1].d88" size="348848" crc="53de7ada" sha1="ecd020fce0f35fc11f5d11d21a0537dc19a6aaa7"/>
+		<rom name="Kugyokuden (Disk 2)(Gekan).d88" size="348576" crc="86988be6" sha1="49b7ddd67e0d849281e6fb15bf518aa00d0029c8"/>
+	</game>
+	<game name="Labyrinth [FD]">
+		<category>Games</category>
+		<description>Labyrinth [FD]</description>
+		<rom name="Labyrinth (Disk A).d88" size="348848" crc="7e56f2d1" sha1="199a6a7fe3bf6689069a979cf111133f0c7dfb67"/>
+		<rom name="Labyrinth (Disk B).d88" size="348848" crc="7acf62d0" sha1="37871e38fc84f4dcd18dcc9ca2841ff04f6cbe20"/>
+	</game>
+	<game name="Lagrange L-2 Part 1 [FD][req HuBASIC CZ-8FB01 V1.0]">
+		<category>Games</category>
+		<description>Lagrange L-2 Part 1 [FD][req HuBASIC CZ-8FB01 V1.0]</description>
+		<rom name="Lagrange L-2 Part 1.d88" size="349120" crc="d0cda086" sha1="edf6e03b7a241939ca44ecc4bc51b6f97fb245a1"/>
+	</game>
+	<game name="Laplace no Ma [FD+User]">
+		<category>Games</category>
+		<description>Laplace no Ma [FD+User]</description>
+		<rom name="Laplace no Ma (Disk 1).d88" size="421040" crc="1bd1fcee" sha1="79d71844a34aed3e88f8fed8e2ea87b7c2a37e8c"/>
+		<rom name="Laplace no Ma (Disk 2).d88" size="415840" crc="42670edc" sha1="98ec24213a6c170b79136150006c2b93db0b3fe8"/>
+		<rom name="Laplace no Ma (Disk 3)(User disk).d88" size="416688" crc="7aa2c5b4" sha1="e7263df70443790965e70b8df38b8119e9442944"/>
+	</game>
+	<game name="Laptick [FD]">
+		<category>Games</category>
+		<description>Laptick [FD]</description>
+		<rom name="Laptick.d88" size="349136" crc="f0809c85" sha1="e9652972d6492acbeb9551b259cf85d6e1b2cbf6"/>
+	</game>
+	<game name="Las Vegas [FD]">
+		<category>Games</category>
+		<description>Las Vegas [FD]</description>
+		<rom name="Las Vegas (Disk 1).d88" size="348848" crc="8274e66a" sha1="103fff2aba73d430f26ec77582cdd13e15423799"/>
+		<rom name="Las Vegas (Disk 1)[Alt 1].d88" size="348848" crc="e7ef2adb" sha1="c51dfb5c9f0f29506322c0d6251dc0d4adad038c"/>
+		<rom name="Las Vegas (Disk 2).d88" size="348848" crc="0160028c" sha1="db6272a189e9f40529cd4d04e61fc48f4894eca6"/>
+		<rom name="Las Vegas (Disk 3).d88" size="348848" crc="487bb622" sha1="6b276482352fa381ec91c4c47e730a455963d34b"/>
+	</game>
+	<game name="Last Armageddon [FD]">
+		<category>Games</category>
+		<description>Last Armageddon [FD]</description>
+		<rom name="Last Armageddon (Disk A).d88" size="425392" crc="6c238b5c" sha1="932b71419f859553a28ad2dd0f924bb97349dd49"/>
+		<rom name="Last Armageddon (Disk B).d88" size="425392" crc="ff80f144" sha1="fbd0ebbcc5447124b889ab0076340c69c79e510f"/>
+		<rom name="Last Armageddon (Disk C).d88" size="425392" crc="f784b936" sha1="72a2fe351c5df26e67e6aaa99293123f07c65afb"/>
+		<rom name="Last Armageddon (Disk D).d88" size="425392" crc="0b6b0a54" sha1="cd3974c218d52344d982c1bf134810a6276bc468"/>
+		<rom name="Last Armageddon (Disk E).d88" size="425392" crc="a2231d69" sha1="562d6d2fd64af5fe7b7ee22b51108fbe413fb625"/>
+		<rom name="Last Armageddon (Disk F).d88" size="425392" crc="82cb86f5" sha1="f53c570465972232033d4e335f2a4562fc634f04"/>
+		<rom name="Last Armageddon (Disk G).d88" size="425392" crc="68ae46aa" sha1="67278343a1c78f46b0f49d566897eb5ad419afdd"/>
+	</game>
+	<game name="Last War [FD]">
+		<category>Games</category>
+		<description>Last War [FD]</description>
+		<rom name="Last War.d88" size="349888" crc="ccd75715" sha1="811b8b37457e7885b04c435ef8d5d845f213700e"/>
+	</game>
+	<game name="Legend [FD][req joystick]">
+		<category>Games</category>
+		<description>Legend [FD][req joystick]</description>
+		<rom name="Legend (Disk A).d88" size="348848" crc="73f4012b" sha1="a63a3eab953cd2241f688d1e97be0fb4d298c76a"/>
+		<rom name="Legend (Disk B).d88" size="348848" crc="82bbbac1" sha1="e2b88780da40dcd878dca1b730e4fabb29da6a1d"/>
+	</game>
+	<game name="Legends of Star Arthur - Planet Mephius [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Legends of Star Arthur - Planet Mephius [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Legends of Star Arthur - Planet Mephius.tap" size="1753088" crc="ae13d2b7" sha1="67ac703df717d53fe8bb0b7690751cb79cce608e"/>
+	</game>
+	<game name="Libido [FD]">
+		<category>Games</category>
+		<description>Libido [FD]</description>
+		<rom name="Libido (Disk A).2d" size="327680" crc="da716656" sha1="380d6ab251fbef7b71928fc7c6d2038f23f9a8cb"/>
+		<rom name="Libido (Disk B).2d" size="327680" crc="fee68715" sha1="85df930bceb454d3e292c9fe03d8ea425c9734ed"/>
+	</game>
+	<game name="Lizard [FD]">
+		<category>Games</category>
+		<description>Lizard [FD]</description>
+		<rom name="Lizard.d88" size="346032" crc="e0df6f30" sha1="eb4875b56604ba1a6300576de606676cd382aaf1"/>
+	</game>
+	<game name="Lode Runner [FD]">
+		<category>Games</category>
+		<description>Lode Runner [FD]</description>
+		<rom name="Lode Runner.d88" size="405664" crc="4917241d" sha1="addbbbb28c0a5f361a4533a26ee82b29aa57a200"/>
+	</game>
+	<game name="Lost Power [FD]">
+		<category>Games</category>
+		<description>Lost Power [FD]</description>
+		<rom name="Lost Power (Disk A).2d" size="327680" crc="f3e360fb" sha1="598be1cf51d967d73f921d46f9c89734b87936b3"/>
+		<rom name="Lost Power (Disk B).2d" size="327680" crc="763b9e52" sha1="c971b99c95455f90c3d7d3005847ed0391dfa96a"/>
+	</game>
+	<game name="Love Chaser [FD]">
+		<category>Games</category>
+		<description>Love Chaser [FD]</description>
+		<rom name="Love Chaser (Disk 1).d88" size="348848" crc="17b20908" sha1="a1aa3f1e506923aae8d8a67fc12600fcbe8d7d21"/>
+		<rom name="Love Chaser (Disk 1)[Alt 1].d88" size="348848" crc="cafd770e" sha1="20cccd3a493a05fbc2966fa950239483d46e6149"/>
+		<rom name="Love Chaser (Disk 2).d88" size="348848" crc="335974a8" sha1="663648d550fc2f76f2986112971d307d6ee16e17"/>
+	</game>
+	<game name="Luna City Satsujin Jiken [FD]">
+		<category>Games</category>
+		<description>Luna City Satsujin Jiken [FD]</description>
+		<rom name="Luna City Satsujin Jiken.d88" size="396336" crc="272d2792" sha1="2babbe0051d37b8fb35b3e14cc8b6f5ab6044278"/>
+	</game>
+	<game name="Lupin III - The Castle of Cagliostro [FD][X1turbo]">
+		<category>Games</category>
+		<description>Lupin III - The Castle of Cagliostro [FD][X1turbo]</description>
+		<rom name="Lupin III - The Castle of Cagliostro (Disk A)[X1turbo].d88" size="348848" crc="3c0eca77" sha1="3b7a15545482e2c11fd49435a622a6521e742f73"/>
+		<rom name="Lupin III - The Castle of Cagliostro (Disk B)[X1turbo].d88" size="348576" crc="4429f29c" sha1="5e4b37e09e5d379b2f8afaf3f3fb3010e1f84413"/>
+	</game>
+	<game name="Luxsor [FD][X1turbo]">
+		<category>Games</category>
+		<description>Luxsor [FD][X1turbo]</description>
+		<rom name="Luxsor (Disk 1)[X1turbo].d88" size="415840" crc="5ee805c2" sha1="59c40085bfa00b9a37304e0196ff3b4dbf289568"/>
+		<rom name="Luxsor (Disk 2)[X1turbo].d88" size="415840" crc="fd5066c8" sha1="4a3cda4df96671be44f3a7e1bdd9d4677e640fbc"/>
+	</game>
+	<game name="M.U.L.E. [FD][d88]">
+		<category>Games</category>
+		<description>M.U.L.E. [FD][d88]</description>
+		<rom name="M.U.L.E..d88" size="348576" crc="5c2715cd" sha1="17b790e9e1c9a8e9171eacdd8f37d83ac7be10cc"/>
+	</game>
+	<game name="MML-BASIC [FD][X1turbo]">
+		<category>Games</category>
+		<description>MML-BASIC [FD][X1turbo]</description>
+		<rom name="MML-BASIC (Data 1)[X1turbo].d88" size="348848" crc="54f36aca" sha1="fdf199c28a1a37f96cac05484d11d099f059eb33"/>
+		<rom name="MML-BASIC (Data 2)[X1turbo].d88" size="348848" crc="2d195baf" sha1="586856385bb1644d58de941f06a4a90e4c946d22"/>
+		<rom name="MML-BASIC [X1turbo].d88" size="348848" crc="1676dca2" sha1="b8d43637cdb9dd9b87a81ce7daec257e9c15b4a9"/>
+	</game>
+	<game name="Macadam [CT]">
+		<category>Games</category>
+		<description>Macadam [CT]</description>
+		<rom name="Macadam.tap" size="1440004" crc="8cda172a" sha1="d75010218b18ce55984f78654d2cdabb5e005be3"/>
+	</game>
+	<game name="Madeleine [FD]">
+		<category>Games</category>
+		<description>Madeleine [FD]</description>
+		<rom name="Madeleine (Disk 1).d88" size="410944" crc="92ca4ee2" sha1="7c6954d14ce3d573fdfaea2728425fc215f01c88"/>
+		<rom name="Madeleine (Disk 2).d88" size="416688" crc="ce63669f" sha1="bb8d9d2d53939d858917fd09450de42a080ba322"/>
+	</game>
+	<game name="Magical Angel Creamy Mami [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Magical Angel Creamy Mami [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Magical Angel Creamy Mami.tap" size="134746" crc="b99bc36f" sha1="9daeb406f16b2e0088d6ba863fc3e8e008102a77"/>
+	</game>
+	<game name="Mahjong Kyou Jidai Special [FD]">
+		<category>Games</category>
+		<description>Mahjong Kyou Jidai Special [FD]</description>
+		<rom name="Mahjong Kyou Jidai Special (Disk A).d88" size="414144" crc="9b311819" sha1="bebaa9bfcf36bedde90ef8cf51f19b9d66cc215b"/>
+		<rom name="Mahjong Kyou Jidai Special (Disk B).d88" size="416688" crc="b76b529b" sha1="0fa69cce2672d984723b6a9f8d6c226a01319d5b"/>
+	</game>
+	<game name="Mahoutsukai Maharito [CT]">
+		<category>Games</category>
+		<description>Mahoutsukai Maharito [CT]</description>
+		<rom name="Mahoutsukai Maharito.tap" size="846723" crc="41723ab2" sha1="e0d7ed99b852de13c5d04c2952cabf620c88a9c7"/>
+	</game>
+	<game name="Maidum [FD]">
+		<category>Games</category>
+		<description>Maidum [FD]</description>
+		<rom name="Maidum (Disk 1).2d" size="327680" crc="6a03bfba" sha1="09bdd81f8f42e6e0515ff11ce33878afd84149e0"/>
+		<rom name="Maidum (Disk 1)[Alt 1].2d" size="327680" crc="91b9c287" sha1="405ff1c3acd474ddb49122e4f71af7fd7076f4ce"/>
+		<rom name="Maidum (Disk 2).2d" size="327680" crc="5b26691b" sha1="f67293b3848102daa45265e8d63578a21067620b"/>
+	</game>
+	<game name="Maison Ikkoku - Omoide no Photograph [FD]">
+		<category>Games</category>
+		<description>Maison Ikkoku - Omoide no Photograph [FD]</description>
+		<rom name="Maison Ikkoku - Omoide no Photograph (Disk 1).d88" size="378448" crc="450703c5" sha1="90e4594be5c22823f64fbb96b03d84fc0a771b5f"/>
+		<rom name="Maison Ikkoku - Omoide no Photograph (Disk 2).d88" size="380848" crc="d0858a0c" sha1="2066a6d352dfd60157ed656f0b371e0e9d7c482a"/>
+		<rom name="Maison Ikkoku - Omoide no Photograph (Disk 3).d88" size="350448" crc="27d0f232" sha1="43a6ee9e445b4112dce1079a747ef09eea12815c"/>
+	</game>
+	<game name="Maison Ikkoku Kanketsu-hen [FD]">
+		<category>Games</category>
+		<description>Maison Ikkoku Kanketsu-hen [FD]</description>
+		<rom name="Maison Ikkoku Kanketsu-hen (Disk 1).d88" size="377936" crc="12db7383" sha1="09c928b69b78b90ada339af66482eebc15c2cf1c"/>
+		<rom name="Maison Ikkoku Kanketsu-hen (Disk 2).d88" size="380848" crc="e95732d9" sha1="415c90e8ed61188992db0b4ce0a932b4d70e58d7"/>
+		<rom name="Maison Ikkoku Kanketsu-hen (Disk 3).d88" size="380848" crc="de116245" sha1="c5489340c3fa6d294770087234420fc21952bb53"/>
+		<rom name="Maison Ikkoku Kanketsu-hen (Disk 4).d88" size="380848" crc="dee3af09" sha1="7f0704af4162dc7f8a381c56e62fcce6ce246d96"/>
+	</game>
+	<game name="Majaventure - Negi Mahjong [FD]">
+		<category>Games</category>
+		<description>Majaventure - Negi Mahjong [FD]</description>
+		<rom name="Majaventure - Negi Mahjong (Disk 1).d88" size="348848" crc="3c17cce4" sha1="defff082c7ba49ac0f5e807c3cd1e9a9f4c7f1ab"/>
+		<rom name="Majaventure - Negi Mahjong (Disk 2).d88" size="348848" crc="50f1b9c7" sha1="1b1bfbe1cd1b1891be78c78dba6f44b735a78b48"/>
+	</game>
+	<game name="Makai Fukkatsu [FD][X1turbo]">
+		<category>Games</category>
+		<description>Makai Fukkatsu [FD][X1turbo]</description>
+		<rom name="Makai Fukkatsu (Disk A)[X1turbo].d88" size="344496" crc="0ed68b0c" sha1="d2e9a9f9478971bc9c677c01c0628d12e0ba5556"/>
+		<rom name="Makai Fukkatsu (Disk B)[X1turbo].d88" size="348848" crc="e54022b3" sha1="59105b04d45580324d0f257bf300a30fbdee5573"/>
+	</game>
+	<game name="Manhattan Requiem [FD]">
+		<category>Games</category>
+		<description>Manhattan Requiem [FD]</description>
+		<rom name="Manhattan Requiem (Disk A).d88" size="415840" crc="562434c8" sha1="6b01a3ce6db792dd17a48434cf78ca1e00f60d3c"/>
+		<rom name="Manhattan Requiem (Disk B).d88" size="416688" crc="35ec0ab9" sha1="79521479209d6ff4826f288ce3cd835819e8e8fb"/>
+	</game>
+	<game name="Mappy - New Version [FD]">
+		<category>Games</category>
+		<description>Mappy - New Version [FD]</description>
+		<rom name="Mappy - New Version.2d" size="327680" crc="6d38e061" sha1="07df9bc45d348e73267948862132b5b7a1666a65"/>
+	</game>
+	<game name="Mappy [CT]">
+		<category>Games</category>
+		<description>Mappy [CT]</description>
+		<rom name="Mappy.tap" size="240004" crc="75cb9507" sha1="994bc0024638c8d945166ba530b224895c63574e"/>
+	</game>
+	<game name="Mario Bros. Special [CT]">
+		<category>Games</category>
+		<description>Mario Bros. Special [CT]</description>
+		<rom name="Mario Bros. Special.tap" size="180004" crc="b28c85aa" sha1="c0a78d1ad011040599091cd626ae4ddfbeddacbd"/>
+	</game>
+	<game name="Marvelous [FD]">
+		<category>Games</category>
+		<description>Marvelous [FD]</description>
+		<rom name="Marvelous [Alt 1].2d" size="327680" crc="af21a06c" sha1="db9f47962dc93b736c5f3b081becb6def989e14d"/>
+		<rom name="Marvelous [Alt 2].2d" size="327680" crc="3e5447af" sha1="b27f428183e59d22cc81256f794d5d9d2a782b3d"/>
+		<rom name="Marvelous [Alt 3].2d" size="327680" crc="c93d71ec" sha1="27a695d2a039d604aff3a2f37ac6c83be4ef6cd5"/>
+		<rom name="Marvelous.2d" size="327680" crc="8890cc61" sha1="dcfde514c1e4326e011747c9956cadfeac4296c9"/>
+	</game>
+	<game name="Melon Soda [FD][X1turbo][not working][req HuBASIC CZ-8FB02]">
+		<category>Games</category>
+		<description>Melon Soda [FD][X1turbo][not working][req HuBASIC CZ-8FB02]</description>
+		<rom name="Melon Soda (Disk 1)[X1turbo]{run MELON}.d88" size="348848" crc="8b600959" sha1="0686f026b9cf7d7eeafadde0499cd528264e8cc9"/>
+		<rom name="Melon Soda (Disk 2)[X1turbo].d88" size="348848" crc="57b0e4d8" sha1="14faabd54c836bce58aad463a94c5cc3f93b7344"/>
+	</game>
+	<game name="Might and Magic [FD]">
+		<category>Games</category>
+		<description>Might and Magic [FD]</description>
+		<rom name="Might and Magic (Disk A).2d" size="327680" crc="4e1e46b4" sha1="b26ba11132ed87dd0c7892192fad30fefe2a95c8"/>
+		<rom name="Might and Magic (Disk A)[Alt 1].2d" size="327680" crc="1105d619" sha1="ec4379aade55e923288e74dda724c9ccd811966b"/>
+		<rom name="Might and Magic (Disk B).2d" size="327680" crc="8de9d36f" sha1="6eeea8cb9dd914bd27c7cb23a75d839191201730"/>
+		<rom name="Might and Magic (Disk C).2d" size="327680" crc="6dd18458" sha1="b5362e6447cdba0c92ae617f83c323a844e08d7d"/>
+		<rom name="Might and Magic (Disk D).2d" size="327680" crc="162f6345" sha1="2181273ebeab3e36096d085450428a2d26ff3e96"/>
+	</game>
+	<game name="Milky Way [FD][req copy to tape]">
+		<category>Games</category>
+		<description>Milky Way [FD][req copy to tape]</description>
+		<rom name="Milky Way.d88" size="348848" crc="3b1ceebf" sha1="a02029058b5c0d20c3ae08e0b2c6da869bed903c"/>
+	</game>
+	<game name="Mimitan [CT]">
+		<category>Games</category>
+		<description>Mimitan [CT]</description>
+		<rom name="Mimitan.tap" size="120004" crc="261795ba" sha1="cd239e7301963288cdf1bc83da2f5d8f1fe91a44"/>
+	</game>
+	<game name="Minami Taiheiyou Adventure [CT][req dB-BASIC]">
+		<category>Games</category>
+		<description>Minami Taiheiyou Adventure [CT][req dB-BASIC]</description>
+		<rom name="Minami Taiheiyou Adventure.tap" size="201088" crc="041fbc06" sha1="ec64a0802458fcba20a123e668cb66281a9b591e"/>
+	</game>
+	<game name="Mobile Suit Zeta Gundam [FD]">
+		<category>Games</category>
+		<description>Mobile Suit Zeta Gundam [FD]</description>
+		<rom name="Mobile Suit Zeta Gundam.d88" size="348848" crc="3390e684" sha1="fbf53c79d6db251f98f4a8f6ccbf49641289a867"/>
+	</game>
+	<game name="Morita Kazuro no Shougi [FD]">
+		<category>Games</category>
+		<description>Morita Kazuro no Shougi [FD]</description>
+		<rom name="Morita Kazuro no Shougi.2d" size="327680" crc="9a0bf69c" sha1="6b2d15bdfd64cd069712b3b9df2f0dbba5a88143"/>
+	</game>
+	<game name="Moscow [FD]">
+		<category>Games</category>
+		<description>Moscow [FD]</description>
+		<rom name="Moscow.d88" size="348848" crc="8194fa73" sha1="36661166289508a9d9bab9e4f88d2e96c5166d50"/>
+	</game>
+	<game name="Mr. Pro Yakyuu '88 [FD][incomplete]">
+		<category>Games</category>
+		<description>Mr. Pro Yakyuu '88 [FD][incomplete]</description>
+		<rom name="Mr. Pro Yakyuu '88 (Data disk).d88" size="348848" crc="74c034a4" sha1="571c5cc7307c13821b7a3df337676b020e637fbf"/>
+	</game>
+	<game name="Mugen Senshi Valis [FD]">
+		<category>Games</category>
+		<description>Mugen Senshi Valis [FD]</description>
+		<rom name="Mugen Senshi Valis (Disk A).d88" size="415840" crc="68ae043f" sha1="acdd3fb2569f1e26d9d8a30379eeb6a5f32e6128"/>
+		<rom name="Mugen Senshi Valis (Disk B).d88" size="415840" crc="421acab7" sha1="d9e24da0187c2ee2800da80f163d3c78d035108b"/>
+	</game>
+	<game name="Mugen no Shinzou II [FD+User]">
+		<category>Games</category>
+		<description>Mugen no Shinzou II [FD+User]</description>
+		<rom name="Mugen no Shinzou II (Program disk).2d" size="327680" crc="630cf8ba" sha1="5e7621f481a27fe3c4cb74e9273c9a54805ab7e7"/>
+		<rom name="Mugen no Shinzou II (Scenario disk).2d" size="327680" crc="a88981a2" sha1="91501b01928771f4d4ac7ffa16d32c4a9b3b0765"/>
+		<rom name="Mugen no Shinzou II (User disk)[not working].2d" size="327680" crc="d24b63eb" sha1="afe334aef39856147697b71ffe616178c21cd68b"/>
+	</game>
+	<game name="Murder Club [FD]">
+		<category>Games</category>
+		<description>Murder Club [FD]</description>
+		<rom name="Murder Club (Disk A).d88" size="415840" crc="4c1ef214" sha1="3c4bce0d8008037e577804b2dd9b5934c95a01e1"/>
+		<rom name="Murder Club (Disk B).d88" size="416688" crc="8004eb2b" sha1="e741df924d0fa188912034123745c661ea1b5a11"/>
+	</game>
+	<game name="My Teacher [FD]">
+		<category>Games</category>
+		<description>My Teacher [FD]</description>
+		<rom name="My Teacher.2d" size="327680" crc="d5dd80af" sha1="303bcff56ca498a0e954be0b9d2f934b121c5e40"/>
+	</game>
+	<game name="Namco Video Game Music Library Vol. 1 [FD]">
+		<category>Games</category>
+		<description>Namco Video Game Music Library Vol. 1 [FD]</description>
+		<rom name="Namco Video Game Music Library Vol. 1 (Disk A).2d" size="327680" crc="6017899c" sha1="e2bcfbf554d4be7f5e7c24ede1e596c243c1f78b"/>
+		<rom name="Namco Video Game Music Library Vol. 1 (Disk B).2d" size="327680" crc="bce68298" sha1="d84a4e90cefff6f42ef9db50d799392781424fa9"/>
+	</game>
+	<game name="Nankai no Hyouteki [CT]">
+		<category>Games</category>
+		<description>Nankai no Hyouteki [CT]</description>
+		<rom name="Nankai no Hyouteki.tap" size="540004" crc="70840736" sha1="f79fcfc546ef3e42e39c0378b622e496f9d61484"/>
+	</game>
+	<game name="New FM-Driver [FD]">
+		<category>Games</category>
+		<description>New FM-Driver [FD]</description>
+		<rom name="New FM-Driver.2d" size="327680" crc="9902518d" sha1="09192f98690c70f3bb5128bc165f9115627fc70c"/>
+	</game>
+	<game name="Nintendo Golf [CT]">
+		<category>Games</category>
+		<description>Nintendo Golf [CT]</description>
+		<rom name="Nintendo Golf.tap" size="180004" crc="d731667d" sha1="4e5dc0a29a04d5c1d494f472fbc50c1f72e6b526"/>
+	</game>
+	<game name="Nobunaga no Yabou - Sengoku Gunyuuden [FD][X1turbo]">
+		<category>Games</category>
+		<description>Nobunaga no Yabou - Sengoku Gunyuuden [FD][X1turbo]</description>
+		<rom name="Nobunaga no Yabou - Sengoku Gunyuuden (Disk A)[X1turbo].d88" size="380864" crc="b6c32127" sha1="f7c33011105b4c5e3a9b4478a41f7ab2500b596b"/>
+		<rom name="Nobunaga no Yabou - Sengoku Gunyuuden (Disk B)[X1turbo].d88" size="380848" crc="07a86231" sha1="d4f049c9faf7d88e917855c03a0cfa6cfb3d32b9"/>
+		<rom name="Nobunaga no Yabou - Sengoku Gunyuuden (Disk C)[X1turbo].d88" size="380864" crc="26571779" sha1="819ed0cf78fe400c1209b769d2dd805fcfca885f"/>
+	</game>
+	<game name="Nobunaga no Yabou Zenkoku-ban [FD]">
+		<category>Games</category>
+		<description>Nobunaga no Yabou Zenkoku-ban [FD]</description>
+		<rom name="Nobunaga no Yabou Zenkoku-ban (Disk A).2d" size="327680" crc="0d5718cb" sha1="175d06fa29a470be0605fc794e1103a45ce5b925"/>
+		<rom name="Nobunaga no Yabou Zenkoku-ban (Disk B).2d" size="327680" crc="6fdc4296" sha1="3053a6cdf05b73723d57a5e211829a7a5e7d132e"/>
+	</game>
+	<game name="Nobunaga no Yabou [FD]">
+		<category>Games</category>
+		<description>Nobunaga no Yabou [FD]</description>
+		<rom name="Nobunaga no Yabou.d88" size="348848" crc="a0aff643" sha1="ac6c6f5647f588c6056ee95c77c9d7898701e38e"/>
+	</game>
+	<game name="Nukenin Densetsu [FD]">
+		<category>Games</category>
+		<description>Nukenin Densetsu [FD]</description>
+		<rom name="Nukenin Densetsu (Common disk).d88" size="425392" crc="ed324b84" sha1="69cfe7550b1126f71b34284e7d65973fb6f2b93c"/>
+		<rom name="Nukenin Densetsu (Genyousai).d88" size="425392" crc="d4f40d65" sha1="35b872a478163d051b9ada4fb189ebcad9eaa9a3"/>
+		<rom name="Nukenin Densetsu (Jakimaru).d88" size="425392" crc="b109d202" sha1="bcd659ba5c725ced49792f2d97b1c312fcca85e6"/>
+		<rom name="Nukenin Densetsu (Kogenta).d88" size="425392" crc="f4bc8249" sha1="fad12bfe6e2e983d2373f632920177353e9ada12"/>
+		<rom name="Nukenin Densetsu (Opening disk).d88" size="425392" crc="db16a74c" sha1="9235c2faaf2103c39fb5437f5b767deeda6f90a8"/>
+	</game>
+	<game name="Orrbit III [FD]">
+		<category>Games</category>
+		<description>Orrbit III [FD]</description>
+		<rom name="Orrbit III.d88" size="350384" crc="8f8c40f2" sha1="a56132052912c5ef56f0d2e0e5489d49b07bdbcc"/>
+	</game>
+	<game name="Ouji Binbin Monogatari [FD][d88]">
+		<category>Games</category>
+		<description>Ouji Binbin Monogatari [FD][d88]</description>
+		<rom name="Ouji Binbin Monogatari (Disk A).d88" size="348848" crc="2aa58976" sha1="3640c60c8b54961de8ef20e6f2cb0c668c88bcd1"/>
+		<rom name="Ouji Binbin Monogatari (Disk B).d88" size="348848" crc="8de42d9f" sha1="20bfecef331af8496dfea010a5c271ca6cb03b6d"/>
+	</game>
+	<game name="Outroyd [FD]">
+		<category>Games</category>
+		<description>Outroyd [FD]</description>
+		<rom name="Outroyd [Alt 1].d88" size="348848" crc="34c7df8c" sha1="c54103e3e3df00ee6417b80fe1d8f3ae4dd64b82"/>
+		<rom name="Outroyd.d88" size="348848" crc="5037a384" sha1="2446acfe701129a8d3f81d48f81ad5c08307fb20"/>
+	</game>
+	<game name="Pac-Man [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Pac-Man [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Pac-Man.tap" size="240004" crc="a384d58f" sha1="bd92ad9be1053292f175db948fe2ee6f15fe7ce2"/>
+	</game>
+	<game name="Penguin-kun Wars [FD]">
+		<category>Games</category>
+		<description>Penguin-kun Wars [FD]</description>
+		<rom name="Penguin-kun Wars.d88" size="348848" crc="96909c3c" sha1="da8a03405ee5f84a86bf0f79233936972ee5a733"/>
+	</game>
+	<game name="Perfect Mahjong [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Perfect Mahjong [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Perfect Mahjong.tap" size="180004" crc="3bbbcf9c" sha1="2e651b4761a83e2caf9f3a85d3f8b7dd3f81938a"/>
+	</game>
+	<game name="Phantasie [FD]">
+		<category>Games</category>
+		<description>Phantasie [FD]</description>
+		<rom name="Phantasie (Disk 1)(Program disk).d88" size="348848" crc="4fdac684" sha1="4238f1f15fa5f898c2681134ecd637235a0ed5fe"/>
+		<rom name="Phantasie (Disk 2)(Player disk).d88" size="348848" crc="b8b60e50" sha1="dfad5d552ddd9509414a88e5ba19b76ce1abe3a7"/>
+		<rom name="Phantasie (Disk 2)(Player disk)[Alt 1].d88" size="348848" crc="2ac7756a" sha1="6688ce9a3fc4d15643e9f0cde43c13bc9c6b8387"/>
+	</game>
+	<game name="Plazma Line [CT][X1turbo]">
+		<category>Games</category>
+		<description>Plazma Line [CT][X1turbo]</description>
+		<rom name="Plazma Line [X1turbo].tap" size="1205036" crc="3a58b3c8" sha1="16587e71ac4ed07ab05ab4e967ae218bd1043367"/>
+		<rom name="Plazma Line [X1turbo][Alt 1].tap" size="1205036" crc="b8cd4fbc" sha1="a78b0c0d91867542a45175d53a22427db32ad984"/>
+	</game>
+	<game name="Poibos [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Poibos [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Poibos [Alt 1].tap" size="240004" crc="c6bd98b5" sha1="a894e2388c3cbcc3452d6049ea5d1497e3e819e6"/>
+		<rom name="Poibos.tap" size="240004" crc="73b4383e" sha1="21143b5109c6e7a4836c570b079f4a414faf3198"/>
+	</game>
+	<game name="Polar Star II [FD]">
+		<category>Games</category>
+		<description>Polar Star II [FD]</description>
+		<rom name="Polar Star II.2d" size="327680" crc="e8b8bdb6" sha1="97b9099d2cfde575410d5c1db40a43833108d0f6"/>
+	</game>
+	<game name="Pop Balloon [CT]">
+		<category>Games</category>
+		<description>Pop Balloon [CT]</description>
+		<rom name="Pop Balloon.tap" size="360004" crc="2bf591cb" sha1="a9886859c376082c21edd1eb7e7e4357878d980f"/>
+	</game>
+	<game name="Pop Lemon [FD][req HuBASIC CZ-8FB01 V1.0]">
+		<category>Games</category>
+		<description>Pop Lemon [FD][req HuBASIC CZ-8FB01 V1.0]</description>
+		<rom name="Pop Lemon (Disk A).2d" size="327680" crc="29b09279" sha1="1d12cfd7778bc1c52412947adc895006ca15a3b3"/>
+		<rom name="Pop Lemon (Disk B).2d" size="327680" crc="c301f28f" sha1="b899ea351d9b8b168d3d67198188c2e1197de14d"/>
+	</game>
+	<game name="Portopia Renzoku Satsujin Jiken [FD]">
+		<category>Games</category>
+		<description>Portopia Renzoku Satsujin Jiken [FD]</description>
+		<rom name="Portopia Renzoku Satsujin Jiken.2d" size="327680" crc="6699bf3d" sha1="5be59558474e4f8709949821cdf8495dd66ed7b3"/>
+	</game>
+	<game name="Produce [FD][X1turbo]">
+		<category>Games</category>
+		<description>Produce [FD][X1turbo]</description>
+		<rom name="Produce [X1turbo].d88" size="348848" crc="a57a9bdc" sha1="a4d9d802369da8886fe4389bc36c3e4f093a861a"/>
+	</game>
+	<game name="Professional Mahjong Ver. 2 [FD]">
+		<category>Games</category>
+		<description>Professional Mahjong Ver. 2 [FD]</description>
+		<rom name="Professional Mahjong Ver. 2.2d" size="327680" crc="bc91c664" sha1="c26f5492a4d4b65640d76c43235fc84afcb8654d"/>
+	</game>
+	<game name="Psy-O-Blade [FD][X1turbo]">
+		<category>Games</category>
+		<description>Psy-O-Blade [FD][X1turbo]</description>
+		<rom name="Psy-O-Blade (Disk 1)(Program)[X1turbo].d88" size="392368" crc="3ef3fe30" sha1="e839e3949f7a4cd23705f50ab32d39e4809976c1"/>
+		<rom name="Psy-O-Blade (Disk 2)(A)[X1turbo].d88" size="392368" crc="bd0cd71f" sha1="dd5aef2daf1d79e6409ff7e1fbb14fddacd699ce"/>
+		<rom name="Psy-O-Blade (Disk 3)(B)[X1turbo].d88" size="392368" crc="67322f16" sha1="e64c1bea2c2d894dfa243a1895e94d0e73f3bf07"/>
+		<rom name="Psy-O-Blade (Disk 4)(C)[X1turbo].d88" size="392368" crc="9e088573" sha1="9a8e8014bec3a02433352b01b58863386c1a9e09"/>
+		<rom name="Psy-O-Blade (Disk 5)(D)[X1turbo].d88" size="392368" crc="73d2c58a" sha1="87e4925ffac0c151a8a237ea4f5bb133f863ac8b"/>
+		<rom name="Psy-O-Blade (User disk)[X1turbo].d88" size="392368" crc="e923271d" sha1="edffcae5b90c8eb2ed951065a71de527341f6fda"/>
+	</game>
+	<game name="Punch Ball Mario Bros. [FD][req Extra Hyper system disk]">
+		<category>Games</category>
+		<description>Punch Ball Mario Bros. [FD][req Extra Hyper system disk]</description>
+		<rom name="Punch Ball Mario Bros..d88" size="348848" crc="bf089114" sha1="330399d0c1f1caad98fc445b3768a217a7572559"/>
+	</game>
+	<game name="Puzzle Game [FD][X1turbo]">
+		<category>Games</category>
+		<description>Puzzle Game [FD][X1turbo]</description>
+		<rom name="Puzzle Game (Data 1)[X1turbo].d88" size="416688" crc="db96467b" sha1="b435b5dfc0511c5c91bfb0ea7a7ac98e4cc9c15b"/>
+		<rom name="Puzzle Game (Data 2)[X1turbo].d88" size="416688" crc="a2754905" sha1="5953708c75b0e87ecbe3d1e53a677723d51f7606"/>
+		<rom name="Puzzle Game (System disk)[X1turbo].d88" size="348848" crc="7614f7a6" sha1="31480075732284206faa51e3f54254cda2978787"/>
+	</game>
+	<game name="Pyramid no Nazo [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Pyramid no Nazo [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Pyramid no Nazo.tap" size="600004" crc="878b407b" sha1="71ec7289836ce6f8c7ad5dcf5ee5f8aea7aa1c1c"/>
+	</game>
+	<game name="R [FD]">
+		<category>Games</category>
+		<description>R [FD]</description>
+		<rom name="R (Disk A).d88" size="144304" crc="caf18599" sha1="5e5828938a335004b8a00fb47e1d7b8380f0a6bb"/>
+		<rom name="R (Disk B).d88" size="335792" crc="51ab6204" sha1="b0026e0284100957c522a16a24ebbec2d6588025"/>
+	</game>
+	<game name="Rally-X [CT]">
+		<category>Games</category>
+		<description>Rally-X [CT]</description>
+		<rom name="Rally-X.tap" size="120004" crc="dc752c51" sha1="693b0d61ad01d5f8a2c431facb6b8edfcced02c5"/>
+	</game>
+	<game name="Ranma 1-2 Vol. 1 [FD]">
+		<category>Games</category>
+		<description>Ranma 1-2 Vol. 1 [FD]</description>
+		<rom name="Ranma 1-2 Vol. 1.2d" size="327680" crc="1b10eeee" sha1="193a5e290cd1e5868a28b734f2aeb0e0eb620e13"/>
+	</game>
+	<game name="ReBirth [FD]">
+		<category>Games</category>
+		<description>ReBirth [FD]</description>
+		<rom name="ReBirth (Disk 1).d88" size="416112" crc="ce4cce01" sha1="83a95b1704ae933c34cf49b4e13db2c543ac41a7"/>
+		<rom name="ReBirth (Disk 2).d88" size="416960" crc="86ad24bc" sha1="04502503fe6dc463f52a5388133ad5366504e970"/>
+		<rom name="ReBirth (Disk 3).d88" size="416960" crc="2b8c3ad7" sha1="02c94cf2856cf0bd8680bb93926af3397f1ac506"/>
+		<rom name="ReBirth (Disk 4).d88" size="416960" crc="4d0959c0" sha1="7439805b38090c528501dfe5ebd6cb2d1e96eac6"/>
+	</game>
+	<game name="Relics [FD]">
+		<category>Games</category>
+		<description>Relics [FD]</description>
+		<rom name="Relics (Disk A).d88" size="348848" crc="a73b8e0e" sha1="4d1f9c43c728fc50b69dc9910ea268827f45544f"/>
+		<rom name="Relics (Disk B).d88" size="348848" crc="47f40ce3" sha1="8988f9f31507ea0622ae4b8123fbe48d3a6cccf1"/>
+	</game>
+	<game name="Reviver [FD+User]">
+		<category>Games</category>
+		<description>Reviver [FD+User]</description>
+		<rom name="Reviver (Disk A)(Master disk).d88" size="414992" crc="ad204439" sha1="ae84a4c8bf079a6e6d4f3d60a6bf8f0bc668b6ea"/>
+		<rom name="Reviver (Disk B)(Data disk).d88" size="414992" crc="db05c075" sha1="1f845ff087ebebc88bdd0bdbf248a2061717a75b"/>
+		<rom name="Reviver (User disk).d88" size="414992" crc="b9d5c227" sha1="862cb0d643859ca9a0aded6bebb9054b88f2c06b"/>
+		<rom name="Reviver (User disk)[Alt 1].d88" size="414992" crc="5226a2f2" sha1="cb5d2b86c0eb194a097000136bdf2b14be18c21c"/>
+	</game>
+	<game name="Revolty II [FD]">
+		<category>Games</category>
+		<description>Revolty II [FD]</description>
+		<rom name="Revolty II (Disk 0).d88" size="348848" crc="061a0c1e" sha1="f3149987092ffdc83312f06db1e805fb93122aaf"/>
+		<rom name="Revolty II (Disk 1).d88" size="348848" crc="c99a4bc3" sha1="71fc3334328e43dcc3a787c10df2cbed8dcb0984"/>
+		<rom name="Revolty II (Disk 2).d88" size="348848" crc="f36239ce" sha1="7cc8317ca80e80007da78d48a8cea660922f3ddc"/>
+		<rom name="Revolty II (Disk 3).d88" size="348848" crc="aa0f50dc" sha1="a34ebf5293cd0e0c6cb22ae21a22efec0c630348"/>
+	</game>
+	<game name="Right Wings [FD]">
+		<category>Games</category>
+		<description>Right Wings [FD]</description>
+		<rom name="Right Wings.2d" size="327680" crc="22b9263b" sha1="5476b474996593da2b5b35edb293a372fdf70014"/>
+	</game>
+	<game name="Riglas [FD]">
+		<category>Games</category>
+		<description>Riglas [FD]</description>
+		<rom name="Riglas.d88" size="379920" crc="f869bad8" sha1="7602f4cf512cdec440e39b2d3b4a6f771a5c4106"/>
+	</game>
+	<game name="Robo Wres 2001 [FD]">
+		<category>Games</category>
+		<description>Robo Wres 2001 [FD]</description>
+		<rom name="Robo Wres 2001.d88" size="732704" crc="201b3048" sha1="b5cf3ece345e8b84941169da886fb09f4afebf86"/>
+	</game>
+	<game name="Romancia [FD]">
+		<category>Games</category>
+		<description>Romancia [FD]</description>
+		<rom name="Romancia [Alt 1].d88" size="380224" crc="7a85ed48" sha1="e6c60fe9e50fcd884e35ae16634cd6f441e6ad64"/>
+		<rom name="Romancia.d88" size="379680" crc="a861ac82" sha1="b5e7116c47fc28b279543c1b931d92932722a457"/>
+	</game>
+	<game name="Rowdy Ball [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Rowdy Ball [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Rowdy Ball.tap" size="120004" crc="0f1d916a" sha1="51002b8708e7b477577046f3b7c7f2d1b389e98e"/>
+	</game>
+	<game name="Rukteu Dark Castle [Ankokujou] [CT]">
+		<category>Games</category>
+		<description>Rukteu Dark Castle [Ankokujou] [CT]</description>
+		<rom name="Rukteu Dark Castle [Ankokujou].tap" size="897591" crc="53d28c10" sha1="9b9b8fe830dc87f26c83ec0416e6da7cd0c0c82c"/>
+	</game>
+	<game name="S.F.3.D Original - Operation V [FD]">
+		<category>Games</category>
+		<description>S.F.3.D Original - Operation V [FD]</description>
+		<rom name="S.F.3.D Original - Operation V.d88" size="354288" crc="0987b97d" sha1="24ab8dbb7c53ac9fea4137db258407f38c6d2469"/>
+	</game>
+	<game name="Salad no Kuni no Tomato-hime [CT]">
+		<category>Games</category>
+		<description>Salad no Kuni no Tomato-hime [CT]</description>
+		<rom name="Salad no Kuni no Tomato-hime.tap" size="3646247" crc="36c77dfd" sha1="72c2a0eee78ebf213dc218364cba6aa55190007f"/>
+	</game>
+	<game name="Sangokai Kaisen [CT][req dB-BASIC]">
+		<category>Games</category>
+		<description>Sangokai Kaisen [CT][req dB-BASIC]</description>
+		<rom name="Sangokai Kaisen.tap" size="158544" crc="e0191bd2" sha1="6f53ad9cdce3c583e805702007141702b5624cdb"/>
+	</game>
+	<game name="Sangokushi 2 [FD][X1turbo]">
+		<category>Games</category>
+		<description>Sangokushi 2 [FD][X1turbo]</description>
+		<rom name="Sangokushi 2 (Disk A)[X1turbo].d88" size="380864" crc="9cd180a5" sha1="b39099e442fe77547ffe0a9c3cd7ba801e9a797e"/>
+		<rom name="Sangokushi 2 (Disk B)[X1turbo].d88" size="380848" crc="f6c1830e" sha1="04a4225c01e4469705a06655416620ab9c51210a"/>
+		<rom name="Sangokushi 2 (Disk C)[X1turbo].d88" size="380848" crc="d2481921" sha1="51fb15f884b887866a147fc3213fad52ed82c7ac"/>
+	</game>
+	<game name="Sangokushi Turbo [FD][X1turbo]">
+		<category>Games</category>
+		<description>Sangokushi Turbo [FD][X1turbo]</description>
+		<rom name="Sangokushi Turbo (Disk A)[X1turbo].d88" size="380864" crc="1aa46e57" sha1="1e2290a465aaa713b7d94e9e6ea51cfef033750f"/>
+		<rom name="Sangokushi Turbo (Disk B)[X1turbo].d88" size="380848" crc="766ed5b9" sha1="02d95c7665bd5948976881be57c1c7e89394471e"/>
+		<rom name="Sangokushi Turbo (Disk C)[X1turbo].d88" size="380848" crc="cbea36da" sha1="ad0f393cc7b7caa3ba1c7ba545ab1c59c83b2af4"/>
+	</game>
+	<game name="Sangokushi [FD]">
+		<category>Games</category>
+		<description>Sangokushi [FD]</description>
+		<rom name="Sangokushi (Disk A).2d" size="327680" crc="e8a6be1d" sha1="cd33bfad3c146a68131211eb8005cbd4f219caa5"/>
+		<rom name="Sangokushi (Disk B).2d" size="327680" crc="b269d889" sha1="277aeac334efca9663e4d3df6dce6134bef67fe2"/>
+	</game>
+	<game name="Satsujin wa Tegami ni Notte [FD][X1turbo]">
+		<category>Games</category>
+		<description>Satsujin wa Tegami ni Notte [FD][X1turbo]</description>
+		<rom name="Satsujin wa Tegami ni Notte (Disk A)[X1turbo].d88" size="344496" crc="7d03c298" sha1="8fff26bef8afff72beebb2accd16f08fe33806fa"/>
+		<rom name="Satsujin wa Tegami ni Notte (Disk B)[X1turbo].d88" size="348848" crc="f3870d1d" sha1="eaea51ba3cc9102818a48a3ac7b5483d6998d59c"/>
+		<rom name="Satsujin wa Tegami ni Notte (Disk C)[X1turbo].d88" size="348848" crc="59023ed2" sha1="9160977e6ff8c970d429010a043948cbef32e845"/>
+	</game>
+	<game name="Saziri [FD][X1turbo]">
+		<category>Games</category>
+		<description>Saziri [FD][X1turbo]</description>
+		<rom name="Saziri (Disk A)[X1turbo].d88" size="423312" crc="267efc66" sha1="52b8a0e121430bd15d6352eb8e48ac2c275c1861"/>
+		<rom name="Saziri (Disk B)[X1turbo].d88" size="415840" crc="f258f894" sha1="6930bba5c33b93383591ea250bd9a754916d654b"/>
+	</game>
+	<game name="Scarlet7 [CT]">
+		<category>Games</category>
+		<description>Scarlet7 [CT]</description>
+		<rom name="Scarlet7.tap" size="600004" crc="217a1134" sha1="844373a0ba0e2257d48f0bfef4f5f69d7d6d0732"/>
+	</game>
+	<game name="Scramble Fighter [FD][X1turbo]">
+		<category>Games</category>
+		<description>Scramble Fighter [FD][X1turbo]</description>
+		<rom name="Scramble Fighter [X1turbo].d88" size="348848" crc="d9843b90" sha1="701509abf33e5419eb6bd22c8c22b619e293a666"/>
+	</game>
+	<game name="Seijo Densetsu Tokubetsu-hen - Seijo Panic [FD]">
+		<category>Games</category>
+		<description>Seijo Densetsu Tokubetsu-hen - Seijo Panic [FD]</description>
+		<rom name="Seijo Densetsu Tokubetsu-hen - Seijo Panic [Alt 1].2d" size="327680" crc="0682a628" sha1="323852592d63456a33d0e2fdedabb3a767b7ef94"/>
+		<rom name="Seijo Densetsu Tokubetsu-hen - Seijo Panic.2d" size="327680" crc="de58f222" sha1="96fbfad4565c04a6d96b6d48b8078fb36ddc868e"/>
+	</game>
+	<game name="Seijo Densetsu [FD]">
+		<category>Games</category>
+		<description>Seijo Densetsu [FD]</description>
+		<rom name="Seijo Densetsu [Alt 1].2d" size="327680" crc="bf7ba3de" sha1="83954161250da40cdf77ca6e7f215ccc8cb21819"/>
+		<rom name="Seijo Densetsu.2d" size="327680" crc="815a292a" sha1="7884106ca86d5c807ba670ddaf0207334f802c83"/>
+	</game>
+	<game name="Shanghai [FD]">
+		<category>Games</category>
+		<description>Shanghai [FD]</description>
+		<rom name="Shanghai [Alt 1].2d" size="327680" crc="df6e1b9a" sha1="4741455ece85b6a157a47be5ddd55a170ef90e5b"/>
+		<rom name="Shanghai.2d" size="327680" crc="0e4a28c0" sha1="6b1eb1e990f89c4d333345b7ad3b2d39807c20a6"/>
+	</game>
+	<game name="Shin Kugyokuden [FD][X1turbo]">
+		<category>Games</category>
+		<description>Shin Kugyokuden [FD][X1turbo]</description>
+		<rom name="Shin Kugyokuden (Disk A)[X1turbo].d88" size="414832" crc="ef931851" sha1="4ae0f2592cd1c97d934f3c0d8d14e5af0f89ae2a"/>
+		<rom name="Shin Kugyokuden (Disk B)[X1turbo].d88" size="416688" crc="313fec60" sha1="35064e0a35f3c91f84922721cc4007460617d6ec"/>
+		<rom name="Shin Kugyokuden (Disk C)[X1turbo].d88" size="416688" crc="1f936513" sha1="81695eb1d438fda77fd7d6d667a2cbb04a8ca6eb"/>
+	</game>
+	<game name="Shin Taketori Monogatari [FD][incomplete]">
+		<category>Games</category>
+		<description>Shin Taketori Monogatari [FD][incomplete]</description>
+		<rom name="Shin Taketori Monogatari (Disk 0).d88" size="363536" crc="b16b9f10" sha1="c049117e2243c51fa5d6133dc4fcfd9da0102086"/>
+	</game>
+	<game name="Silver Ghost [FD+User][X1turbo]">
+		<category>Games</category>
+		<description>Silver Ghost [FD+User][X1turbo]</description>
+		<rom name="Silver Ghost (Disk A)(Game disk)[X1turbo].d88" size="348848" crc="5d1d0c30" sha1="d2a6da19f3de7ef1107464db23ab66995d298490"/>
+		<rom name="Silver Ghost (Disk B)[X1turbo].d88" size="348848" crc="a6deb67e" sha1="a270196300208b0c1b6f7b82d433ed5afc88ab00"/>
+		<rom name="Silver Ghost (Disk C)[X1turbo].d88" size="348848" crc="19ba7c04" sha1="d8595aa2488930c0e78d69816cd7749b42face80"/>
+		<rom name="Silver Ghost (User disk)[X1turbo].d88" size="360208" crc="9f97b30d" sha1="00ca3e86708dcb4a208a6f6a415312cc009f4d96"/>
+	</game>
+	<game name="Sirius-1 [FD][req Extra Hyper system disk]">
+		<category>Games</category>
+		<description>Sirius-1 [FD][req Extra Hyper system disk]</description>
+		<rom name="Sirius-1.d88" size="348848" crc="9751d5a6" sha1="7ca0bedd1c6c9d8378a2e43bc977868a97efee91"/>
+	</game>
+	<game name="Sofia [FD]">
+		<category>Games</category>
+		<description>Sofia [FD]</description>
+		<rom name="Sofia.2d" size="327680" crc="848fa384" sha1="0308723c0d47760bcecd8696f711690b7a037a02"/>
+	</game>
+	<game name="Soft Jump [FD]">
+		<category>Games</category>
+		<description>Soft Jump [FD]</description>
+		<rom name="Soft Jump.d88" size="348848" crc="bf2313d8" sha1="ac6d177675202fd3c23da0b3d9b8ab2e424ede4b"/>
+	</game>
+	<game name="Sorcerian - music mode hack [FD][X1turbo]">
+		<category>Games</category>
+		<description>Sorcerian - music mode hack [FD][X1turbo]</description>
+		<rom name="Sorcerian - music mode hack [X1turbo].d88" size="415840" crc="b288cd7c" sha1="8d15f7b41f48aaf6f348dd0bb21e87b7f8eb7a62"/>
+		<rom name="Sorcerian - music mode hack [X1turbo][Alt 1].d88" size="415840" crc="4aa12458" sha1="c5561c1990c0d98b64614b51bc68ec1f60c1f7df"/>
+	</game>
+	<game name="Sorcerian New Scenario - Uchuu kara no Houmonsha [FD][X1turbo][req Sorcerian]">
+		<category>Games</category>
+		<description>Sorcerian New Scenario - Uchuu kara no Houmonsha [FD][X1turbo][req Sorcerian]</description>
+		<rom name="Sorcerian New Scenario - Uchuu kara no Houmonsha (Disk 1)[X1turbo].d88" size="415840" crc="9b28d783" sha1="f8f1b61fbd5ae64a3f423448ba260a0f7686944a"/>
+		<rom name="Sorcerian New Scenario - Uchuu kara no Houmonsha (Disk 2)[X1turbo].d88" size="415840" crc="dcadb025" sha1="9623a3381afc62141dca10a04c7b07e62a3dec2b"/>
+	</game>
+	<game name="Sorcerian Tsuika Scenario - Gilgamesh Sorcerian [FD][X1turbo][req Sorcerian]">
+		<category>Games</category>
+		<description>Sorcerian Tsuika Scenario - Gilgamesh Sorcerian [FD][X1turbo][req Sorcerian]</description>
+		<rom name="Sorcerian Tsuika Scenario - Gilgamesh Sorcerian (Disk 1)[X1turbo].d88" size="415840" crc="5d01cd50" sha1="57bdb6226a8ab6600b22b93a011f64edce507d5b"/>
+		<rom name="Sorcerian Tsuika Scenario - Gilgamesh Sorcerian (Disk 2)[X1turbo].d88" size="415840" crc="a13ed601" sha1="8fdbeb6606655e96dd6b3191472b955d779da2a9"/>
+	</game>
+	<game name="Sorcerian Tsuika Scenario - Selected Sorcerian 1 [FD][X1turbo][req Sorcerian]">
+		<category>Games</category>
+		<description>Sorcerian Tsuika Scenario - Selected Sorcerian 1 [FD][X1turbo][req Sorcerian]</description>
+		<rom name="Sorcerian Tsuika Scenario - Selected Sorcerian 1 (Scenario disk)[X1turbo].d88" size="415840" crc="dd4aaee5" sha1="be4b32768b41ae7079130c0f157efde49e5c2e00"/>
+		<rom name="Sorcerian Tsuika Scenario - Selected Sorcerian 1 (Utility disk)[X1turbo].d88" size="415840" crc="d3069f37" sha1="2a8cd962daa4653c2aaf8fcc7d658d18c16f9e1b"/>
+	</game>
+	<game name="Sorcerian Tsuika Scenario - Selected Sorcerian 2 [FD][X1turbo][req Sorcerian]">
+		<category>Games</category>
+		<description>Sorcerian Tsuika Scenario - Selected Sorcerian 2 [FD][X1turbo][req Sorcerian]</description>
+		<rom name="Sorcerian Tsuika Scenario - Selected Sorcerian 2 (Scenario disk)[X1turbo].d88" size="415840" crc="8f69ae0d" sha1="642bd40af3882ae395a454d43392dd41efd78ac9"/>
+		<rom name="Sorcerian Tsuika Scenario - Selected Sorcerian 2 (Utility disk)[X1turbo].d88" size="425344" crc="8eea57ac" sha1="665cce3f774327b07b2cc42b2ffb2c9a8a2f9c94"/>
+	</game>
+	<game name="Sorcerian Tsuika Scenario - Selected Sorcerian 3 [FD][X1turbo][req Sorcerian]">
+		<category>Games</category>
+		<description>Sorcerian Tsuika Scenario - Selected Sorcerian 3 [FD][X1turbo][req Sorcerian]</description>
+		<rom name="Sorcerian Tsuika Scenario - Selected Sorcerian 3 (Scenario disk)[X1turbo].d88" size="415840" crc="53f2b6ab" sha1="36cbba04bdf7ff7311d19aee49f999d5918aa3b6"/>
+		<rom name="Sorcerian Tsuika Scenario - Selected Sorcerian 3 (Utility disk)[X1turbo].d88" size="415840" crc="e16800fe" sha1="4dde05572578cecd381e718e8450ebedd80edc13"/>
+	</game>
+	<game name="Sorcerian Tsuika Scenario - Selected Sorcerian 4 [FD][X1turbo][req Sorcerian]">
+		<category>Games</category>
+		<description>Sorcerian Tsuika Scenario - Selected Sorcerian 4 [FD][X1turbo][req Sorcerian]</description>
+		<rom name="Sorcerian Tsuika Scenario - Selected Sorcerian 4 (Scenario disk)[X1turbo].d88" size="415840" crc="f85f03c0" sha1="d88b138b0223d33d6610853b500bb8048e7d29d0"/>
+		<rom name="Sorcerian Tsuika Scenario - Selected Sorcerian 4 (Utility disk)[X1turbo].d88" size="415840" crc="a8754859" sha1="017ecf5609f8498e3af9b1091b3c2f57f0aec427"/>
+	</game>
+	<game name="Sorcerian Tsuika Scenario - Selected Sorcerian 5 [FD][X1turbo][req Sorcerian]">
+		<category>Games</category>
+		<description>Sorcerian Tsuika Scenario - Selected Sorcerian 5 [FD][X1turbo][req Sorcerian]</description>
+		<rom name="Sorcerian Tsuika Scenario - Selected Sorcerian 5 (Scenario disk)[X1turbo].d88" size="415840" crc="1ca45702" sha1="c315ebc3fc6a652ffd73677006ae9ec0005adb81"/>
+		<rom name="Sorcerian Tsuika Scenario - Selected Sorcerian 5 (Utility disk)[X1turbo].d88" size="415840" crc="c32ec992" sha1="9793ce6862d5bf6165815e6107e8e996228d4eb5"/>
+	</game>
+	<game name="Sorcerian Tsuika Scenario Vol. 1 [FD][X1turbo][req Sorcerian]">
+		<category>Games</category>
+		<description>Sorcerian Tsuika Scenario Vol. 1 [FD][X1turbo][req Sorcerian]</description>
+		<rom name="Sorcerian Tsuika Scenario Vol. 1 [X1turbo].d88" size="415840" crc="efab86b0" sha1="1a48a9317b0b286190499776a336426488f608fe"/>
+	</game>
+	<game name="Sorcerian Tsuika Scenario Vol. 2 - Sengoku Sorcerian [FD][X1turbo][req Sorcerian]">
+		<category>Games</category>
+		<description>Sorcerian Tsuika Scenario Vol. 2 - Sengoku Sorcerian [FD][X1turbo][req Sorcerian]</description>
+		<rom name="Sorcerian Tsuika Scenario Vol. 2 - Sengoku Sorcerian (Disk 1)[X1turbo].d88" size="415840" crc="e172a575" sha1="f4a2d29440f5c59b1da5831a9436a8562b6bdc9e"/>
+		<rom name="Sorcerian Tsuika Scenario Vol. 2 - Sengoku Sorcerian (Disk 2)[X1turbo].d88" size="415840" crc="7e0ad313" sha1="a73603222b0f85adf0fc5d9dd885b4f852585796"/>
+	</game>
+	<game name="Sorcerian Tsuika Scenario Vol. 3 - Pyramid Sorcerian [FD][X1turbo][req Sorcerian]">
+		<category>Games</category>
+		<description>Sorcerian Tsuika Scenario Vol. 3 - Pyramid Sorcerian [FD][X1turbo][req Sorcerian]</description>
+		<rom name="Sorcerian Tsuika Scenario Vol. 3 - Pyramid Sorcerian (Disk 1)[X1turbo].d88" size="415840" crc="456eb3e4" sha1="f9426a7593e1b54b3e6068c2ef225984090659dc"/>
+		<rom name="Sorcerian Tsuika Scenario Vol. 3 - Pyramid Sorcerian (Disk 2)[X1turbo].d88" size="415840" crc="f2ed78b9" sha1="8f230ee814460d63ee6e51b397396549b100215b"/>
+	</game>
+	<game name="Sorcerian Utility Vol. 1 [FD][X1turbo][req Sorcerian]">
+		<category>Games</category>
+		<description>Sorcerian Utility Vol. 1 [FD][X1turbo][req Sorcerian]</description>
+		<rom name="Sorcerian Utility Vol. 1 [X1turbo].d88" size="415840" crc="eaaa6af8" sha1="ba5087471e93717bf776081c1708f3c5453c11e7"/>
+		<rom name="Sorcerian Utility Vol. 1 [X1turbo][Alt 1].d88" size="415840" crc="5f95c2ca" sha1="dc6df63472b1e09396f815252d2439f7e4d5f78b"/>
+	</game>
+	<game name="Sorcerian [User][X1turbo]">
+		<category>Games</category>
+		<description>Sorcerian [User][X1turbo]</description>
+		<rom name="Sorcerian (User disk)[X1turbo][Alt 1].d88" size="426240" crc="7b50393a" sha1="b1b9bb5bcc9fe5ce48a2d34d7442542b0262aa82"/>
+	</game>
+	<game name="Space Burger [CT]">
+		<category>Games</category>
+		<description>Space Burger [CT]</description>
+		<rom name="Space Burger.tap" size="60004" crc="395e2192" sha1="262faf4eddef5a525c27938ce58d5cd7824728f3"/>
+	</game>
+	<game name="Space Harrier - unofficial [FD]">
+		<category>Games</category>
+		<description>Space Harrier - unofficial [FD]</description>
+		<rom name="Space Harrier - unofficial.d88" size="348848" crc="c2307ad2" sha1="7c497eeed68e8e7f6e3e0f9608017ae7c78bd65e"/>
+	</game>
+	<game name="Space Harrier [FD][d88]">
+		<category>Games</category>
+		<description>Space Harrier [FD][d88]</description>
+		<rom name="Space Harrier (Disk A).d88" size="348848" crc="7e40e4e1" sha1="d3be30ef1c0302be8c77cd44849e9a7ec4282a97"/>
+		<rom name="Space Harrier (Disk B).d88" size="348848" crc="30fe74c5" sha1="fd21f230a448b060c451f2fcaf6f17c3cc260d3a"/>
+	</game>
+	<game name="Spare Change [FD]">
+		<category>Games</category>
+		<description>Spare Change [FD]</description>
+		<rom name="Spare Change.d88" size="349616" crc="03735e64" sha1="31c428c63dbcafa132ff20db0ddd3b9bdfbac50e"/>
+	</game>
+	<game name="Spartan X [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Spartan X [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Spartan X [Alt 1].tap" size="1094611" crc="06c2f934" sha1="ebab013c4141822b6783be04ee76e06561c8ee7b"/>
+		<rom name="Spartan X.tap" size="240004" crc="582352fc" sha1="942d53cccb6a0046d37a0fd379fe770f63281fd4"/>
+	</game>
+	<game name="Spy vs. Spy [FD]">
+		<category>Games</category>
+		<description>Spy vs. Spy [FD]</description>
+		<rom name="Spy vs. Spy.d88" size="366256" crc="dd6b65ae" sha1="0fa80da5767b985be9b202c6a21f1005806c847f"/>
+	</game>
+	<game name="Star Cruiser [FD][X1turbo]">
+		<category>Games</category>
+		<description>Star Cruiser [FD][X1turbo]</description>
+		<rom name="Star Cruiser (Disk A)[X1turbo].d88" size="415840" crc="4f14d512" sha1="9ec80df7e152d86f38da50a461cf0e44bbffc525"/>
+		<rom name="Star Cruiser (Disk B)[X1turbo].d88" size="415840" crc="2e349dad" sha1="14a24aaecdc795cbee24b34ee76eae3eabbc8132"/>
+	</game>
+	<game name="Star Fleet [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Star Fleet [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Star Fleet.tap" size="180004" crc="a5f3db38" sha1="a144ae03d38edd5bef868bd6dd2e7a457103b5e0"/>
+	</game>
+	<game name="Star Stream [CT][X1turbo]">
+		<category>Games</category>
+		<description>Star Stream [CT][X1turbo]</description>
+		<rom name="Star Stream [X1turbo].tap" size="464983" crc="3caad110" sha1="5e2babdfd6f4c18efade706014542d8264b2090e"/>
+	</game>
+	<game name="Star World 2 [CT][old TAP format]">
+		<category>Games</category>
+		<description>Star World 2 [CT][old TAP format]</description>
+		<rom name="Star World 2 [old TAP format].tap" size="67761" crc="9344e997" sha1="a7b442ad058b05d225c265ba99915650cf2ff34d"/>
+	</game>
+	<game name="State II [FD][req joystick]">
+		<category>Games</category>
+		<description>State II [FD][req joystick]</description>
+		<rom name="State II.d88" size="348848" crc="c669dee6" sha1="85171cd557a2cb941f3c179e87c017eb3333e9a7"/>
+	</game>
+	<game name="State [FD][req joystick]">
+		<category>Games</category>
+		<description>State [FD][req joystick]</description>
+		<rom name="State (Disk 1).2d" size="327680" crc="e096b557" sha1="dba05559e3dc0c114e1e7bfb7d56b676805ccd5e"/>
+		<rom name="State (Disk 2).2d" size="327680" crc="73391142" sha1="646657b525b17d392e2e236df597fc24aff50ac9"/>
+	</game>
+	<game name="Suikoden - Tenmei no Chikai [FD][X1turbo]">
+		<category>Games</category>
+		<description>Suikoden - Tenmei no Chikai [FD][X1turbo]</description>
+		<rom name="Suikoden - Tenmei no Chikai (Disk A)[X1turbo].d88" size="380880" crc="9cfee564" sha1="4577565f450c8c842ebf6b55f39bdb65dbe18e7d"/>
+		<rom name="Suikoden - Tenmei no Chikai (Disk B)[X1turbo].d88" size="380864" crc="1211d3f9" sha1="908418cd67d9950b33c9c2dbe4dd962a84c56021"/>
+		<rom name="Suikoden - Tenmei no Chikai (Disk C)[X1turbo].d88" size="380864" crc="286becd8" sha1="63559c99ee26ba389e133bfa4bfec53c7b0288ee"/>
+	</game>
+	<game name="Super Barricade [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Super Barricade [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Super Barricade.tap" size="73713" crc="4f0e0451" sha1="bbf96d327ffca1351f2b0b76532fdbbd1c339090"/>
+	</game>
+	<game name="Super Buggon [CT]">
+		<category>Games</category>
+		<description>Super Buggon [CT]</description>
+		<rom name="Super Buggon.tap" size="120004" crc="256b7157" sha1="61c3d7f202fd2448b909de27c7e66bd9f3f660ce"/>
+	</game>
+	<game name="Super Golf #2 [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Super Golf #2 [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Super Golf #2.tap" size="180004" crc="1193e51d" sha1="374a8d884766a9cac22fb257970459824b6b9d0e"/>
+	</game>
+	<game name="Super Laydock - invincible hack [FD]">
+		<category>Games</category>
+		<description>Super Laydock - invincible hack [FD]</description>
+		<rom name="Super Laydock - invincible hack (Disk A).d88" size="348848" crc="4292964b" sha1="42807f4aec38fa2f792cf4bbcb327aaf038d73ef"/>
+		<rom name="Super Laydock - invincible hack (Disk B).d88" size="348848" crc="f8ef70ef" sha1="fc6165e758939cc6f90f2c5af30d2adef0c6b025"/>
+	</game>
+	<game name="Super Laydock [FD]">
+		<category>Games</category>
+		<description>Super Laydock [FD]</description>
+		<rom name="Super Laydock (Disk A).d88" size="348848" crc="4ddca46f" sha1="0bf76ad1ace3ddd9aded427056414278437c161d"/>
+		<rom name="Super Laydock (Disk B).d88" size="348848" crc="2166a47c" sha1="cf427e77500868b4684c2153f872f6f2650f1802"/>
+		<rom name="Super Laydock (Disk B)[Alt 1].d88" size="348848" crc="50eb607a" sha1="bf029a4928beebbe9c1383d71d147de7b3bf9906"/>
+	</game>
+	<game name="Super Mario Bros. Special [FD][d88]">
+		<category>Games</category>
+		<description>Super Mario Bros. Special [FD][d88]</description>
+		<rom name="Super Mario Bros. Special.d88" size="348848" crc="46abbc86" sha1="77156b7021529d7b18cb3a8fb346606be95a364d"/>
+	</game>
+	<game name="Super Rambo [FD]">
+		<category>Games</category>
+		<description>Super Rambo [FD]</description>
+		<rom name="Super Rambo.d88" size="348848" crc="73fe526d" sha1="cc0fbfbd210fc81d639a47d2a4f1d9f33bb8c7be"/>
+	</game>
+	<game name="Sweet Mint [FD][X1turbo]">
+		<category>Games</category>
+		<description>Sweet Mint [FD][X1turbo]</description>
+		<rom name="Sweet Mint (Disk 1)[X1turbo].2d" size="327680" crc="36d752bd" sha1="6cfbdaa54744009636b483440804a83cee04dc01"/>
+		<rom name="Sweet Mint (Disk 2)[X1turbo].2d" size="327680" crc="6c3f8ccf" sha1="faea49ec180f4bd642ed9ca7b0245cb6d2fbcfd1"/>
+	</game>
+	<game name="T.G.I.F. [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>T.G.I.F. [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="T.G.I.F..tap" size="158090" crc="48743dbf" sha1="a61b5d467c2b45242e07b6e8730fa83fc3e0aa74"/>
+	</game>
+	<game name="TO-KY-O [FD]">
+		<category>Games</category>
+		<description>TO-KY-O [FD]</description>
+		<rom name="TO-KY-O (Disk A).d88" size="348848" crc="3a0aa58c" sha1="bd0dcfa082897ba47969e223fb5ad56dd7845ef4"/>
+		<rom name="TO-KY-O (Disk B).d88" size="348848" crc="9e3fa63a" sha1="a9faf8bbd612fe5e793cf681efbc5cf14021b33f"/>
+	</game>
+	<game name="TanTan Tanuki [CT][old TAP format]">
+		<category>Games</category>
+		<description>TanTan Tanuki [CT][old TAP format]</description>
+		<rom name="TanTan Tanuki [old TAP format].tap" size="126822" crc="a03d72a7" sha1="b1599334c919eee1b5cf51331dad198886d1bcab"/>
+	</game>
+	<game name="Tankentai Dai-2-dan [FD][X1turbo]">
+		<category>Games</category>
+		<description>Tankentai Dai-2-dan [FD][X1turbo]</description>
+		<rom name="Tankentai Dai-2-dan (Disk 1)[X1turbo].2d" size="327680" crc="0898c771" sha1="da338bbe824525110e2572632efac18ebd912f52"/>
+		<rom name="Tankentai Dai-2-dan (Disk 2)[X1turbo].2d" size="327680" crc="76efd447" sha1="17f7b97914d304bdd0df56664e46f8d51b4e5022"/>
+	</game>
+	<game name="Templo del Sol - Asteka II [FD+User]">
+		<category>Games</category>
+		<description>Templo del Sol - Asteka II [FD+User]</description>
+		<rom name="Templo del Sol - Asteka II (Disk 1).d88" size="415840" crc="57353bdb" sha1="567ed54b51b7e97465fa3f419bc1910c9ad7a219"/>
+		<rom name="Templo del Sol - Asteka II (Disk 2).d88" size="415840" crc="f92dcbae" sha1="acd01e2c8e93806d506e8abe9bb4b053e3558e2d"/>
+		<rom name="Templo del Sol - Asteka II (User disk).d88" size="392368" crc="c3c0069b" sha1="69c2cb9187200bfaa63dae9c17ad233b1eb0ee81"/>
+	</game>
+	<game name="Tennis Freak [CT][old TAP format]">
+		<category>Games</category>
+		<description>Tennis Freak [CT][old TAP format]</description>
+		<rom name="Tennis Freak [old TAP format].tap" size="313808" crc="1ec30b0a" sha1="0dc95de73337019646ed40dc2acfa1ca6eb741af"/>
+	</game>
+	<game name="Tenshi-tachi no Gogo [FD]">
+		<category>Games</category>
+		<description>Tenshi-tachi no Gogo [FD]</description>
+		<rom name="Tenshi-tachi no Gogo (Disk A).2d" size="327680" crc="44c8af0c" sha1="b76c80b27607cb952ee3b71f5d8f581dcbd77ef6"/>
+	</game>
+	<game name="Tetris [FD]">
+		<category>Games</category>
+		<description>Tetris [FD]</description>
+		<rom name="Tetris.2d" size="327680" crc="07c7c30f" sha1="849bef506e601a93a58cad9178c9e42ea1a4b6cb"/>
+	</game>
+	<game name="The 4th Unit [FD][X1turbo]">
+		<category>Games</category>
+		<description>The 4th Unit [FD][X1turbo]</description>
+		<rom name="The 4th Unit (Disk A)[X1turbo].2d" size="327680" crc="885edcf7" sha1="d6a536bd4fb8553dbe9c0467cbfe1d70e2fff342"/>
+		<rom name="The 4th Unit (Disk B)[X1turbo].2d" size="327680" crc="c5247061" sha1="1f310be1cc9abc2146346ad718f86dc7a6d2d7a5"/>
+	</game>
+	<game name="The Black Onyx [FD+User]">
+		<category>Games</category>
+		<description>The Black Onyx [FD+User]</description>
+		<rom name="The Black Onyx (User disk).d88" size="315120" crc="4efc6fba" sha1="9685c2a166306ca802b73c3efd66b7a35bd2171a"/>
+		<rom name="The Black Onyx.d88" size="350304" crc="2a76412f" sha1="f35d20ab66c371fb3b23dd91d3ab873c31610dd3"/>
+	</game>
+	<game name="The Cannonball Run 2 [CT]">
+		<category>Games</category>
+		<description>The Cannonball Run 2 [CT]</description>
+		<rom name="The Cannonball Run 2.tap" size="180004" crc="4cffaba8" sha1="06531cb4939fb1e188bb182046bb60bc028edf67"/>
+	</game>
+	<game name="The Castle [CT]">
+		<category>Games</category>
+		<description>The Castle [CT]</description>
+		<rom name="The Castle.tap" size="300004" crc="0ba30a7d" sha1="732e04231f82f749ca2fe529d7ac5db3353d6894"/>
+	</game>
+	<game name="The Cockpit [CT]">
+		<category>Games</category>
+		<description>The Cockpit [CT]</description>
+		<rom name="The Cockpit.tap" size="180004" crc="88d5598e" sha1="6e0565233abacdf42bb0b69aead96cd865e1d9bb"/>
+	</game>
+	<game name="The Curse of Mars [FD]">
+		<category>Games</category>
+		<description>The Curse of Mars [FD]</description>
+		<rom name="The Curse of Mars [Alt 1].2d" size="327680" crc="2d7eceae" sha1="e50d56313904d5c246abddac3293a0dd51aeca36"/>
+		<rom name="The Curse of Mars [Alt 2].2d" size="327680" crc="7a879e8c" sha1="476ede9ca7a83d57eaf6e14d06cfb7592f75988c"/>
+		<rom name="The Curse of Mars.2d" size="327680" crc="f0d9f6c2" sha1="2feb02d2805fc3f9e29f0dce303b118ec7033e82"/>
+	</game>
+	<game name="The Demon Crystal [CT]">
+		<category>Games</category>
+		<description>The Demon Crystal [CT]</description>
+		<rom name="The Demon Crystal.tap" size="240004" crc="03392158" sha1="710c2193519c489e25b923c830c2b5c9887d27b4"/>
+	</game>
+	<game name="The File Master X1 [FD]">
+		<category>Games</category>
+		<description>The File Master X1 [FD]</description>
+		<rom name="The File Master X1 (Hot File Express 1988-06-21).d88" size="348848" crc="d686b02c" sha1="d9f2384038ad73d16dc34d281d28a1e625fc04f0"/>
+		<rom name="The File Master X1 (v0.8).2d" size="327680" crc="cc83176a" sha1="4610045f801b049baa6e71855f839f0e5d0b9038"/>
+	</game>
+	<game name="The Fire Crystal [CT]">
+		<category>Games</category>
+		<description>The Fire Crystal [CT]</description>
+		<rom name="The Fire Crystal [Alt 1].tap" size="300004" crc="0d6fa30d" sha1="5b66c016cfe4a9b549284d908a5c4ea0134ef02a"/>
+		<rom name="The Fire Crystal [Alt 2].tap" size="1545939" crc="e1f706b2" sha1="1a3e5f4c6087d96b03a5891391a3b0dcd57feff3"/>
+		<rom name="The Fire Crystal.tap" size="1545939" crc="419f40d1" sha1="a1338f5aef5e5382e90f79a5dd8691f53c669133"/>
+	</game>
+	<game name="The Goonies [FD]">
+		<category>Games</category>
+		<description>The Goonies [FD]</description>
+		<rom name="The Goonies.2d" size="327680" crc="fcc2c759" sha1="a69c74f0fa287eca7cafdc77495877add5ec4b88"/>
+	</game>
+	<game name="The Man I Love [FD][X1turbo]">
+		<category>Games</category>
+		<description>The Man I Love [FD][X1turbo]</description>
+		<rom name="The Man I Love (Disk 1)[X1turbo].d88" size="416080" crc="85e78df0" sha1="41f7ee545b9f0366ef1abac7937e3626a08ff3b4"/>
+		<rom name="The Man I Love (Disk 2)[X1turbo].d88" size="413296" crc="cfedbb58" sha1="10584e737f5bf8ddc5273fee88fd3040d42f2e4f"/>
+	</game>
+	<game name="The Screamer [FD]">
+		<category>Games</category>
+		<description>The Screamer [FD]</description>
+		<rom name="The Screamer (Data disk 1).d88" size="415840" crc="5ed7c4cf" sha1="7764365c5603923c62c967b9a865d6cef8a1f796"/>
+		<rom name="The Screamer (Data disk 2).d88" size="415840" crc="098b403d" sha1="fe0a943724e6df673dff18eceb1018817bd24e07"/>
+		<rom name="The Screamer (System disk).d88" size="415792" crc="0fe43d34" sha1="e6d608e7278e21470fcddf60bb486354f600583e"/>
+		<rom name="The Screamer (System disk)[Alt 1].d88" size="415792" crc="ee7c9ddb" sha1="4f42b5ac6eaa60290841038029ea5b6a9db96e99"/>
+	</game>
+	<game name="The Tower of Druaga [FD]">
+		<category>Games</category>
+		<description>The Tower of Druaga [FD]</description>
+		<rom name="The Tower of Druaga.2d" size="327680" crc="8bae2c5f" sha1="d0dd2b97ec4e17bfac70ae860fcbc430ce36074b"/>
+	</game>
+	<game name="Thexder [FD]">
+		<category>Games</category>
+		<description>Thexder [FD]</description>
+		<rom name="Thexder.d88" size="349920" crc="757472e8" sha1="4c7c5b468c1f85ad927e5bca9945b67732d57b9f"/>
+	</game>
+	<game name="Thunder Ball [FD]">
+		<category>Games</category>
+		<description>Thunder Ball [FD]</description>
+		<rom name="Thunder Ball.2d" size="327680" crc="b59a446c" sha1="e71b1eba1125ebceb475b1884b56b18f3df91298"/>
+	</game>
+	<game name="Thunder Force - 1983 version [CT]">
+		<category>Games</category>
+		<description>Thunder Force - 1983 version [CT]</description>
+		<rom name="Thunder Force - 1983 version.tap" size="240004" crc="d8d1fc3f" sha1="30e69b6fac9fbf634b12be9b2d1b371081a2dd44"/>
+	</game>
+	<game name="Thunder Force - 1984 version [FD]">
+		<category>Games</category>
+		<description>Thunder Force - 1984 version [FD]</description>
+		<rom name="Thunder Force - 1984 version.d88" size="348816" crc="ac41f8fe" sha1="119e9931eea60dc4468dfcfbdd7abd502add9c41"/>
+	</game>
+	<game name="Time Paradox [FD]">
+		<category>Games</category>
+		<description>Time Paradox [FD]</description>
+		<rom name="Time Paradox (Disk A).2d" size="327680" crc="9297b758" sha1="c5bf5971877c85f969858cd55660a78e213006ba"/>
+		<rom name="Time Paradox (Disk B).2d" size="327680" crc="22985847" sha1="ac7b35a2d414b74798da2139af64376cfbfd5b56"/>
+	</game>
+	<game name="Time Secret [FD][req copy to tape]">
+		<category>Games</category>
+		<description>Time Secret [FD][req copy to tape]</description>
+		<rom name="Time Secret.d88" size="348848" crc="173091ce" sha1="d52765ee852dcf4d8b36596c2f774f2567c2f0a7"/>
+	</game>
+	<game name="Time Tunnel [FD][req copy to tape]">
+		<category>Games</category>
+		<description>Time Tunnel [FD][req copy to tape]</description>
+		<rom name="Time Tunnel.d88" size="348848" crc="c11dc578" sha1="e341baacaa582de6b41d336a1941dbccc080fed4"/>
+	</game>
+	<game name="Tokyo Nampa Street [FD]">
+		<category>Games</category>
+		<description>Tokyo Nampa Street [FD]</description>
+		<rom name="Tokyo Nampa Street.2d" size="327680" crc="031770e4" sha1="446ae4ccc09c0b77365fbb141a3f2baf52053990"/>
+	</game>
+	<game name="Topple Zip [FD]">
+		<category>Games</category>
+		<description>Topple Zip [FD]</description>
+		<rom name="Topple Zip.d88" size="348848" crc="d9bf3c11" sha1="fe83af9a99e67402e1132b713e25779317f06f35"/>
+	</game>
+	<game name="Touch Down [CT]">
+		<category>Games</category>
+		<description>Touch Down [CT]</description>
+		<rom name="Touch Down.tap" size="180004" crc="11f5d804" sha1="9248e5abc1453c7c4e80fdecf35cd19e87a5f994"/>
+	</game>
+	<game name="Toy Pop [FD]">
+		<category>Games</category>
+		<description>Toy Pop [FD]</description>
+		<rom name="Toy Pop.2d" size="327680" crc="72a42036" sha1="b579b31cf407a59498f538cf61b25fe48cb3bb0e"/>
+	</game>
+	<game name="Tritorn [FD]">
+		<category>Games</category>
+		<description>Tritorn [FD]</description>
+		<rom name="Tritorn.d88" size="339328" crc="39e54886" sha1="6897a741430cc9372d5b440bb40c7fff2f242181"/>
+	</game>
+	<game name="Trivia Q [FD]">
+		<category>Games</category>
+		<description>Trivia Q [FD]</description>
+		<rom name="Trivia Q.d88" size="396176" crc="8d660b88" sha1="eee0ab2e898c6968b43da4fac6e9625b74053192"/>
+	</game>
+	<game name="Trump-kyou [FD]">
+		<category>Games</category>
+		<description>Trump-kyou [FD]</description>
+		<rom name="Trump-kyou.2d" size="327680" crc="9dae7bd0" sha1="8413c08a9f39a6b8c817b91da5461438d56cc9aa"/>
+	</game>
+	<game name="Ueda Junichi BGM Collection Vol. 1 [FD]">
+		<category>Games</category>
+		<description>Ueda Junichi BGM Collection Vol. 1 [FD]</description>
+		<rom name="Ueda Junichi BGM Collection Vol. 1.d88" size="422160" crc="3769cff2" sha1="12bf9219340eeacf3088c342e6a2be2a194fdbeb"/>
+	</game>
+	<game name="Ueda Junichi BGM Collection Vol. 2 [FD]">
+		<category>Games</category>
+		<description>Ueda Junichi BGM Collection Vol. 2 [FD]</description>
+		<rom name="Ueda Junichi BGM Collection Vol. 2.d88" size="422160" crc="150d1d60" sha1="ab835259ba6ec3bcfc6cb6cdc7a67b66d3bb4cc6"/>
+	</game>
+	<game name="Ultima IV - Quest of the Avatar [FD]">
+		<category>Games</category>
+		<description>Ultima IV - Quest of the Avatar [FD]</description>
+		<rom name="Ultima IV - Quest of the Avatar (Brittania disk).d88" size="359248" crc="4b3982ca" sha1="63d7b4ad39b44848dd06333a90b071703a51880e"/>
+		<rom name="Ultima IV - Quest of the Avatar (Disk A).d88" size="359248" crc="ddc8a174" sha1="0df3eb964e92944c12835d4d6f81e7c8466614a2"/>
+		<rom name="Ultima IV - Quest of the Avatar (Dungeon disk).d88" size="369648" crc="ebbee205" sha1="8740388d47ac0ab28f735a3bb036eabb2b65a538"/>
+		<rom name="Ultima IV - Quest of the Avatar (Town disk).d88" size="359248" crc="99613c8f" sha1="d21a7cc1289f7a9219a7a5bc5c317d78ea26e96f"/>
+	</game>
+	<game name="Ultra Monogatari [FD][req copy to tape]">
+		<category>Games</category>
+		<description>Ultra Monogatari [FD][req copy to tape]</description>
+		<rom name="Ultra Monogatari.d88" size="348848" crc="2ded2a82" sha1="c43edf8dce8fea720bc9285d7e4c2f78afa1805c"/>
+	</game>
+	<game name="Ultra Yonin Mahjong [CT]">
+		<category>Games</category>
+		<description>Ultra Yonin Mahjong [CT]</description>
+		<rom name="Ultra Yonin Mahjong.tap" size="120004" crc="14304522" sha1="fe4fd7b77de411784a9d1670df670331240aaf66"/>
+	</game>
+	<game name="Unit Unit [FD]">
+		<category>Games</category>
+		<description>Unit Unit [FD]</description>
+		<rom name="Unit Unit.2d" size="327680" crc="ad2a3e33" sha1="23d810b02d880494b601edefc06c345c6fb6c0c8"/>
+	</game>
+	<game name="Uootoy [FD]">
+		<category>Games</category>
+		<description>Uootoy [FD]</description>
+		<rom name="Uootoy.d88" size="348848" crc="0923d396" sha1="11cabc256653b12858f17f97df7e3d0284b602d7"/>
+	</game>
+	<game name="Urusei Yatsura [FD]">
+		<category>Games</category>
+		<description>Urusei Yatsura [FD]</description>
+		<rom name="Urusei Yatsura (Disk 1).d88" size="380064" crc="f1ef904a" sha1="955a9e56422e3f5a18e44816d9b914b53c19cabe"/>
+		<rom name="Urusei Yatsura (Disk 2).d88" size="380848" crc="3663d607" sha1="d8395b6ba6d98e06c895102ab99a3d3802f281d2"/>
+		<rom name="Urusei Yatsura (Disk 3).d88" size="380848" crc="35f8de26" sha1="9e2df38666ce5ef43be4dc394920647a83e91d7f"/>
+	</game>
+	<game name="Utsukushiki Emono-tachi [FD]">
+		<category>Games</category>
+		<description>Utsukushiki Emono-tachi [FD]</description>
+		<rom name="Utsukushiki Emono-tachi.2d" size="327680" crc="52d62c6b" sha1="0c2af1fb20943ddb872691b58c0951ab64d54f0c"/>
+	</game>
+	<game name="Victorious Nine [FD]">
+		<category>Games</category>
+		<description>Victorious Nine [FD]</description>
+		<rom name="Victorious Nine.d88" size="350560" crc="2fc94dfd" sha1="e29f55bed953e0304d88b8eed9448f31eb888298"/>
+	</game>
+	<game name="Volguard [CT]">
+		<category>Games</category>
+		<description>Volguard [CT]</description>
+		<rom name="Volguard.tap" size="300004" crc="2b63a375" sha1="73f99c5bc9c10a05e18d5b8c5926cef6144334ab"/>
+	</game>
+	<game name="War of the Krimero and Karie [FD]">
+		<category>Games</category>
+		<description>War of the Krimero and Karie [FD]</description>
+		<rom name="War of the Krimero and Karie.2d" size="327680" crc="05138ba8" sha1="712bdf65e231ae7917b19961a604a79b1e8ddfe6"/>
+	</game>
+	<game name="Wibarm [FD+User]">
+		<category>Games</category>
+		<description>Wibarm [FD+User]</description>
+		<rom name="Wibarm (User disk).d88" size="414992" crc="f1d7f5f3" sha1="00192dd53d87b95ffb13fa2bceaffd06686b3ee6"/>
+		<rom name="Wibarm (User disk)[Alt 1].d88" size="414992" crc="db73c7f5" sha1="a111e372133dcee25b513168449248012fe8f3a5"/>
+		<rom name="Wibarm (User disk)[Alt 2].d88" size="414992" crc="8d154f9c" sha1="057980ddf6a0b86f3c344ec7aa0bf8b25dd31dd2"/>
+		<rom name="Wibarm.d88" size="414992" crc="05e830ad" sha1="a4e42f3edb83ee4957c85e5b448a4e0355f7da39"/>
+	</game>
+	<game name="Wild Western [CT]">
+		<category>Games</category>
+		<description>Wild Western [CT]</description>
+		<rom name="Wild Western.tap" size="360004" crc="ab530514" sha1="c3bd9e1e1c9dc3c6b0c233753f80f7784a378cbf"/>
+	</game>
+	<game name="Will - The Death Trap II [FD][X1turbo]">
+		<category>Games</category>
+		<description>Will - The Death Trap II [FD][X1turbo]</description>
+		<rom name="Will - The Death Trap II [X1turbo].d88" size="350432" crc="b5def050" sha1="00d52f469e2831a08ef7a56e1bfe7a2f01a9f60f"/>
+	</game>
+	<game name="Wingman 2 [FD]">
+		<category>Games</category>
+		<description>Wingman 2 [FD]</description>
+		<rom name="Wingman 2 (Disk A).2d" size="327680" crc="33b40f6c" sha1="151398381fa5999a55e1ddea9987251ec9319f72"/>
+		<rom name="Wingman 2 (Disk B).2d" size="327680" crc="f3075652" sha1="7de0dc36e065521f2819c1f86ef8f9a3af15dcad"/>
+	</game>
+	<game name="Wingman [FD]">
+		<category>Games</category>
+		<description>Wingman [FD]</description>
+		<rom name="Wingman.2d" size="327680" crc="862579ae" sha1="79d625917e776bcf71afe8678f897942352fc0bf"/>
+	</game>
+	<game name="Wizardry II [FD]">
+		<category>Games</category>
+		<description>Wizardry II [FD]</description>
+		<rom name="Wizardry II.d88" size="380048" crc="ca77dfd2" sha1="c80e5f6306a820da69cdee243ed5d31ea85e6d50"/>
+	</game>
+	<game name="Wizardry III [FD]">
+		<category>Games</category>
+		<description>Wizardry III [FD]</description>
+		<rom name="Wizardry III.d88" size="380048" crc="df710fae" sha1="00a9c50a16a8cd31133e0d5535c919dd8eacdf09"/>
+	</game>
+	<game name="Wizardry IV [FD]">
+		<category>Games</category>
+		<description>Wizardry IV [FD]</description>
+		<rom name="Wizardry IV (Disk A).d88" size="380048" crc="3a56199c" sha1="1a1247cbb5ce78a3f74d4423109cb48c0d165f39"/>
+		<rom name="Wizardry IV (Disk B).d88" size="380048" crc="32fec3b0" sha1="c5db0e8b93bc493ee17b312eac12924ca3eebf4a"/>
+		<rom name="Wizardry IV (Disk C).d88" size="380048" crc="2067eb69" sha1="ce183720bcc9ce25c3ac15b7aefe73917d0042c5"/>
+	</game>
+	<game name="Wizardry [FD]">
+		<category>Games</category>
+		<description>Wizardry [FD]</description>
+		<rom name="Wizardry.d88" size="380048" crc="4a06e565" sha1="7997956888d581fef9997843d4b59e6a89a0ca9f"/>
+	</game>
+	<game name="Woody Poco [FD]">
+		<category>Games</category>
+		<description>Woody Poco [FD]</description>
+		<rom name="Woody Poco.2d" size="327680" crc="53fd0c2a" sha1="09077953ec3f7421d1b35edd22e3be9d29585e63"/>
+	</game>
+	<game name="World Golf II [FD][X1turbo]">
+		<category>Games</category>
+		<description>World Golf II [FD][X1turbo]</description>
+		<rom name="World Golf II (Disk A)[X1turbo].d88" size="348848" crc="ca6a24cb" sha1="00f4ea939f51adab6cfb480aaff50dd96be1134e"/>
+		<rom name="World Golf II (Disk B)[X1turbo].d88" size="348848" crc="a84fc806" sha1="bda26c531de6ec0ce475465b628da5444772b5f0"/>
+	</game>
+	<game name="World Golf [CT][X1turbo][old TAP format]">
+		<category>Games</category>
+		<description>World Golf [CT][X1turbo][old TAP format]</description>
+		<rom name="World Golf (Tape 1)[X1turbo][old TAP format].tap" size="3127641" crc="c95984fc" sha1="9e3e63312f4ecc0b052ed87a75252f33d3174249"/>
+		<rom name="World Golf (Tape 2)[X1turbo][old TAP format].tap" size="3369330" crc="a3c50c1a" sha1="07b5c0910216a0ac04cf7a57e18cfadf17025058"/>
+	</game>
+	<game name="Worry [CT]">
+		<category>Games</category>
+		<description>Worry [CT]</description>
+		<rom name="Worry.tap" size="480004" crc="219cc4fa" sha1="0fded310354f1f87feddd2468686afd327c68d9e"/>
+	</game>
+	<game name="X1 Demo [FD]">
+		<category>Games</category>
+		<description>X1 Demo [FD]</description>
+		<rom name="X1 Demo.d88" size="348848" crc="e20e2d4f" sha1="6643931a25c8875aa61d5f9e6672d04af2e2e015"/>
+	</game>
+	<game name="X1 Music Theatre [FD]">
+		<category>Games</category>
+		<description>X1 Music Theatre [FD]</description>
+		<rom name="X1 Music Theatre (Vol. 1).2d" size="327680" crc="bd17ffb7" sha1="350b7d765a856b510b4101e7793e515da38058b5"/>
+		<rom name="X1 Music Theatre (Vol. 2).2d" size="327680" crc="bde6bf39" sha1="21b4d639a91cdbbf582366014117dd8b32ef45fc"/>
+		<rom name="X1 Music Theatre (Vol. 3).2d" size="327680" crc="bcce032f" sha1="6100a55f0fd02626aade4716e84ace2894cefa1a"/>
+		<rom name="X1 Music Theatre (Vol. 4).2d" size="327680" crc="bb9a85a9" sha1="395055faa8cb75af782a530e8025bdf3179ca649"/>
+		<rom name="X1 Music Theatre (Vol. 5).2d" size="327680" crc="a73d164d" sha1="2fc49c3998c7bb1b72cb7bb3a3dd0555c50c9263"/>
+		<rom name="X1 Music Theatre (Vol. 6).2d" size="327680" crc="b08ed417" sha1="a8eba0dc01fe5d0bae2a27fd3dbb98049c4c8529"/>
+		<rom name="X1 Music Theatre (Vol. 7).2d" size="327680" crc="ed30f884" sha1="dd1a821a19d25756241c16261f5ff072ea2dc1bf"/>
+		<rom name="X1 Music Theatre (Vol. 8).2d" size="327680" crc="fd430e14" sha1="146eb27594ed5f3ea212ba5a3210727109dcfe67"/>
+		<rom name="X1 Music Theatre (Vol. 9).2d" size="327680" crc="484d628f" sha1="af1262071283bd525aa5e3f4a57ed5486b66192d"/>
+	</game>
+	<game name="X1C Demo [FD]">
+		<category>Games</category>
+		<description>X1C Demo [FD]</description>
+		<rom name="X1C Demo.d88" size="178304" crc="b2d606fd" sha1="5fe86856d1bc6265ec7b6e3ac3a0d243a4804014"/>
+	</game>
+	<game name="X1F Demo [FD]">
+		<category>Games</category>
+		<description>X1F Demo [FD]</description>
+		<rom name="X1F Demo.d88" size="348848" crc="71c6389d" sha1="a105c7fb5605133e89d16d830af6a29b9ac5292a"/>
+	</game>
+	<game name="X1G Demo [FD][d88]">
+		<category>Games</category>
+		<description>X1G Demo [FD][d88]</description>
+		<rom name="X1G Demo.d88" size="348848" crc="2d54731b" sha1="84c549f64245d307ce534f42255b4a990d2a07e9"/>
+	</game>
+	<game name="X1turboII Demo [FD][d88]">
+		<category>Games</category>
+		<description>X1turboII Demo [FD][d88]</description>
+		<rom name="X1turboII Demo.d88" size="348848" crc="59a8bb12" sha1="44c0c729ec13ecbc39fbed82fa991baf59ab4c9f"/>
+	</game>
+	<game name="Xanadu - Recon hack [FD]">
+		<category>Games</category>
+		<description>Xanadu - Recon hack [FD]</description>
+		<rom name="Xanadu - Recon hack (OPM MagicKai)(Disk A).d88" size="415840" crc="68698e73" sha1="53bff37252461c30f23b3f00aa1e4fe12b36c42d"/>
+		<rom name="Xanadu - Recon hack (OPM)(Disk B).d88" size="415840" crc="7be52008" sha1="97cbd99ff3c6904849c86ea5992ac7d88b1cc4d3"/>
+	</game>
+	<game name="Xanadu Scenario II - Recon hack [FD]">
+		<category>Games</category>
+		<description>Xanadu Scenario II - Recon hack [FD]</description>
+		<rom name="Xanadu Scenario II - Recon hack (OPM MagicKai).d88" size="415840" crc="04718093" sha1="24211fd74a638d9824ce7ec6714acef512172a96"/>
+		<rom name="Xanadu Scenario II - Recon hack (OPM).d88" size="415840" crc="ba409849" sha1="7a2a04c34ccf2d7fdc999d2615e73518597f2935"/>
+	</game>
+	<game name="Xanadu Scenario II [FD][req Xanadu]">
+		<category>Games</category>
+		<description>Xanadu Scenario II [FD][req Xanadu]</description>
+		<rom name="Xanadu Scenario II (Disk C)(User disk).d88" size="416384" crc="c5c5cb83" sha1="6e5eef268f058f89acb9e4cca21aeb4f1f676208"/>
+		<rom name="Xanadu Scenario II (Disk D).d88" size="413760" crc="a7f49097" sha1="8af076393a5796ca6ce6443cb10da80d0bd9077d"/>
+		<rom name="Xanadu Scenario II (Disk E).d88" size="415840" crc="498c4b7e" sha1="8ef8545ebbb88df5068d6f0a96c38e519441fa07"/>
+	</game>
+	<game name="Xanadu [FD+User]">
+		<category>Games</category>
+		<description>Xanadu [FD+User]</description>
+		<rom name="Xanadu (Disk A).d88" size="415840" crc="89ff1612" sha1="a1e9abfde29f169841a6e77267cf85f1a69475cd"/>
+		<rom name="Xanadu (Disk B).d88" size="415840" crc="40bf59ac" sha1="3586dee49739d72ffe827435bf8fa3211d0b5cca"/>
+		<rom name="Xanadu (Disk C)(User disk).d88" size="416384" crc="e3d2cff7" sha1="bc2bb8b7a145462b5233e353f500d9be1f5397f8"/>
+	</game>
+	<game name="Xevious [FD][d88]">
+		<category>Games</category>
+		<description>Xevious [FD][d88]</description>
+		<rom name="Xevious.d88" size="344768" crc="dc93900d" sha1="f81545b62068d8eb91f209caf5a57df252b930c2"/>
+	</game>
+	<game name="Yakyuu-kyou [CT][X1turbo]">
+		<category>Games</category>
+		<description>Yakyuu-kyou [CT][X1turbo]</description>
+		<rom name="Yakyuu-kyou [X1turbo].tap" size="564003" crc="e5f60870" sha1="da5c4da8d8bd73ff32cc4e3742c0ee5c8d854a2c"/>
+	</game>
+	<game name="Yellow Cab [CT]">
+		<category>Games</category>
+		<description>Yellow Cab [CT]</description>
+		<rom name="Yellow Cab.tap" size="240004" crc="a6fdfed8" sha1="ae94e1ea639eadc5c574a55cd41ac223a3492739"/>
+	</game>
+	<game name="Yoshie's Cookie X1 [FD][req joystick]">
+		<category>Games</category>
+		<description>Yoshie's Cookie X1 [FD][req joystick]</description>
+		<rom name="Yoshie's Cookie X1.d88" size="348848" crc="359a7555" sha1="3ae8b12b5d3f33939024cfebee1677229833d878"/>
+	</game>
+	<game name="Youkai Tantei Chima Chima [FD][req Extra Hyper system disk]">
+		<category>Games</category>
+		<description>Youkai Tantei Chima Chima [FD][req Extra Hyper system disk]</description>
+		<rom name="Youkai Tantei Chima Chima.d88" size="348576" crc="4f579ef3" sha1="d2db498e13c51e8d1225254ad05a01a61a1ab29b"/>
+	</game>
+	<game name="Ys - OPM hack [FD][X1turbo]">
+		<category>Games</category>
+		<description>Ys - OPM hack [FD][X1turbo]</description>
+		<rom name="Ys - OPM hack (Disk A)[X1turbo].d88" size="415840" crc="08c33f05" sha1="1a61fa4fe7a0e9f562e2713cea884245c28770e5"/>
+		<rom name="Ys - OPM hack (Disk B)[X1turbo].d88" size="415840" crc="0d616df7" sha1="a059d8fd8d6eb9b6d535ff6e8da187b139d1d906"/>
+	</game>
+	<game name="Ys - PC88 music trick [User]">
+		<category>Games</category>
+		<description>Ys - PC88 music trick [User]</description>
+		<rom name="Ys - PC88 music trick (User disk).d88" size="348848" crc="d58c68bc" sha1="f996e0fa95d5bc985bb8fe0e38adfc10e8a124a7"/>
+	</game>
+	<game name="Ys II - Kai hack [FD]">
+		<category>Games</category>
+		<description>Ys II - Kai hack [FD]</description>
+		<rom name="Ys II - Kai hack.d88" size="436640" crc="a504ce22" sha1="d23e811d8787993768eff3b9feea27189aaa17eb"/>
+	</game>
+	<game name="Ys II [FD+User][X1turbo]">
+		<category>Games</category>
+		<description>Ys II [FD+User][X1turbo]</description>
+		<rom name="Ys II (Disk 1)(Program disk)[X1turbo].d88" size="415840" crc="9cd578d2" sha1="5099b8860580de76ac224d4fc11b7e42aeae340c"/>
+		<rom name="Ys II (Disk 2)(User disk)[X1turbo].d88" size="33952" crc="ab6d4913" sha1="cfeba57cb4edf4dfe7cab9b3c339b84236bdb5dd"/>
+		<rom name="Ys II (Disk 3)(Disk A)[X1turbo].d88" size="415840" crc="077dd07e" sha1="9f4c4293674472937a8cb37f3866e5f5ad27e0ca"/>
+		<rom name="Ys II (Disk 4)(Disk B)[X1turbo].d88" size="415840" crc="201e1aa6" sha1="e2937beff3097cf5827a57861e4ed901e7c37e36"/>
+	</game>
+	<game name="Ys III - Wanderers from Ys [FD][X1turbo]">
+		<category>Games</category>
+		<description>Ys III - Wanderers from Ys [FD][X1turbo]</description>
+		<rom name="Ys III - Wanderers from Ys (Disk 1)(Program disk)[X1turbo].d88" size="415840" crc="6698bb78" sha1="cbdd1c7c2df31b7b7e0ca86a647ed499e347d4fc"/>
+		<rom name="Ys III - Wanderers from Ys (Disk 2)(Scenario disk)[X1turbo].d88" size="415840" crc="753ac584" sha1="8a76ea1111f7be920581e9999af63597bc2881dd"/>
+		<rom name="Ys III - Wanderers from Ys (Disk 3)(Data 1)[X1turbo].d88" size="415840" crc="7ce0c5f0" sha1="a9db94fd74038d1cba8a338a1319830e9b3f4aaa"/>
+		<rom name="Ys III - Wanderers from Ys (Disk 4)(Data 2)[X1turbo].d88" size="415840" crc="d632dc9d" sha1="8927ee49cff3bb95b68e4de5a338f661614f6369"/>
+	</game>
+	<game name="Ys [FD+User]">
+		<category>Games</category>
+		<description>Ys [FD+User]</description>
+		<rom name="Ys (Disk A).d88" size="415840" crc="b439fdc2" sha1="1fe34ce088740b348145008997dd65dd8050110f"/>
+		<rom name="Ys (Disk B).d88" size="415840" crc="04bcaf77" sha1="26a6a06af93108a1d67fe40d22497825764e6a48"/>
+		<rom name="Ys (User disk).d88" size="348848" crc="97e1d16a" sha1="cfcf4d849b90fe99c4f300d03ca9b9faeae0ad97"/>
+	</game>
+	<game name="Yume no Pro Yakyuu [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Yume no Pro Yakyuu [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Yume no Pro Yakyuu.tap" size="91925" crc="c6fde520" sha1="c3ab46b2e8462a1724df3b4fc650ede48e6ab99f"/>
+	</game>
+	<game name="Zeliard [FD+User]">
+		<category>Games</category>
+		<description>Zeliard [FD+User]</description>
+		<rom name="Zeliard (Disk 1).d88" size="392368" crc="fc506b6f" sha1="a39a684eedcfb1299ff42ac894b7ecff31fffd0b"/>
+		<rom name="Zeliard (Disk 2).d88" size="392368" crc="deede0f8" sha1="2ddbd1dc2307d59588d348fb4cd6df6227af759a"/>
+		<rom name="Zeliard (Disk 3).d88" size="392368" crc="185e17d2" sha1="8fc594149dfd62ed3fc0290f1d86e5c7ebe79ffb"/>
+		<rom name="Zeliard (User disk).d88" size="392368" crc="3c3e389c" sha1="0fda2b0ee183d2b86a4b8653b17741f51aa22873"/>
+	</game>
+	<game name="Zenon [CT][req HuBASIC CZ-8CB01]">
+		<category>Games</category>
+		<description>Zenon [CT][req HuBASIC CZ-8CB01]</description>
+		<rom name="Zenon.tap" size="180004" crc="2bd4eadf" sha1="2776365cd0b0f2372f00143b6cc9e66a7743abdc"/>
+	</game>
+	<game name="Zeta No. 5 [FD]">
+		<category>Games</category>
+		<description>Zeta No. 5 [FD]</description>
+		<rom name="Zeta No. 5 (Disk A).2d" size="327680" crc="4e6f66f4" sha1="0b2c0e708ebd9df2d24e6ade3694ed3e0882746b"/>
+		<rom name="Zeta No. 5 (Disk B).2d" size="327680" crc="d8c88983" sha1="5a8fa6acbc4f031fccf47d8e7c2140f86c7bab3a"/>
+	</game>
+	<game name="Zexas [CT]">
+		<category>Games</category>
+		<description>Zexas [CT]</description>
+		<rom name="Zexas.tap" size="240004" crc="940e77b7" sha1="8abc037d37e93e834116513c8e04f3c2b759722f"/>
+	</game>
+</datafile>

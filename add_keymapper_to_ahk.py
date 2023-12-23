@@ -1,25 +1,9 @@
 # add additional key map per game from `keymapper\gametitle` folder.
 
 import os
+import sys
 import json
 import shutil
-
-# Read the configuration from config.json
-with open('config.json', 'r') as config_file:
-    config = json.load(config_file)
-
-# Get the root_folder_path from the configuration
-ROM_DIR = config.get('rom_dir') # the extracted neokobe zip files
-
-GAMEDB_TXT_OVERWRITE = config.get('gamedb_overwrite_file')
-
-def print_config():
-    print("-------------------------")
-    print("Program Config:")
-    print("-------------------------")   
-    print("ROM_DIR: {}".format(ROM_DIR))
-    print("GAMEDB_TXT_OVERWRITE: {}".format(GAMEDB_TXT_OVERWRITE))
-    print()
 
 SEP = '; ============================================================\n'
 
@@ -50,10 +34,12 @@ def add_keymap(keymap_file_path, game_ahk_file_path):
 # Main
 # -----------------------------------------------------------
 if __name__ == "__main__":
-    print_config()
-
-    KEYMAP_DIR = '.\keymapping'    
-    GAME_DIR = ROM_DIR       
+    if len(sys.argv) != 3:
+        print("Usage: python script.py <ROM_DIR> <KEYMAP_DIR>")
+        exit(1)
+    else:
+        GAME_DIR = sys.argv[1]        
+        KEYMAP_DIR = sys.argv[2]  
 
     keymap_ahk_files = [f for f in os.listdir(KEYMAP_DIR) if f.endswith('.ahk')]
 

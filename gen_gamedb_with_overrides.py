@@ -5,32 +5,20 @@
 
 # You should ONLY run this script after you run gen_gamedb.py once!
 import os
+import sys
 import json
 import shutil
-
-# Read the configuration from config.json
-with open('config.json', 'r') as config_file:
-    config = json.load(config_file)
-
-# Get the root_folder_path from the configuration
-ROM_DIR = config.get('rom_dir') # the extracted neokobe zip files
-
-GAMEDB_TXT_OVERWRITE = config.get('gamedb_overwrite_file')
-
-def print_config():
-    print("-------------------------")
-    print("Program Config:")
-    print("-------------------------")   
-    print("ROM_DIR: {}".format(ROM_DIR))
-    print("GAMEDB_TXT_OVERWRITE: {}".format(GAMEDB_TXT_OVERWRITE))
-    print()
-
 
 # -----------------------------------------------------------
 # Main
 # -----------------------------------------------------------
 if __name__ == "__main__":
-    print_config()
+    if len(sys.argv) != 3:
+        print("Usage: python script.py <ROM_DIR> <GAMEDB_TXT_OVERWRITE_PATH>")
+        exit(1)
+    else:
+        ROM_DIR = sys.argv[1]        
+        GAMEDB_TXT_OVERWRITE = sys.argv[2]
 
     # ---
     rom_dir = ROM_DIR

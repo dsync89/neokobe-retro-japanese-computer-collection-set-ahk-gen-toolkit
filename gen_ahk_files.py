@@ -3,23 +3,7 @@
 import os
 import json
 import shutil
-
-# Read the configuration from config.json
-with open('config.json', 'r') as config_file:
-    config = json.load(config_file)
-
-# Get the root_folder_path from the configuration
-ROM_DIR = config.get('rom_dir') # the extracted neokobe zip files
-
-GAMEDB_TXT_OVERWRITE = config.get('gamedb_overwrite_file')
-
-def print_config():
-    print("-------------------------")
-    print("Program Config:")
-    print("-------------------------")   
-    print("ROM_DIR: {}".format(ROM_DIR))
-    print("GAMEDB_TXT_OVERWRITE: {}".format(GAMEDB_TXT_OVERWRITE))
-    print()
+import sys
 
 def remove_ahk_not_needed(file_path):
     lines = []
@@ -44,8 +28,18 @@ def remove_ahk_not_needed(file_path):
 # Main
 # -----------------------------------------------------------
 if __name__ == "__main__":
-    print_config()
+    if len(sys.argv) != 4:
+        print("Usage: python script.py <ROM_DIR> <TEMPLATE_DIR> <GAMETITLE_DIR>")
+    else:
+        arg1 = sys.argv[1]
+        arg2 = sys.argv[2]
+        arg3 = sys.argv[3]
+        
+        ROM_DIR = arg1
+        TEMPLATE_DIR = arg2
+        GAMETITLE_DIR = arg3
 
+    # print_config()
 
     root_folder_path = ROM_DIR
     output_file_path = root_folder_path
@@ -62,7 +56,7 @@ if __name__ == "__main__":
             folders.append(directory)
         return folders
 
-    shutil.copy("./templates/.config.ini", output_file_path)
+    shutil.copy(os.path.join(TEMPLATE_DIR, '.config.ini'), output_file_path)
 
     # get a list of folder
     folder_list = list_folders(root_folder_path)
@@ -74,13 +68,13 @@ if __name__ == "__main__":
         print(ahk_filename)
         
         # select different ahk template based on media type
-        ahk_template = "./templates/ahkv2/gametitle.ahk"
+        ahk_template = os.path.join(TEMPLATE_DIR, 'ahkv2', 'gametitle.ahk')
 
         print("Copying AHK template from {} ==> {}".format(ahk_template, ahk_filename))
         shutil.copy(ahk_template, ahk_filename)
 
     # remove AHK files that are not needed, as they are probably HD that need
     # to run a CD titles, which already taken care of by gamedb overwrite list
-    ahk_to_remove_filepath = '.\\gametitles\\ahk_to_remove.txt'
+    ahk_to_remove_filepath = os.path.join(GAMETITLE_DIR, 'ahk_to_remove.txt')
     print("Deleting AHK files from {}".format(ahk_to_remove_filepath))        
     remove_ahk_not_needed(ahk_to_remove_filepath)

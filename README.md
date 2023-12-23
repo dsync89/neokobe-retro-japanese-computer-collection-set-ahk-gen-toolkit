@@ -1,10 +1,16 @@
-# NeoKobe NEC PC-98 AHK Gen Toolkit
+# Neo Kobe Japanese Retro Computer Collection AHK Gen Toolkit
 
-This toolkit generate a one-click AHK files to run Neo Kobe NEC PC-9801 games from [archive.org](https://archive.org/details/NeoKobe-NecPc-98012017-11-17). It is recommended to consolidate the Neo Kobe set using the DAT that I created in `dat\1g1r\` using your favorite rom manager like RomUltra (my personal favorite), RomCenter, or clrmamepro among the others.
+Update (2023-Dec-24): This repo used to generate AHK for just NEC PC-9801, I then refactored it to also generate for other Neo Kobe sets.
+
+This toolkit generate a one-click AHK files to run various Neo Kobe Collections from [archive.org](https://archive.org/details/NeoKobe-NecPc-98012017-11-17). It is recommended to consolidate the Neo Kobe set using the DAT that I created in `dat\1g1r\` using your favorite rom manager like RomUltra (my personal favorite), RomCenter, or clrmamepro among the others.
+
+Currently supporting the following Neo Kobe collection set:
+- **NEC PC-8801 (2016-02-25)** => https://archive.org/details/Neo_Kobe_NEC_PC-8801_2016-02-25
+- **NEC PC-9801 (2017-11-17)** => https://archive.org/details/NeoKobe-NecPc-98012017-11-17
+- **Sharp X1 (2016-02-25)** => https://archive.org/details/Neo_Kobe_Sharp_X1_2016-02-25
+- **Sharp X68000 (2018-04-26)** => https://archive.org/details/SharpX68000Collection
 
 ## Motivation
-
-The [Neo Kobe - NEC PC-9801 (2017-11-17) set](https://archive.org/details/NeoKobe-NecPc-98012017-11-17) structured games by Publisher as the primary folder level, followed by the Game Title. However, most frontends prefer a **Platform > Game Title** hierarchy which can be easily achieved using the DAT file that I created and let your RomManager to do the job.
 
 Many multi-disks game, or even multi-media types games require a certain type of boot media or boot order to setup in the emulator to properly boot. This makes it a pain when you are trying to pick a random game from such a huge library collection. 
 
@@ -18,17 +24,17 @@ Not only that these AHK files can be running independently of any frontend or la
 
 2. Organize the extracted sets using RomManager so that the folder is in **Game Title** tree hierarchy, instead of per publisher. Use the DAT from `dat/1g1r` to create a 1G1R Set.
 
-3. Modify the `rom_dir` field in `config.json`:
+3. Modify `config.json` for the following fields:
 ```
-{
-    "rom_dir": "s:\\roms-1g1r\\neokobe-dsync-nec-pc-9801-fd+hd+cd", 
-    "gamedb_overwrite_file": "gamedb\\gamedb_overwrite.txt"
-}
+romdir
+enable
 ```
 
-4. Modify the `EmuPath` in `templates/.config.ini` that the AHK script will find the emulator to run the game.
+Setting `enable: true` will process the set
 
-5. Run `runall.bat`. 
+4. Modify the `EmuPath` in `templates/<platform>/.config.ini` that the AHK script will find the emulator to run the game for that platform.
+
+5. Run `run.py`. 
 
 The batch script will call the following python scripts:
 

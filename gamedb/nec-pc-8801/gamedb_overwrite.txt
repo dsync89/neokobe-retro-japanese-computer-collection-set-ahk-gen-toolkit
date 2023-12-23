@@ -1,0 +1,6 @@
+# Notes:
+# Ys II: Swap FD1 to Ys II (Disk A).d88 after the initial loading screen prompt, then press Enter
+
+Popful Mail [FD] | Popful Mail (Program disk).d88 | Popful Mail (Data disk 1).d88 | Popful Mail (Data disk 2).d88 | Popful Mail (Data disk 3).d88 | | Popful Mail (Visual disk).d88 | Popful Mail (Opening disk).d88
+Super Pitfall [FD] | Super Pitfall.d88 | Super Pitfall (invincible cheat).d88
+Ys II [FD] | Ys II (Program disk).d88 | Ys II (Disk A).d88 | Ys II (Disk B).d88 | Ys II (User disk).d88
