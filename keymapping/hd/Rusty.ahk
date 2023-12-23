@@ -1,2 +1,0 @@
-Ctrl::z
-Alt::x
