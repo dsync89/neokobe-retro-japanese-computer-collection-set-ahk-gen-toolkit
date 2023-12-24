@@ -108,8 +108,8 @@ Loop Read gameDbPath `n  ; Loop through each line (assuming newline as delimiter
 				srcFilename := StrReplace(srcFilename, Chr(34), "")
 				destFilename := StrReplace(destFilename, Chr(34), "")				
 
-				SplitPath destFilename, &name, &dir, &ext
-				destFilename .= "-tmpzzz." ext
+				SplitPath destFilename, &name, &dir, &ext, &name_no_ext
+				destFilename := dir "\" name_no_ext "-tmpzzz." ext
 
 				if debug
 					MsgBox Format("srcFilename={1}, destFilename={2}", srcFilename, destFilename)
@@ -130,8 +130,8 @@ Loop Read gameDbPath `n  ; Loop through each line (assuming newline as delimiter
 				srcFilename := StrReplace(srcFilename, Chr(34), "")
 				destFilename := StrReplace(destFilename, Chr(34), "")	
 				
-				SplitPath destFilename, &name, &dir, &ext
-				destFilename .= "-tmpzzz." ext
+				SplitPath destFilename, &name, &dir, &ext, &name_no_ext
+				destFilename := dir "\" name_no_ext "-tmpzzz." ext
 
 				if debug
 					MsgBox Format("srcFilename={1}, destFilename={2}", srcFilename, destFilename)
@@ -152,8 +152,8 @@ Loop Read gameDbPath `n  ; Loop through each line (assuming newline as delimiter
 				srcFilename := StrReplace(srcFilename, Chr(34), "")
 				destFilename := StrReplace(destFilename, Chr(34), "")				
 				
-				SplitPath destFilename, &name, &dir, &ext
-				destFilename .= "-tmpzzz." ext
+				SplitPath destFilename, &name, &dir, &ext, &name_no_ext
+				destFilename := dir "\" name_no_ext "-tmpzzz." ext
 
 				if debug
 					MsgBox Format("srcFilename={1}, destFilename={2}", srcFilename, destFilename)
