@@ -107,7 +107,9 @@ Loop Read gameDbPath `n  ; Loop through each line (assuming newline as delimiter
 				destFilename := srcFilename
 				srcFilename := StrReplace(srcFilename, Chr(34), "")
 				destFilename := StrReplace(destFilename, Chr(34), "")				
-				destFilename .= "-tmpzzz.hdi"
+
+				SplitPath destFilename, &name, &dir, &ext
+				destFilename .= "-tmpzzz." ext
 
 				if debug
 					MsgBox Format("srcFilename={1}, destFilename={2}", srcFilename, destFilename)
@@ -126,8 +128,10 @@ Loop Read gameDbPath `n  ; Loop through each line (assuming newline as delimiter
 				srcFilename := hdArr[A_Index]
 				destFilename := srcFilename
 				srcFilename := StrReplace(srcFilename, Chr(34), "")
-				destFilename := StrReplace(destFilename, Chr(34), "")				
-				destFilename .= "-tmpzzz.hdi"
+				destFilename := StrReplace(destFilename, Chr(34), "")	
+				
+				SplitPath destFilename, &name, &dir, &ext
+				destFilename .= "-tmpzzz." ext
 
 				if debug
 					MsgBox Format("srcFilename={1}, destFilename={2}", srcFilename, destFilename)
@@ -147,7 +151,9 @@ Loop Read gameDbPath `n  ; Loop through each line (assuming newline as delimiter
 				destFilename := srcFilename
 				srcFilename := StrReplace(srcFilename, Chr(34), "")
 				destFilename := StrReplace(destFilename, Chr(34), "")				
-				destFilename .= "-tmpzzz.hdi"
+				
+				SplitPath destFilename, &name, &dir, &ext
+				destFilename .= "-tmpzzz." ext
 
 				if debug
 					MsgBox Format("srcFilename={1}, destFilename={2}", srcFilename, destFilename)
