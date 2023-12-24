@@ -97,6 +97,70 @@ Loop Read gameDbPath `n  ; Loop through each line (assuming newline as delimiter
 				if debug 
 					MsgBox Format("CT{1}: {2}", A_Index-1, ctArr[A_Index])
 			}			
+
+			; =============================================================================================
+			; Make a copy of the original rom file for loading to emulator later so that emulator won't
+			; modify any original rom file for DAT sake!
+			; =============================================================================================			
+			Loop fdArr.Length {
+				srcFilename := fdArr[A_Index]
+				destFilename := srcFilename
+				srcFilename := StrReplace(srcFilename, Chr(34), "")
+				destFilename := StrReplace(destFilename, Chr(34), "")				
+				destFilename .= "-tmpzzz.hdi"
+
+				if debug
+					MsgBox Format("srcFilename={1}, destFilename={2}", srcFilename, destFilename)
+				if not FileExist(destFilename)
+					FileCopy srcFilename, destFilename
+
+				; remove Read-only attrib
+				FileSetAttrib "-R", destFilename
+
+				fdArr[A_Index] := Chr(34) destFilename Chr(34)
+				if debug
+					MsgBox Format("new fdArr[{1}]={2}", A_Index, fdArr[A_Index])
+			}
+
+			Loop hdArr.Length {
+				srcFilename := hdArr[A_Index]
+				destFilename := srcFilename
+				srcFilename := StrReplace(srcFilename, Chr(34), "")
+				destFilename := StrReplace(destFilename, Chr(34), "")				
+				destFilename .= "-tmpzzz.hdi"
+
+				if debug
+					MsgBox Format("srcFilename={1}, destFilename={2}", srcFilename, destFilename)
+				if not FileExist(destFilename)
+					FileCopy srcFilename, destFilename
+
+				; remove Read-only attrib
+				FileSetAttrib "-R", destFilename
+
+				hdArr[A_Index] := Chr(34) destFilename Chr(34)
+				if debug
+					MsgBox Format("new hdArr[{1}]={2}", A_Index, hdArr[A_Index])
+			}
+
+			Loop ctArr.Length {
+				srcFilename := ctArr[A_Index]
+				destFilename := srcFilename
+				srcFilename := StrReplace(srcFilename, Chr(34), "")
+				destFilename := StrReplace(destFilename, Chr(34), "")				
+				destFilename .= "-tmpzzz.hdi"
+
+				if debug
+					MsgBox Format("srcFilename={1}, destFilename={2}", srcFilename, destFilename)
+				if not FileExist(destFilename)
+					FileCopy srcFilename, destFilename
+
+				; remove Read-only attrib
+				FileSetAttrib "-R", destFilename
+
+				ctArr[A_Index] := Chr(34) destFilename Chr(34)
+				if debug
+					MsgBox Format("new ctArr[{1}]={2}", A_Index, ctArr[A_Index])
+			}				
 		
 			; =============================================================================================
 			; Modify ini file because emu doesn't support argument to pass additional media files

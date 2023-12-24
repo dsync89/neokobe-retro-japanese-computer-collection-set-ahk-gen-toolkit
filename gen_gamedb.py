@@ -31,6 +31,8 @@ if __name__ == "__main__":
 
             for file in files:
                 root, extension = os.path.splitext(file)
+                if '-tmpzzz' in root:
+                    continue
                 if extension.lower() in  ('.bin', '.img', '.slh', '.sub'): # exclude file with these file extensions
                     # print("Skipping file extension: {}".format(extension.lower()))
                     continue
