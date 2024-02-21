@@ -54,7 +54,7 @@ Loop Read gameDbPath `n  ; Loop through each line (assuming newline as delimiter
 				{
 					_bootSource := Trim(GameInfo[A_Index])					
 
-					if InStr(_bootSource, ".d88") || InStr(_bootSource, ".hdm") {
+					if InStr(_bootSource, ".d88") || InStr(_bootSource, ".hdm") || InStr(_bootSource, ".xdf") {
 						FD := Chr(34) . root . "\" . gameTitle . "\" . _bootSource . Chr(34)
 						fdArr.Push FD
 					}   
@@ -224,7 +224,10 @@ Loop Read gameDbPath `n  ; Loop through each line (assuming newline as delimiter
 
 Esc::
 {
-    ProcessClose "xm6g.exe"
-    Run "taskkill /im xm6g.exe /F",, "Hide"
-    ExitApp
+	If (A_PriorHotkey = "Esc" and A_TimeSincePriorHotkey < 500) {
+		ProcessClose "xm6g.exe"
+		Run "taskkill /im xm6g.exe /F",, "Hide"
+		ExitApp  
+	}
 }
+
