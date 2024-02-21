@@ -239,7 +239,9 @@ Loop Read gameDbPath `n  ; Loop through each line (assuming newline as delimiter
 
 Esc::
 {
-    ProcessClose "x1twin.exe"
-    Run "taskkill /im x1twin.exe /F",, "Hide"
-    ExitApp
+	If (A_PriorHotkey = "Esc" and A_TimeSincePriorHotkey < 500) {
+		ProcessClose "x1twin.exe"
+		Run "taskkill /im x1twin.exe /F",, "Hide"
+		ExitApp
+	}
 }

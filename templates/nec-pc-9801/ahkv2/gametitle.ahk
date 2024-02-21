@@ -227,7 +227,9 @@ Loop Read gameDbPath `n  ; Loop through each line (assuming newline as delimiter
 
 Esc::
 {
-    ProcessClose "np21w.exe"
-    Run "taskkill /im np21w.exe /F",, "Hide"
-    ExitApp
+	If (A_PriorHotkey = "Esc" and A_TimeSincePriorHotkey < 500) {
+		ProcessClose "np21w.exe"
+		Run "taskkill /im np21w.exe /F",, "Hide"
+		ExitApp
+	}
 }
