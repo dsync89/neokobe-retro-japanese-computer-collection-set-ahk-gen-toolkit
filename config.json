@@ -65,6 +65,28 @@
                 "gametitle_dir": "gametitles\\nec-pc-9801",
                 "gamedb_overwrite_file": "gamedb\\nec-pc-9801\\gamedb_overwrite.txt"
             }
+        },
+        {
+            "platform": "Sharp - X1 [T-En]",
+            "enable": true,
+            "config": {
+                "rom_dir": "s:\\roms-translated-1g1r\\archive-org-sharp-x1", 
+                "template_dir": "templates\\sharp-x1",
+                "keymap_dir": "keymapping\\sharp-x1",
+                "gametitle_dir": "gametitles\\sharp-x1",
+                "gamedb_overwrite_file": "gamedb\\sharp-x1\\gamedb_translated_en_overwrite.txt"
+            }
+        },
+        {
+            "platform": "Sharp - X68000 [T-En]",
+            "enable": true,
+            "config": {
+                "rom_dir": "s:\\roms-translated-1g1r\\archive-org-sharp-x68000", 
+                "template_dir": "templates\\sharp-x68000",
+                "keymap_dir": "keymapping\\sharp-x68000",
+                "gametitle_dir": "gametitles\\sharp-x68000",
+                "gamedb_overwrite_file": "gamedb\\sharp-x68000\\gamedb_translated_en_overwrite.txt"
+            }
         }
     ]
 
